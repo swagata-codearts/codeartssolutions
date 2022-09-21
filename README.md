@@ -1,2 +1,2 @@
 # Codearts Solutions Pvt. Ltd
-Static Website
+Static Website Link: https://swagata-codearts.github.io/codeartssolutions/
