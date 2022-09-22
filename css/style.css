@@ -5,7 +5,7 @@
 /******** Color Schemes ********/
 
 :root {
-  --c-primary-dark: #0c171f;
+  --c-primary: rgb(0, 166, 149);
   --c-light: #e5f8fc;
   --c-dark: #000000;
   --c-black-text: #000000;
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.navbar.bg-light.fixed-top {
+/* .navbar.bg-light.fixed-top {
   background-color: transparent !important;
 }
 .navbar.bg-light.fixed-top .btn-primary {
@@ -232,6 +232,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-toggler-icon {
   height: 1.2em;
+} */
+
+.custom-header .custom-navbar .custom-navbar-right .custom-offcanvas {
+  background-color: var(--c-primary);
+  width: 100%;
 }
 
 
