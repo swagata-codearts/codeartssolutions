@@ -239,7 +239,33 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.custom-button {
+  background-color: #00a695;
+  color: #fff;
+  display: inline-block;
+  width: 156px;
+  height: 71px;
+  border-radius: 2px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 65px;
+  text-transform: capitalize;
+}
 
+/*.navbar-toggler.custom-navbar-toggle {
+  background-color: black;
+}*/
+.custom-navbar-toggle {
+  display: flex;
+  flex-direction: column;
+}
+.custom-navbar-toggle .icon-bar{
+  width: 30px;
+  height: 1px;
+  display: inline-block;
+  transition: .5s ease;
+  background-color: black;
+}
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /*---Banner-start---*/
