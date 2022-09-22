@@ -6,15 +6,23 @@
 
 :root {
   --c-primary: rgb(0, 166, 149);
-  --c-light: #e5f8fc;
-  --c-dark: #000000;
-  --c-black-text: #000000;
-  --c-primary-text: #292929;;
-  --c-secondary-text: #90989a;
-  --c-tertiary-text: #ffffff;
+
+  --c-cyan-400: #bde8f6; /* codearts stroke color */
+  --c-cyan-200: #e0f9fd; /* err */
+  --c-cyan-100: #e5f8fc; /* dark bg content text color, light cyan bg color */
+
+  --c-black-900: #000000;
+  --c-black-800: #0c171f; /* black heading, body text color */
+  --c-black-700: #292929; /* black sub heading text color */
+
+  --c-white-900: #ffffff;
+  --c-white-800: #f9fcfd; /* codearts stroke fill color */
+
   --ff-primary: 'Cutive Mono', monospace;
   --ff-secondary: 'Work Sans', sans-serif;
   --ff-tertiary: 'Roboto Mono', monospace;
+
+  /* 0c171f */
 }
 
 
