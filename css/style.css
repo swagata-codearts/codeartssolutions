@@ -170,9 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 
-.custom-header .navbar-brand {
-  width: 84%;
-}
+
 .navbar.bg-light.fixed-top {
   background-color: transparent !important;
 }
@@ -235,6 +233,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-toggler-icon {
   height: 1.2em;
 }
+
+
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /*---Banner-start---*/
