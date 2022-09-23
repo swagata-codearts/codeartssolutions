@@ -290,10 +290,10 @@ h1, h2, h3, h4, h5, h6 {
 .banner {
   width: 100%;
   text-align: center;
-  padding: 130px 0;
+  padding: 130px 0 0 0;
   position: relative;
 }
-.codearts-text h2 {
+/*.codearts-text h2 {
   font-family:var(--ff-secondary);
   font-size: 275px;
   font-weight: 900;
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 4.3%;
   right: 18px;
-}
+}*/
 /* .codearts-img {
   position: absolute;
   bottom:-10%;
@@ -382,6 +382,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .underline-button .btn.btn-primary span {
   margin-left: 10px;
+}
+.banner .code-img{
+  width: 100%;
+}
+.code-img img {
+  transform: translateY(11px);
 }
 
 /*---Banner-End---*/
