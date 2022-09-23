@@ -15,7 +15,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+    .footer-wrap {padding-top: 145px;}	
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -32,15 +32,53 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
+/* Paulami Saha 23.09.2022 Start */
+.footer-wrap {padding: 120px 0 100px;} 
+.footer-wrap .links {margin-top: 22px;}
+/* .footer-wrap .vertical-footer {text-align: center;} */
+.footer-wrap .footer-5{text-align: center;}
+.footer-wrap .copyright-left {text-align: center;margin-top: 30px;}
+.footer-wrap .copyright-right {text-align: center;margin-top: 60px;}
+.footer-wrap .copyright-right .review li h5 {margin-right: 20px;}
+/* Paulami Saha 23.09.2022 End */
+
 }
 
 
 @media (max-width: 767.98px){
-    
+
+    /* Paulami Saha 23.09.2022 Start */
+    .footer-wrap {padding-top: 90px;} 
+    .footer-wrap .copyright-left {margin-top: 25px;}
+    .footer-wrap .copyright-right {margin-top: 50px;}
+    .footer-wrap .copyright-right .review li h5 {margin-right: 15px;}
+    .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 25px;}
+    .footer-wrap .contact li {padding: 0 0 38px 0;}
+    .footer-wrap .footer-5 .contact li p {margin-top: 22px;}
+    .footer-wrap .links li a {font-size: 18px;}
+    .footer-wrap .footer-5 .contact li p {font-size: 18px;}
+    .footer-wrap .footer-5 ul li a {font-size: 18px;}
+      /* Paulami Saha 23.09.2022 End */
+
 }
 
 @media (max-width: 575.98px){
-    
+
+  /* Paulami Saha 23.09.2022 Start */
+  .footer-wrap .vertical-footer {text-align: center;}
+  .footer-wrap .links li {padding: 0 0 6px 0;}
+  .footer-wrap .links {margin-top: 11px;}
+  .footer-wrap .links li a {font-weight: 410;font-size: 16px;}
+  .footer-wrap .footer-5 .contact li p {font-weight: 410;margin-top: 14px;line-height: 25px;}
+  .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 10px;}
+  .footer-wrap .footer-5 ul li a {font-weight: 410;}
+  .footer-wrap .copyright-right .review li h5 {margin-right: 5px;}
+  .footer-wrap .copyright-right .review li {padding:0;}
+  .footer-wrap .footer-5 .contact li .follow-us li {padding: 0 2px 0px 0;}
+  .footer-wrap .footer-5 .follow-us {margin-top: 20px;}
+/* Paulami Saha 23.09.2022 End */ 
+
 }
 
 @media only screen and (max-width: 480.98px) {	
