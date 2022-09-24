@@ -839,7 +839,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer-wrap .links li a::after{
   background: none repeat scroll 0 0 transparent;
-  bottom: 0;
+  bottom: -3px;
   content: "";
   display: block;
   height: 1px;
@@ -850,7 +850,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 0;
 }
 .footer-wrap .links li a:hover:after{ 
-  width: 70%; 
+  width: 100%; 
   left: 0; 
 }
 .vertical-footer li {
