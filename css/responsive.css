@@ -7,18 +7,87 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+	/*---see all projects start(Supriyo)---*/
+    .project .backyard-design {min-height: 520px;}
+    .project .true-hardwoods {min-height: 550px;}
+    .project .section-category-3 .immigration-connection {min-height: 260px;}
+    .project .section-category-3 .vrium {min-height: 260px;}
+    .project .section-category-3 .mma-Woodlands {min-height: 260px;}
+
+
+    /*---see all projects end(Supriyo)---*/
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	
+	/*---see all projects start(Supriyo)---*/
+    .project .backyard-design {min-height: 420px;}
+    .project .true-hardwoods {min-height: 450px;}
+    .project .section-category-3 .immigration-connection {min-height: 210px;}
+    .project .section-category-3 .vrium {min-height: 210px;}
+    .project .section-category-3 .mma-Woodlands {min-height: 210px;}
+    .backyard-design-content h3 a {font-size: 25px;}
+    .true-hardwoods-content h3 a {font-size: 25px;}
+    .immigration-connection .immigration-connection-content h3 a {font-size: 25px;}
+    .immigration-connection-content {left: 50px;}
+    .vrium .vrium-content h3 a {font-size: 25px;}
+    .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 25px;}
+    .mma-Woodlands-content {left: 50px;}
+    .vrium-content {left: 50px;}
+    .project .true-hardwoods-content:hover {bottom: 50%;}
+    .true-hardwoods-content {bottom: 48%;left: 50px;}
+    .project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    
+
+
+    /*---see all projects end(Supriyo)---*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+	/*---see all projects start(Supriyo)---*/
+    .project .backyard-design {min-height: 370px;}
+    .project .true-hardwoods {min-height: 410px;}
+    .project .section-category-3 .immigration-connection {min-height: 185px;}
+    .project .section-category-3 .vrium {min-height: 185px;}
+    .project .section-category-3 .mma-Woodlands {min-height: 185px;}
+    .backyard-design-content h3 a {font-size: 22px;}
+    .true-hardwoods-content h3 a {font-size: 22px;}
+    .immigration-connection .immigration-connection-content h3 a {font-size: 22px;}
+    .immigration-connection-content {left: 50px;}
+    .vrium .vrium-content h3 a {font-size: 22px;}
+    .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 22px;}
+    .mma-Woodlands-content {left: 50px;}
+    .vrium-content {left: 50px;}
+    .project .true-hardwoods-content:hover {bottom: 54%;}
+    .true-hardwoods-content {bottom: 52%;left: 42px;}
+    .project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    
+
+
+    /*---see all projects end(Supriyo)---*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+    /*---see all projects start(Supriyo)---*/
+    .project .backyard-design {min-height: 370px;}
+    .project .true-hardwoods {min-height: 410px;}
+    .project .section-category-3 .immigration-connection {min-height: 185px;}
+    .project .section-category-3 .vrium {min-height: 185px;}
+    .project .section-category-3 .mma-Woodlands {min-height: 185px;}
+    .backyard-design-content h3 a {font-size: 22px;}
+    .true-hardwoods-content h3 a {font-size: 22px;}
+    .immigration-connection .immigration-connection-content h3 a {font-size: 22px;}
+    .immigration-connection-content {left: 50px;}
+    .vrium .vrium-content h3 a {font-size: 22px;}
+    .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 22px;}
+    .mma-Woodlands-content {left: 50px;}
+    .vrium-content {left: 50px;}
+    .project .true-hardwoods-content:hover {bottom: 54%;}
+    .true-hardwoods-content {bottom: 52%;left: 42px;}
+    .project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    .project-heading {padding: 70px 0;}
+
+
+    /*---see all projects end(Supriyo)---*/
 	
 }
 
