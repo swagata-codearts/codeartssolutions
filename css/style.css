@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---project-Start---*/
 
-.project .box-1 {
+.project .backyard-design {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .box-1::after {
+.project .backyard-design::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -423,13 +423,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.box-1-content {
+.project .backyard-design-content {
   position: absolute;
   color: #fff;
   bottom: 57px;
   left: 71px;
 }
-.project .box-2 {
+.project .true-hardwoods {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9;
   background-position: right 0px bottom 100%;
 }
-.project .box-2::after {
+.project .true-hardwoods::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.box-2-content {
+.true-hardwoods-content {
   position: absolute;
   color: #fff;
   bottom: 38%;
@@ -461,11 +461,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 67px 0;
   bottom: 0;
 }
-.project-heading h4 {
-  border-bottom: 2px solid var(--c-primary-text);
+.project-heading h4 a {
+  border-bottom: 2px solid var(--c-black-900);
   display: inline-block;
   padding: 0px 0 10px 0;
   font-size: 20px;
+  color: var(--c-black-700);
+  transition: all 0.2s ease-in-out;
+}
+.project-heading h4 a:hover {
+  color:var(--c-primary);
+  border-bottom: 2px solid var(--c-primary);
 }
 .project .box-3 .inner-box-1 {
   background-position: center;
@@ -537,20 +543,22 @@ h1, h2, h3, h4, h5, h6 {
   left: 71px;
 }
 
-.box-1-content h5 {
+.backyard-design-content h5 a {
   font-size: 14px;
+  color: var(--c-white-900);
 }
-.box-1-content h3 {
+.backyard-design-content h3 {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color:var(--c-tertiary-text);
   font-weight: 400;
   margin-top: 10px;
 }
-.box-2-content h5 {
+.true-hardwoods-content h5 a {
   font-size: 14px;
+  color: var(--c-white-900);
 }
-.box-2-content h3 {
+.true-hardwoods-content h3 {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color:var(--c-tertiary-text);
