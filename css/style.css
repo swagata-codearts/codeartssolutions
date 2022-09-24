@@ -428,6 +428,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   bottom: 57px;
   left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.project .backyard-design-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .backyard-design-content:hover {
+  bottom: 70px;
 }
 .project .true-hardwoods {
   background-position: center;
@@ -452,6 +459,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   bottom: 38%;
   left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.project .true-hardwoods-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .true-hardwoods-content:hover {
+  bottom: 40%;
 }
 .project-heading {
   position: absolute;
@@ -473,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
   color:var(--c-primary);
   border-bottom: 2px solid var(--c-primary);
 }
-.project .box-3 .inner-box-1 {
+.project .section-category-3 .inner-box-1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .box-3 .inner-box-1::after {
+.project .section-category-3 .inner-box-1::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -496,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom:20%;
   left: 71px;
 }
-.project .box-3 .inner-box-2 {
+.project .section-category-3 .inner-box-2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -505,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .box-3 .inner-box-2::after {
+.project .section-category-3 .inner-box-2::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -519,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom:20%;
   left: 71px;
 }
-.project .box-3 .inner-box-3 {
+.project .section-category-3 .inner-box-3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -528,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .box-3 .inner-box-3::after {
+.project .section-category-3 .inner-box-3::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -547,10 +561,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.backyard-design-content h3 {
+.backyard-design-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
@@ -558,10 +572,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.true-hardwoods-content h3 {
+.true-hardwoods-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
