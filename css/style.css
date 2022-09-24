@@ -90,11 +90,25 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
-/* .navbar-default .navbar-toggler .icon-bar {
-  background-color: #fff;
+
+.custom-header .custom-navbar .custom-navbar-right .custom-offcanvas {
+  background-color: var(--c-primary);
+  width: 100%;
 }
 
-
+.custom-button {
+  background-color: #00a695;
+  color: #fff;
+  display: inline-block;
+  width: 156px;
+  height: 71px;
+  border-radius: 2px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 70px;
+  text-transform: capitalize;
+  margin-right: 42px;
+}
 
 .custom-navbar-toggle {
   display: flex;
@@ -113,7 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 .custom-navbar-right {
   gap: 0 10px;
 }
-
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /*---Banner-start---*/
@@ -180,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-right .banner-right-heading {
   font-size: 275px;
   font-family: var(--ff-secondary);
-  line-height: 200px;
+  line-height: 240px;
   font-weight: 900;
   color: transparent;
   display: inline-block;
@@ -189,6 +202,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   position: relative;
   width: min-content;
+  margin-right: 20px;
+  bottom: -26px;
 }
 
 .banner-right .banner-right-heading::before {
@@ -211,11 +226,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .underline-button {
   display: inline-block;
+  margin-top: 50px;
 }
 
 .custom-button-alt{
   color: var(--c-black-900);
-  text-decoration: underline;
+  text-decoration: underline 2px;
   font-size: 14px;
   font-family: var(--ff-primary);
 }
@@ -229,6 +245,10 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.custom-button-alt {
+  padding: 0 30px 0 0;
 }
 /*---Banner-End---*/
 
