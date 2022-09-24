@@ -28,10 +28,11 @@
 .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
 .navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
 .navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
-.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+/*.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}*/
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
 
 /* Paulami Saha 23.09.2022 Start */
 .footer-wrap {padding: 120px 0 100px;} 
@@ -43,10 +44,16 @@
 .footer-wrap .copyright-right .review li h5 {margin-right: 20px;}
 /* Paulami Saha 23.09.2022 End */
 
+
+.custom-navbar-toggle .icon-bar {width: 20px;height: 1px;display: inline-block;transition: .5s ease;background-color: black;}
+.banner-content h1{margin-left: 180px;}
+/*.banner-content h4{margin-left: 180px;}*/
+
 }
 
 
 @media (max-width: 767.98px){
+
 
     /* Paulami Saha 23.09.2022 Start */
     .footer-wrap {padding-top: 90px;} 
@@ -79,9 +86,18 @@
   .footer-wrap .footer-5 .follow-us {margin-top: 20px;}
 /* Paulami Saha 23.09.2022 End */ 
 
+
+    .custom-button{width: 130px;height: 50px;line-height: 50px;}
+    .custom-navbar-brand img {width: 80%;}
+}
+
+@media (max-width: 575.98px){
+    .navbar-brand.custom-navbar-brand.ms-0 {width: 40%;}
+
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+    .custom-button{display: none;}
+    .navbar-brand.custom-navbar-brand.ms-0 {width: 50%;}
 }
 
