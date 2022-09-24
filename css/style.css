@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
   color:var(--c-primary);
   border-bottom: 2px solid var(--c-primary);
 }
-.project .section-category-3 .inner-box-1 {
+.project .section-category-3 .immigration-connection {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .inner-box-1::after {
+.project .section-category-3 .immigration-connection::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -504,13 +504,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.inner-box-1-content {
+.immigration-connection-content {
   position: absolute;
   color: #fff;
   bottom:20%;
   left: 71px;
+  transition: all 0.3s ease-in-out;
 }
-.project .section-category-3 .inner-box-2 {
+.immigration-connection-content:hover {
+  bottom: 24%;
+}
+.project .immigration-connection-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .section-category-3 .vrium {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -519,7 +526,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .inner-box-2::after {
+.project .section-category-3 .vrium::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -527,13 +534,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.inner-box-2-content {
+.vrium-content {
   position: absolute;
   color: #fff;
   bottom:20%;
   left: 71px;
+  transition: all 0.3s ease-in-out;
 }
-.project .section-category-3 .inner-box-3 {
+.vrium-content:hover {
+  bottom: 24%;
+}
+.project .vrium-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .section-category-3 .mma-Woodlands {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -542,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .inner-box-3::after {
+.project .section-category-3 .mma-Woodlands::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -550,13 +564,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.inner-box-3-content {
+.mma-Woodlands-content {
   position: absolute;
   color: #fff;
   bottom:20%;
   left: 71px;
+  transition: all 0.3s ease-in-out;
 }
-
+.mma-Woodlands-content:hover {
+  bottom: 24%;
+}
+.project .mma-Woodlands-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
 .backyard-design-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
@@ -579,33 +599,36 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-top: 10px;
 }
-.inner-box-1 .inner-box-1-content h5 {
+.immigration-connection .immigration-connection-content h5 a {
   font-size: 14px;
+  color: var(--c-white-900);
 }
-.inner-box-1 .inner-box-1-content h3 {
+.immigration-connection .immigration-connection-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.inner-box-2 .inner-box-2-content h5 {
+.vrium .vrium-content h5 a {
   font-size: 14px;
+  color: var(--c-white-900);
 }
-.inner-box-2 .inner-box-2-content h3 {
+.vrium .vrium-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.inner-box-3 .inner-box-3-content h5 {
+.mma-Woodlands .mma-Woodlands-content h5 a {
   font-size: 14px;
+  color: var(--c-white-900);
 }
-.inner-box-3 .inner-box-3-content h3 {
+.mma-Woodlands .mma-Woodlands-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
