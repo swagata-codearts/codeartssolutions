@@ -797,8 +797,8 @@ h1, h2, h3, h4, h5, h6 {
 /*---Footer-start---*/
 .footer-wrap {
   padding: 175px 0 135px;
-  background-color: #0c171f;
-  color:#fff;
+  background-color: var(--c-black-800);
+  color: var(--c-white-900);
 }
 /* Paulami 22.09.2022 Start */
 .footer-wrap .footer-5 .custom-phone-heading {
@@ -808,7 +808,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family:var(--ff-secondary);
   font-size: 20px;
   font-weight: 400;
-  color: #e5f8fc;
+  color:var(--c-cyan-100);
 }
 /* Paulami 22.09.2022 End */
 
@@ -866,12 +866,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid var(--c-white-900);
   height:31px;
   width: 31px;
   line-height: 31px;
   border-radius: 50px;
-  color:#fff;
+  color: var(--c-white-900);
   text-align: center;
 }
 .copyright-left p {

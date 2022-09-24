@@ -19,6 +19,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+  .footer-wrap {padding: 140px 0 130px;}
 	
 }
 
@@ -39,9 +40,14 @@
 .footer-wrap .links {margin-top: 22px;}
 /* .footer-wrap .vertical-footer {text-align: center;} */
 .footer-wrap .footer-5{text-align: center;}
-.footer-wrap .copyright-left {text-align: center;margin-top: 30px;}
-.footer-wrap .copyright-right {text-align: center;margin-top: 60px;}
+.footer-wrap .copyright-left {text-align: center;margin-top: 20px;}
+.footer-wrap .copyright-right {text-align: center;margin-top: 48px;}
 .footer-wrap .copyright-right .review li h5 {margin-right: 20px;}
+.vertical-footer li {padding: 0 0 40px 0;}
+.footer-wrap .footer-5 .contact li p {margin-top: 22px;}
+.footer-wrap .contact li {padding: 0 0 40px 0;}
+.footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 22px;}
+.footer-wrap .footer-5 .follow-us {margin-top: 26px;}
 /* Paulami Saha 23.09.2022 End */
 
 
@@ -56,16 +62,18 @@
 
 
     /* Paulami Saha 23.09.2022 Start */
-    .footer-wrap {padding-top: 90px;} 
+    .footer-wrap {padding: 90px 0 80px;} 
     .footer-wrap .copyright-left {margin-top: 25px;}
-    .footer-wrap .copyright-right {margin-top: 50px;}
+    .footer-wrap .copyright-right {margin-top: 45px;}
     .footer-wrap .copyright-right .review li h5 {margin-right: 15px;}
-    .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 25px;}
-    .footer-wrap .contact li {padding: 0 0 38px 0;}
-    .footer-wrap .footer-5 .contact li p {margin-top: 22px;}
+    .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 18px;}
+    .footer-wrap .contact li {padding: 0 0 36px 0;}
     .footer-wrap .links li a {font-size: 18px;}
-    .footer-wrap .footer-5 .contact li p {font-size: 18px;}
+    .footer-wrap .footer-5 .contact li p {font-size: 18px;margin-top: 18px;}
     .footer-wrap .footer-5 ul li a {font-size: 18px;}
+    .footer-wrap .links {margin-top: 18px;}
+    .footer-wrap .footer-5 .follow-us {margin-top: 24px;}
+    .vertical-footer li {padding: 0 0 36px 0;}
       /* Paulami Saha 23.09.2022 End */
 
 }
@@ -84,6 +92,11 @@
   .footer-wrap .copyright-right .review li {padding:0;}
   .footer-wrap .footer-5 .contact li .follow-us li {padding: 0 2px 0px 0;}
   .footer-wrap .footer-5 .follow-us {margin-top: 20px;}
+  .footer-wrap {padding-bottom: 65px;}
+  .vertical-footer li {padding: 0 0 25px 0;}
+  .footer-wrap .copyright-right {margin-top: 30px;}
+  .footer-wrap .copyright-left {margin-top: 18px;}
+  .footer-wrap .contact li {padding: 0 0 27px 0;}
 /* Paulami Saha 23.09.2022 End */ 
 
 
