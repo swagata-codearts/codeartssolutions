@@ -826,10 +826,10 @@ h1, h2, h3, h4, h5, h6 {
 .footer-wrap .links {
   margin-top: 30px;
 }
-.footer-wrap .links li {
+.footer-wrap .links .vertical-footer-wrap {
   padding: 0 0 10px 0;
 }
-.footer-wrap .links li a {
+.footer-wrap .links .vertical-footer-wrap a {
   font-family:var(--ff-secondary);
   /* color:var(--c-tertiary-text); */
   color: var(--c-cyan-100);
@@ -837,7 +837,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   position: relative;
 }
-.footer-wrap .links li a::after{
+.footer-wrap .links .vertical-footer-wrap a::after{
   background: none repeat scroll 0 0 transparent;
   bottom: -3px;
   content: "";
@@ -849,7 +849,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.footer-wrap .links li a:hover:after{ 
+.footer-wrap .links .vertical-footer-wrap a:hover:after{ 
   width: 100%; 
   left: 0; 
 }
