@@ -257,8 +257,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
   font-size: 15px;
   text-align: center;
-  line-height: 65px;
+  line-height: 70px;
   text-transform: capitalize;
+  margin-right: 42px;
 }
 
 /*.navbar-toggler.custom-navbar-toggle {
@@ -267,7 +268,8 @@ h1, h2, h3, h4, h5, h6 {
 .custom-navbar-toggle {
   display: flex;
   flex-direction: column;
-
+  gap: 10px 0;
+  padding: 15px;
 }
 .custom-navbar-toggle .icon-bar{
   width: 30px;
@@ -276,6 +278,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: .5s ease;
   background-color: black;
 }
+
+.custom-navbar-right {
+  gap: 0 10px;
+}
+
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /*---Banner-start---*/
@@ -283,10 +290,10 @@ h1, h2, h3, h4, h5, h6 {
 .banner {
   width: 100%;
   text-align: center;
-  padding: 130px 0;
+  padding: 130px 0 0 0;
   position: relative;
 }
-.codearts-text h2 {
+/*.codearts-text h2 {
   font-family:var(--ff-secondary);
   font-size: 275px;
   font-weight: 900;
@@ -323,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 4.3%;
   right: 18px;
-}
+}*/
 /* .codearts-img {
   position: absolute;
   bottom:-10%;
@@ -375,6 +382,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .underline-button .btn.btn-primary span {
   margin-left: 10px;
+}
+.banner .code-img{
+  width: 100%;
+}
+.code-img img {
+  transform: translateY(11px);
 }
 
 /*---Banner-End---*/
