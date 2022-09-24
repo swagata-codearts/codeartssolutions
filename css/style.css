@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---project-Start---*/
 
-.project .backyard-design {
+.project .all-project-1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .backyard-design::after {
+.project .all-project-1::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -423,20 +423,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.project .backyard-design-content {
+.project .all-project-1-content {
   position: absolute;
-  color: #fff;
+  color: var(--c-white-900);
   bottom: 57px;
   left: 71px;
   transition: all 0.3s ease-in-out;
 }
-.project .backyard-design-content:hover h5 a {
+.project .all-project-1-content:hover h5 a {
   color: var(--c-cyan-400);
 }
-.project .backyard-design-content:hover {
+.project .all-project-1-content:hover {
   bottom: 70px;
 }
-.project .true-hardwoods {
+.project .all-project-2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9;
   background-position: right 0px bottom 100%;
 }
-.project .true-hardwoods::after {
+.project .all-project-2::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -454,22 +454,253 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.true-hardwoods-content {
+.all-project-2-content {
   position: absolute;
-  color: #fff;
+  color: var(--c-white-900);
   bottom: 38%;
   left: 71px;
   transition: all 0.3s ease-in-out;
 }
-.project .true-hardwoods-content:hover h5 a {
+.project .all-project-2-content:hover h5 a {
   color: var(--c-cyan-400);
 }
-.project .true-hardwoods-content:hover {
+.project .all-project-2-content:hover {
+  bottom: 40%;
+}
+.all-project-heading {
+  position: absolute;
+  background-color: var(--c-white-900);
+  width: 100%;
+  text-align: center;
+  padding: 67px 0;
+  bottom: 0;
+}
+.all-project-heading h4 a {
+  border-bottom: 2px solid var(--c-black-900);
+  display: inline-block;
+  padding: 0px 0 10px 0;
+  font-size: 20px;
+  color: var(--c-black-700);
+  transition: all 0.2s ease-in-out;
+}
+.all-project-heading h4 a:hover {
+  color:var(--c-primary);
+  border-bottom: 2px solid var(--c-primary);
+}
+.project .section-category-3 .inner-project-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 310px;
+  position: relative;
+  z-index: 9;
+}
+.project .section-category-3 .inner-project-1::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.inner-project-1-content {
+  position: absolute;
+  color: var(--c-white-900);
+  bottom:20%;
+  left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.inner-project-1-content:hover {
+  bottom: 24%;
+}
+.project .inner-project-1-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .section-category-3 .inner-project-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 310px;
+  position: relative;
+  z-index: 9;
+}
+.project .section-category-3 .inner-project-2::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.inner-project-2-content {
+  position: absolute;
+  color: var(--c-white-900);
+  bottom:20%;
+  left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.inner-project-2-content:hover {
+  bottom: 24%;
+}
+.project .inner-project-2-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project .section-category-3 .inner-project-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 310px;
+  position: relative;
+  z-index: 9;
+}
+.project .section-category-3 .inner-project-3::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.inner-project-3-content {
+  position: absolute;
+  color: var(--c-white-900);
+  bottom:20%;
+  left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.inner-project-3-content:hover {
+  bottom: 24%;
+}
+.project .inner-project-3-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.all-project-1-content h5 a {
+  font-size: 14px;
+  color: var(--c-white-900);
+}
+.all-project-1-content h3 a {
+  font-size: 30px;
+  font-family: var(--ff-secondary);
+  color: var(--c-white-900);
+  font-weight: 400;
+  margin-top: 10px;
+}
+.all-project-2-content h5 a {
+  font-size: 14px;
+  color: var(--c-white-900);
+}
+.all-project-2-content h3 a {
+  font-size: 30px;
+  font-family: var(--ff-secondary);
+  color: var(--c-white-900);
+  font-weight: 400;
+  margin-top: 10px;
+}
+.inner-project-1 .inner-project-1-content h5 a {
+  font-size: 14px;
+  color: var(--c-white-900);
+}
+.inner-project-1 .inner-project-1-content h3 a {
+  font-size: 30px;
+  font-family: var(--ff-secondary);
+  color: var(--c-white-900);
+  font-weight: 400;
+  margin-top: 10px;
+}
+.inner-project-2 .inner-project-2-content h5 a {
+  font-size: 14px;
+  color: var(--c-white-900);
+}
+.inner-project-2 .inner-project-2-content h3 a {
+  font-size: 30px;
+  font-family: var(--ff-secondary);
+  color: var(--c-white-900);
+  font-weight: 400;
+  margin-top: 10px;
+}
+.inner-project-3 .inner-project-3-content h5 a {
+  font-size: 14px;
+  color: var(--c-white-900);
+}
+.inner-project-3 .inner-project-3-content h3 a {
+  font-size: 30px;
+  font-family: var(--ff-secondary);
+  color: var(--c-white-900);
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+
+/*---project-End---*/
+
+/*---project-2 carousel Start for 991px to 320px---*/
+.project-2 .all-project-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 620px;
+  position: relative;
+  z-index: 9;
+}
+.project-2 .all-project-1::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.project-2 .all-project-1-content {
+  position: absolute;
+  color: var(--c-white-900);
+  bottom: 50px;
+  left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.project-2 .all-project-1-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project-2 .all-project-1-content:hover {
+  bottom: 60px;
+}
+.project-2 .all-project-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 620px;
+  position: relative;
+  z-index: 9;
+  background-position: right 0px bottom 100%;
+}
+.project-2 .all-project-2::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.all-project-2-content {
+  position: absolute;
+  color: var(--c-white-900);
+  bottom: 38%;
+  left: 71px;
+  transition: all 0.3s ease-in-out;
+}
+.project-2 .all-project-2-content:hover h5 a {
+  color: var(--c-cyan-400);
+}
+.project-2 .all-project-2-content:hover {
   bottom: 40%;
 }
 .project-heading {
   position: absolute;
-  background-color: #fff;
+  background-color: var(--c-white-900);
   width: 100%;
   text-align: center;
   padding: 67px 0;
@@ -487,7 +718,7 @@ h1, h2, h3, h4, h5, h6 {
   color:var(--c-primary);
   border-bottom: 2px solid var(--c-primary);
 }
-.project .section-category-3 .immigration-connection {
+.project-2 .section-category-3 .inner-project-1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +727,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .immigration-connection::after {
+.project-2 .section-category-3 .inner-project-1::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -504,20 +735,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.immigration-connection-content {
+.inner-project-1-content {
   position: absolute;
-  color: #fff;
+  color: var(--c-white-900);
   bottom:20%;
   left: 71px;
   transition: all 0.3s ease-in-out;
 }
-.immigration-connection-content:hover {
+.inner-project-1-content:hover {
   bottom: 24%;
 }
-.project .immigration-connection-content:hover h5 a {
+.project-2 .inner-project-1-content:hover h5 a {
   color: var(--c-cyan-400);
 }
-.project .section-category-3 .vrium {
+.project-2 .section-category-3 .inner-project-2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -526,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .vrium::after {
+.project-2 .section-category-3 .inner-project-2::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -534,20 +765,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.vrium-content {
+.inner-project-2-content {
   position: absolute;
-  color: #fff;
+  color: var(--c-white-900);
   bottom:20%;
   left: 71px;
   transition: all 0.3s ease-in-out;
 }
-.vrium-content:hover {
+.inner-project-2-content:hover {
   bottom: 24%;
 }
-.project .vrium-content:hover h5 a {
+.project-2 .inner-project-2-content:hover h5 a {
   color: var(--c-cyan-400);
 }
-.project .section-category-3 .mma-Woodlands {
+.project-2 .section-category-3 .inner-project-3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -556,7 +787,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 9;
 }
-.project .section-category-3 .mma-Woodlands::after {
+.project-2 .section-category-3 .inner-project-3::after {
   position: absolute;
   content: '';
   background-color: rgba(0,0,0,0.4);
@@ -564,68 +795,68 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: -1;
 }
-.mma-Woodlands-content {
+.inner-project-3-content {
   position: absolute;
-  color: #fff;
+  color: var(--c-white-900);
   bottom:20%;
   left: 71px;
   transition: all 0.3s ease-in-out;
 }
-.mma-Woodlands-content:hover {
+.inner-project-3-content:hover {
   bottom: 24%;
 }
-.project .mma-Woodlands-content:hover h5 a {
+.project-2 .inner-project-3-content:hover h5 a {
   color: var(--c-cyan-400);
 }
-.backyard-design-content h5 a {
+.all-project-1-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.backyard-design-content h3 a {
+.all-project-1-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.true-hardwoods-content h5 a {
+.all-project-2-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.true-hardwoods-content h3 a {
+.all-project-2-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.immigration-connection .immigration-connection-content h5 a {
+.inner-project-1 .inner-project-1-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.immigration-connection .immigration-connection-content h3 a {
+.inner-project-1 .inner-project-1-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.vrium .vrium-content h5 a {
+.inner-project-2 .inner-project-2-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.vrium .vrium-content h3 a {
+.inner-project-2 .inner-project-2-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color: var(--c-white-900);
   font-weight: 400;
   margin-top: 10px;
 }
-.mma-Woodlands .mma-Woodlands-content h5 a {
+.inner-project-3 .inner-project-3-content h5 a {
   font-size: 14px;
   color: var(--c-white-900);
 }
-.mma-Woodlands .mma-Woodlands-content h3 a {
+.inner-project-3 .inner-project-3-content h3 a {
   font-size: 30px;
   font-family: var(--ff-secondary);
   color: var(--c-white-900);
@@ -633,8 +864,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
 }
 
-
-/*---project-End---*/
+.project-2 {
+  display: none;
+}
+.project-heading {
+  display: none;
+}
+/*---project-2 carousel End for 991px to 320px---*/
 
 
 /*---Introduction-Start---*/
