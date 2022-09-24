@@ -810,6 +810,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color:var(--c-cyan-100);
 }
+.footer-wrap .footer-5 ul li a:hover{
+  border-bottom: 1px dotted var(--c-cyan-400);
+}
 /* Paulami 22.09.2022 End */
 
 .footer-wrap .custom-footer-heading {
@@ -832,6 +835,23 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-cyan-100);
   font-weight: 400;
   font-size: 20px;
+  position: relative;
+}
+.footer-wrap .links li a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  right: 0%;
+  position: absolute;
+  background: var(--c-cyan-400);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.footer-wrap .links li a:hover:after{ 
+  width: 70%; 
+  left: 0; 
 }
 .vertical-footer li {
   padding: 0 0 55px 0;
