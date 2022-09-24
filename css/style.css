@@ -796,10 +796,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Footer-start---*/
 .footer-wrap {
-  padding: 180px 0 135px;
-  background-color: #0c171f;
-  color:#fff;
+  padding: 175px 0 135px;
+  background-color: var(--c-black-800);
+  color: var(--c-white-900);
 }
+/* Paulami 22.09.2022 Start */
+.footer-wrap .footer-5 .custom-phone-heading {
+  margin-bottom: 28px;
+}
+.footer-wrap .footer-5 ul li a{
+  font-family:var(--ff-secondary);
+  font-size: 20px;
+  font-weight: 400;
+  color:var(--c-cyan-100);
+}
+.footer-wrap .footer-5 ul li a:hover{
+  border-bottom: 1px dotted var(--c-cyan-400);
+}
+/* Paulami 22.09.2022 End */
+
 .footer-wrap .custom-footer-heading {
   font-size: 13px;
   font-family: var(--ff-primary);
@@ -816,16 +831,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer-wrap .links li a {
   font-family:var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  /* color:var(--c-tertiary-text); */
+  color: var(--c-cyan-100);
   font-weight: 400;
   font-size: 20px;
+  position: relative;
+}
+.footer-wrap .links li a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  right: 0%;
+  position: absolute;
+  background: var(--c-cyan-400);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.footer-wrap .links li a:hover:after{ 
+  width: 70%; 
+  left: 0; 
 }
 .vertical-footer li {
-  padding: 0 0 50px 0;
+  padding: 0 0 55px 0;
 }
 .footer-wrap .footer-5 .contact li p {
   font-family:var(--ff-secondary);
-  color:var(--c-tertiary-text);
+  /* color:var(--c-tertiary-text); */
+  color: var(--c-cyan-100);
   font-weight: 400;
   font-size: 20px;
   margin-top:30px;
@@ -852,12 +886,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #fff;
-  height:35px;
-  width: 35px;
-  line-height: 37px;
+  border: 1px solid var(--c-white-900);
+  height:31px;
+  width: 31px;
+  line-height: 31px;
   border-radius: 50px;
-  color:#fff;
+  color: var(--c-white-900);
   text-align: center;
 }
 .copyright-left p {
@@ -869,6 +903,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-family: var(--c-primary-text);
   color:var(--c-secondary-text);
+  margin-right: 30px;
 }
 .copyright-right .review li {
   display: inline-block;
@@ -876,10 +911,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .copyright-right {
   text-align: right;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .copyright-left {
-  margin-top: 100px;
+   margin-top: 60px;
 }
 
 /*---Footer-End---*/
