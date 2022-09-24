@@ -389,7 +389,18 @@ h1, h2, h3, h4, h5, h6 {
 .code-img img {
   transform: translateY(11px);
 }
-
+.banner-right .banner-right-heading {
+  font-size: 275px;
+  font-family: var(--ff-secondary);
+  line-height: 66px;
+  font-weight: 900;
+  color: transparent;
+  display: inline-block;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
 /*---Banner-End---*/
 
 
