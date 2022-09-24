@@ -13,6 +13,9 @@
     .project .section-category-3 .immigration-connection {min-height: 260px;}
     .project .section-category-3 .vrium {min-height: 260px;}
     .project .section-category-3 .mma-Woodlands {min-height: 260px;}
+    .mma-Woodlands-content {left: 50px;}
+    .true-hardwoods-content {bottom: 40%;}
+    .project .true-hardwoods-content:hover {bottom: 42%;}
 
 
     /*---see all projects end(Supriyo)---*/
@@ -31,7 +34,7 @@
     .immigration-connection-content {left: 50px;}
     .vrium .vrium-content h3 a {font-size: 25px;}
     .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 25px;}
-    .mma-Woodlands-content {left: 50px;}
+    .mma-Woodlands-content {left: 25px;}
     .vrium-content {left: 50px;}
     .project .true-hardwoods-content:hover {bottom: 50%;}
     .true-hardwoods-content {bottom: 48%;left: 50px;}
@@ -55,7 +58,7 @@
     .immigration-connection-content {left: 50px;}
     .vrium .vrium-content h3 a {font-size: 22px;}
     .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 22px;}
-    .mma-Woodlands-content {left: 50px;}
+    .mma-Woodlands-content {left: 15px;}
     .vrium-content {left: 50px;}
     .project .true-hardwoods-content:hover {bottom: 54%;}
     .true-hardwoods-content {bottom: 52%;left: 42px;}
@@ -79,7 +82,7 @@
     .immigration-connection-content {left: 50px;}
     .vrium .vrium-content h3 a {font-size: 22px;}
     .mma-Woodlands .mma-Woodlands-content h3 a {font-size: 22px;}
-    .mma-Woodlands-content {left: 50px;}
+    .mma-Woodlands-content {left: 15px;}
     .vrium-content {left: 50px;}
     .project .true-hardwoods-content:hover {bottom: 54%;}
     .true-hardwoods-content {bottom: 52%;left: 42px;}
