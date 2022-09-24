@@ -853,7 +853,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; 
   left: 0; 
 }
-.vertical-footer li {
+.vertical-footer .vertical-footer-wrap {
   padding: 0 0 55px 0;
 }
 .footer-wrap .footer-5 .contact li p {
