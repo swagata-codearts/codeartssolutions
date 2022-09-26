@@ -226,7 +226,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .underline-button {
   display: inline-block;
-  margin-top: 50px;
 }
 
 .custom-button-alt{
@@ -738,13 +737,12 @@ h1, h2, h3, h4, h5, h6 {
 /*---Introduction-Start---*/
 
 .introduction {
-  padding: 180px 0;
+  padding: 170px 0;
 }
-.introduction .intro-left h5 {
-  font-family: var(--ff-primary);
-  font-size: 14px;
-  color:var(--c-primary-text);
-}
+.introduction .custom-heading {
+  text-align: left;
+} 
+
 .introduction .intro-left p {
   font-family: var(--ff-secondary);
   font-size: 30px;
@@ -752,34 +750,26 @@ h1, h2, h3, h4, h5, h6 {
   color:#0c171f;
   margin-top: 60px;
   font-weight: 400;
+  padding-right: 65px;
 }
-.introduction .intro-right .website-count-1 li h2 {
+.introduction .intro-right{
+  padding-top: 82px;
+}
+.introduction .intro-right .website li h2 {
   font-family: var(--ff-tertiary);
   font-size: 73px;
   color:#0c171f;
   font-weight: 700;
 }
-.introduction .intro-right .website-count-1 li h4 {
+.introduction .intro-right .website li p {
   font-family: var(--ff-secondary);
   font-size: 17px;
   color:#0c171f;
+  line-height: 26px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 12px;
 }
-.introduction .intro-right .website-count-2 li h2 {
-  font-family: var(--ff-tertiary);
-  font-size: 73px;
-  color:#0c171f;
-  font-weight: 700;
-}
-.introduction .intro-right .website-count-2 li h4 {
-  font-family: var(--ff-secondary);
-  font-size: 17px;
-  color:#0c171f;
-  font-weight: 400;
-  margin-top: 20px;
-}
-.introduction .intro-right .website-count-2 {
+.introduction .intro-right .count-2 {
   margin-top: 40px;
 }
 
@@ -829,14 +819,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size:19px;
   line-height:35px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 55px;
 }
 .brand-image {
-  margin-top: 100px;
+  margin-top: 80px;
   text-align: center;
 }
 .leading-brands {
-  padding:180px 0;
+  padding:160px 0;
 }
 
 .date-section .date-content .underline-button .btn.btn-primary {
