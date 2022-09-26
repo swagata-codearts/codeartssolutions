@@ -15,11 +15,13 @@
   --c-black-900: #000000;
   --c-black-800: #0c171f; /* black heading, body text color */
   --c-black-700: #292929; /* black sub heading text color */
-
+  --c-black-600: #5f5f5f; /*Contact form text*/
   --c-white-900: #ffffff;
   --c-white-800: #f9fcfd; /* codearts stroke fill color */
 
+  --c-gray-900: #5f5f5f; /*Contact form text*/
   --c-gray-800: #99a2a4; /*Conatct us text*/
+  
 
   --ff-primary: 'Cutive Mono', monospace;
   --ff-secondary: 'Work Sans', sans-serif;
@@ -899,7 +901,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contact-top-right p {
   font-family: var(--ff-primary);
-  color: var(--c-black-800);
+  color: var(--c-gray-800);
   font-size: 19px;
   line-height: 33px;
 }
@@ -914,7 +916,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .form  .form-control::placeholder {
   font-family: var(--ff-primary);
-  color: var(--c-black-800);
+  color: var(--c-gray-900);
   opacity: 1;
   font-size: 20px;
 }
