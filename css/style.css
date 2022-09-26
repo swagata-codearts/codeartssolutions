@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   transition: all 0.3s ease-in-out;
   padding: 20px 0 10px;
-  border-bottom: 2px solid #2f2f2f;
+  border-bottom: 2px solid var(--c-white-900);
 }
 .underline-button .btn.btn-primary:hover {
   transition: all 0.2s ease-in-out;
@@ -227,15 +227,32 @@ h1, h2, h3, h4, h5, h6 {
 .underline-button {
   display: inline-block;
   margin-top: 50px;
+  margin-left: 10px;
 }
 
-.custom-button-alt{
+.custom-button-alt {
   color: var(--c-black-900);
   font-size: 14px;
   font-family: var(--ff-primary);
-  border-bottom: 2px solid #2f2f2f;
+  padding-bottom: 5px;
+  position: relative;
+  display: inline-block;
 }
-
+.custom-button-alt::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: var(--c-black-900);
+  bottom: 0;
+}
+.custom-button-alt.cb-white {
+  color: var(--c-white-900);
+}
+.custom-button-alt.cb-white::after {
+  background-color: var(--c-white-900);
+}
 .banner-left {
   position: absolute;
   left: 0;
@@ -247,9 +264,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 
-.custom-button-alt {
-  padding-bottom: 8px;
-}
 
 .underline-button .custom-button-alt:nth-child(2) {
   margin: 0 0 0 30px;
@@ -845,11 +859,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .date-section {
   padding: 180px 0 90px;
-  background-color: var(--c-primary-dark);
+  background-color: var(--c-black-800);
 }
 .date-content h5 {
-  font-family:var(--ff-primary);
-  color:var(--c-tertiary-text);
+  font-family: #d6d6d7;
+  color:var(--c-cyan-100);
   font-size:18px;
 }
 .date-content p {
@@ -857,13 +871,21 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 37px;
   font-weight:700;
   line-height: 55px;
-  color:var(--c-tertiary-text);
+  color:var(--c-cyan-100);
   margin-top: -20px;
   border-bottom: 1px solid #5a5a5a;
   padding: 60px 0px;
 }
 .date-content {
   margin: 0 0 100px 0;
+}
+
+.custom-button-alt1{
+  color: #d6d6d7;
+  font-size: 18px;
+  font-family: var(--ff-primary);
+  border-bottom: 2px solid var(--c-white-800);
+  padding-bottom: 8px;
 }
 
 /*---Leading-Brands-End---*/
