@@ -48,10 +48,9 @@
     .contact-us {padding: 100px 0 115px;}
     .contact-top-right p {font-size: 17px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
-    .contact-us .custom-heading h3 {margin-top: 28px;}
     .form .form-control::placeholder {font-size: 17px;}
     .contact-button .btn-primary {font-size: 14px;}
-
+    .contact-top-right p {padding: 0 70px 0 0;}
     /*---Contact us end(Supriyo)---*/
 }
 
@@ -86,10 +85,12 @@
     .contact-us {padding: 80px 0 95px;}
     .contact-top-right p {font-size: 15px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
-    .contact-us .custom-heading h3 {margin-top: 28px;font-size: 38px;line-height: 56px;}
+    .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
     .form .form-control::placeholder {font-size: 15px;}
     .contact-button .btn-primary {font-size: 14px;}
-    .form {margin-top: 100px;}
+    .contact-top-right p {padding: 0 10px 0 0;}
+    .form {margin-top: 80px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0 130px 0 0px;}
 
     /*---Contact us end(Supriyo)---*/
 }
@@ -118,15 +119,18 @@
     /*---see all projects end(Supriyo)---*/
 
       /*---Contact us start(Supriyo)---*/
-      .contact-us {padding: 80px 0 95px;}
-      .contact-top-right p {font-size: 15px;}
-      .contact-us .custom-heading h3 {font-size: 40px;}
-      .contact-us .custom-heading h3 {margin-top: 28px;font-size: 38px;line-height: 56px;}
-      .form .form-control::placeholder {font-size: 17px;}
-      .contact-button .btn-primary {font-size: 14px;}
-      .form {margin-top: 100px;}
-  
-      /*---Contact us end(Supriyo)---*/
+    .contact-us {padding: 80px 0 95px;}
+    .contact-top-right p {font-size: 15px;}
+    .contact-us .custom-heading h3 {font-size: 40px;}
+    .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
+    .form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn-primary {font-size: 14px;}
+    .contact-top-right p {padding: 0 10px 0 0;}
+    .form {margin-top: 80px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0 130px 0 0px;}
+
+
+    /*---Contact us end(Supriyo)---*/
 
     .footer-wrap {padding-top: 145px;}	
 }
@@ -134,13 +138,13 @@
 @media (min-width: 992px) and (max-width: 1024px) {
   .footer-wrap {padding: 140px 0 130px;}
   /*---Contact us start(Supriyo)---*/
-  .contact-us {padding: 80px 0 95px;}
+  .contact-us {padding: 70px 0 85px;}
   .contact-top-right p {font-size: 15px;}
   .contact-us .custom-heading h3 {font-size: 40px;}
-  .contact-us .custom-heading h3 {margin-top: 28px;font-size: 38px;line-height: 56px;}
+  .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
   .form .form-control::placeholder {font-size: 17px;}
   .contact-button .btn-primary {font-size: 14px;}
-  .form {margin-top: 100px;}
+  .form {margin-top: 70px;}
 
   /*---Contact us end(Supriyo)---*/
 	
@@ -200,12 +204,15 @@
  .contact-us {padding: 60px 0 75px;}
  .contact-top-right p {font-size: 19px;}
  .contact-us .custom-heading h3 {font-size: 40px;}
- .contact-us .custom-heading h3 {margin-top: 28px;font-size: 38px;line-height: 56px;}
+ .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
  .form .form-control::placeholder {font-size: 17px;}
  .contact-button .btn-primary {font-size: 14px;}
  .form {margin-top: 80px;}
  .contact-top-right {margin-top: 30px;}
-
+ .contact-top-right p {padding: 0 0px 0 0;text-align: center;}
+ .contact-us .custom-heading.ms-md-0 {padding: 0 0px 0 0px;}
+ .contact-us .sub-heading.ms-md-0 {text-align: center !important;margin: 0 !important;}
+ .contact-us .main-heading.ms-md-0 {margin: 0 !important;text-align: center !important;}
  /*---Contact us end(Supriyo)---*/
 
 }
@@ -234,7 +241,8 @@
     .contact-top-right p {font-size: 15px;line-height: 26px;}
     .form .form-control::placeholder {font-size: 15px;}
     .form .form-control {margin: 0 0 50px 0;}
-
+    .contact-button .custom-button {width: 100%;}
+    .form {margin-top: 60px;}
 
     /*---Contact us end(Supriyo)---*/
 
@@ -282,7 +290,7 @@
 /*---Contact us start(Supriyo)---*/
 .contact-us {padding: 40px 0 55px;}
 .contact-us .custom-heading h3 {margin-top: 18px;line-height: 45px;font-size: 34px;}
-.contact-top-right p {font-size: 13px;line-height: 26px;}
+.contact-top-right p {line-height: 26px;}
 .form {margin-top: 60px;}
  /*---Contact us start(Supriyo)---*/ 
 

@@ -875,7 +875,9 @@ h1, h2, h3, h4, h5, h6 {
 /*---Technology-Start---*/
 
 /*---Contact us Start(Supriyo)---*/
-
+.contact-us .custom-heading.ms-md-0 {
+  padding: 0 180px 0 0px;
+}
 .contact-us {
   padding: 130px 0 145px;
   background-color:var(--c-cyan-100);
@@ -888,11 +890,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contact-us .custom-heading h3 {
   text-align: left;
-  margin-top:40px;
   font-family:var(--ff-secondary);
   color:var(--c-black-800);
   line-height: 66px;
   font-size: 45px;
+}
+.contact-top-right p {
+  padding: 0 140px 0 0;
 }
 .contact-top-right p {
   font-family: var(--ff-primary);
@@ -926,7 +930,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-button {
   text-align: right;
 }
-.contact-button .btn-primary {
+/*.contact-button .btn-primary {
   color: #fff;
   background-color: #00a695;
   border-color: #00a695;
@@ -938,6 +942,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   background-color: transparent;
   border-color: #00a695;
+}*/
+.contact-button .custom-button {
+  background-color: #00a695;
+  color: var(--c-white-900);
+  display: inline-block;
+  width: 170px;
+  height: 71px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 70px;
+  text-transform: capitalize;
+  margin-right: 0px;
+  border:1px solid var(--c-primary);
+}
+.contact-button .custom-button:hover {
+  color: var(--c-black-900);
+  background-color: transparent;
+  border:1px solid var(--c-primary);
 }
 
 /*---Contact us End(Supriyo)---*/
