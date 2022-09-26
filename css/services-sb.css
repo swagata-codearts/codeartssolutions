@@ -1,0 +1,37 @@
+/*---Service-Start---*/
+.custom-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+}
+.custom-heading .sub-heading {
+  color: var(--c-black-700);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.custom-heading .main-heading {
+  color: var(--c-black-800);
+  font-family: var(--ff-secondary);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 66px;
+}
+.c-white-900 {
+  color: var(--c-white-900)!important ;
+}
+
+.services-section .services-content-left {
+  background-color: var(--c-black-800);
+  gap: 35px 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.services-section .services-content-left .services-content-left-text p {
+  color: var(--c-cyan-100);
+  font-family: var(--ff-secondary);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 48px;
+}
+/*---Service-End---*/

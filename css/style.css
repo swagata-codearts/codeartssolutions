@@ -77,12 +77,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /******** Utility Classes ********/
-/*
+
 .container {
   width: 100%;
-  max-width: 1360px;
+  max-width: 1440px;
 }
-*/
+
 
 .custom-pad {
   padding: 60px 0;
@@ -800,43 +800,17 @@ h1, h2, h3, h4, h5, h6 {
 /*---Introduction-End---*/
 
 
-/*---Service-Start---*/
 
-.service {
-  padding: 200px 0;
-  background-color: var(--c-primary-dark);
-}
-.service-content h5 {
-  font-family: var(--ff-primary);
-  font-size: 14px;
-  color:var(--c-light);
-}
-.service-content p {
-  font-family: var(--ff-secondary);
-  font-size: 27px;
-  line-height: 45px;
-  color:#fff;
-  margin-top: 50px;
-  font-weight: 400;
-}
-.service .underline-button .btn.btn-primary {
-  color:#fff;
-}
-.service-content {
-  margin-left: 154px;
-}
-
-/*---Service-End---*/
 
 /*---Leading-Brands-Start---*/
 
-.custom-heading {
+/* .custom-heading {
   font-family:var(--ff-secondary);
   font-size: 45px;
   font-weight:400;
   color:#0c171f;
   text-align: center;
-}
+} */
 .custom-paragraph {
   font-family:var(--ff-primary);
   color:var(--c-secondary-text);
