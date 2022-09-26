@@ -65,10 +65,12 @@
     .project .all-project-2-content:hover {bottom: 54%;}
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
-    
-
-
     /*---see all projects end(Supriyo)---*/
+    /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
+    /*--blog-section-end--*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -90,9 +92,19 @@
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
     .all-project-heading {padding: 70px 0;}
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
 
 
     /*---see all projects end(Supriyo)---*/
+
+        /*--blog-section-start-(Deep)--*/
+        .blog-text p::after{width: 130%;}
+        .blog-text p{font-size: 30px;}
+        .blog-content{margin-left: 60px; margin-bottom: 60px;}
+        .blog-section.custom-pad {padding-top: 60px;}
+        /*--blog-section-end--*/
 
     .footer-wrap {padding-top: 145px;}	
 }
@@ -152,6 +164,13 @@
 
 /*---see all projects end(Supriyo)---*/
 
+/*--blog-section-start-(Deep)--*/
+.blog-text p::after{width: 120%;}
+.blog-text p{font-size: 22px;}
+.blog-content{margin-left: 60px; margin-bottom: 40px;}
+.blog-section.custom-pad {padding-top: 70px;}
+/*--blog-section-end--*/
+
 }
 
 
@@ -172,6 +191,12 @@
     .footer-wrap .links {margin-top: 18px;}
     .footer-wrap .footer-5 .follow-us {margin-top: 24px;}
       /* Paulami Saha 24.09.2022 End */
+      /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 120%;}
+    .blog-text p{font-size: 20px; line-height: 40px;}
+    .blog-content{margin-left: 60px; margin-bottom: 40px;}
+    .blog-section.custom-pad {padding-top: 80px;}
+    /*--blog-section-end--*/
 
 }
 
@@ -238,5 +263,12 @@
     .inner-project-1-content {left: 40px;}
 
     /*---see all projects end(Supriyo)---*/
+
+          /*--blog-section-start-(Deep)--*/
+
+          .blog-content{margin-left: 40px; margin-bottom: 20px;}
+          .blog-section.custom-pad {padding-top: 40px;}
+          .blog-text p {font-size: 16px; line-height: 35px;}
+          /*--blog-section-end--*/
 }
 
