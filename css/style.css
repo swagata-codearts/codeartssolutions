@@ -821,15 +821,20 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 55px;
 }
-.leading-brands .brand-image .brands{
-  width: 100%;
-}
+
 .brand-image {
   margin-top: 80px;
   text-align: center;
 }
 .leading-brands {
   padding:160px 0;
+}
+.leading-brands .brand-image ul li{
+  display: inline-block;
+  margin: 0 60px;
+}
+.leading-brands .brand-image ul.row-2 li{
+  margin-top: 67px;
 }
 
 .date-section .date-content .underline-button .btn.btn-primary {

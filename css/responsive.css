@@ -135,6 +135,7 @@
    .introduction .intro-right .website li h2 {font-size: 66px;}
 
  /* **********************Introduction End*************************** */
+ .leading-brands .brand-image ul li {margin: 0 15px;}
 
  /* Paulami Saha 24.09.2022 End */
 }
@@ -174,6 +175,7 @@
 .introduction .intro-right .website li p {  font-size: 17px;line-height: 24px;margin-top: 8px;}
 .introduction .underline-button .btn.btn-primary {margin-top: 50px;}
 /* **********************Introduction End*************************** */
+.leading-brands .brand-image ul li {margin: 0 19px;}
 
 /* Paulami Saha 24.09.2022 End */
 
