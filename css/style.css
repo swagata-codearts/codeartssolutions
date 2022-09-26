@@ -917,7 +917,7 @@ h1, h2, h3, h4, h5, h6 {
 .form .form-control {
   background-color: transparent;
   border: 1px solid transparent;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--c-gray-900);
   border-radius: 0px;
 }
 .form  .form-control::placeholder {
@@ -951,7 +951,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #00a695;
 }*/
 .contact-button .custom-button {
-  background-color: #00a695;
+  background-color: var(--c-primary);
   color: var(--c-white-900);
   display: inline-block;
   width: 170px;
