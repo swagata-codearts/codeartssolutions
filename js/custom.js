@@ -15,3 +15,38 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+
+jQuery(document).ready(function() {
+    jQuery('.-accordion').asAccordion({
+      namespace: '-accordion'
+    });
+  });
+
+  jQuery(document).ready(function() {
+    jQuery('.-accordion').asAccordion({
+      namespace: '-accordion',
+      // accordion theme. WIP
+      skin: null,
+  
+      // breakpoint for mobile devices. WIP
+      mobileBreakpoint: 768,
+  
+      // initial index panel
+      initialIndex: 0,
+  
+      // CSS3 easing effects.
+      easing: 'ease-in-out',
+  
+      // animation speed.
+      speed: 500,
+  
+      // vertical or horizontal
+      direction: 'vertical',
+  
+      // jQuery mouse events. click, mousehover, etc.
+      event: 'click',
+  
+      // multiple instance
+      multiple: false
+    });
+  });
