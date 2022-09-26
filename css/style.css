@@ -885,6 +885,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 170px 0;
 }
 
+.custom-paragraph p {
+  margin: 0;
+  padding: 0 150px;
+  font-size: 18px;
+  color: var(--c-black-text);
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--ff-primary);
+}
+
 /*---Technology-end---*/
 
 /*---Contact-Start---*/
