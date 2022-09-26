@@ -821,6 +821,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 55px;
 }
+.leading-brands .brand-image .brands{
+  width: 100%;
+}
 .brand-image {
   margin-top: 80px;
   text-align: center;

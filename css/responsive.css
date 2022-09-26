@@ -42,9 +42,14 @@
     /* Paulami Saha 23.09.2022 Start */
 
    /* **********************Introduction Start*************************** */
-   
+   .introduction {padding: 120px 0;}
+   .introduction .intro-left p {font-size: 28px;line-height: 46px;margin-top: 50px;padding-right: 56px;}
+   .introduction .intro-right {padding-top: 65px;}
+   .introduction .underline-button .btn.btn-primary{margin-top: 65px;}
+   .introduction .intro-right .website li p {    margin-top: 10px;line-height: 24px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
  /* **********************Introduction End*************************** */
- 
+
  /* Paulami Saha 24.09.2022 End */
     
 
@@ -76,6 +81,21 @@
 
 
     /*---see all projects end(Supriyo)---*/
+
+    /* Paulami Saha 23.09.2022 Start */
+
+   /* **********************Introduction Start*************************** */
+   .introduction {padding: 100px 0;}
+   .introduction .intro-left p {font-size: 28px;line-height: 40px;margin-top: 50px;padding-right: 43px;}
+   .introduction .underline-button .btn.btn-primary{margin-top: 56px;}
+   .introduction .intro-right {padding-top: 62px;}
+   .introduction .intro-right .website li p {    margin-top: 8px;line-height: 24px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
+   .introduction .intro-right .website li h2 {font-size: 66px;}
+
+ /* **********************Introduction End*************************** */
+
+ /* Paulami Saha 24.09.2022 End */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -101,7 +121,22 @@
 
     /*---see all projects end(Supriyo)---*/
 
+    /* Paulami Saha 23.09.2022 Start */
     .footer-wrap {padding-top: 145px;}	
+
+
+   /* **********************Introduction Start*************************** */   
+   .introduction {padding: 110px 0;}
+   .introduction .intro-left p {font-size: 25px;line-height: 37px;margin-top: 40px;padding-right: 40px;}
+   .introduction .underline-button .btn.btn-primary{margin-top: 50px;}
+   .introduction .intro-right {padding-top: 48px;}
+   .introduction .intro-right .website li p {    margin-top: 8px;line-height: 22px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
+   .introduction .intro-right .website li h2 {font-size: 66px;}
+
+ /* **********************Introduction End*************************** */
+
+ /* Paulami Saha 24.09.2022 End */
 }
 
 @media only screen and (max-width: 991.98px) {    
