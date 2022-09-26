@@ -829,13 +829,19 @@ h1, h2, h3, h4, h5, h6 {
 .leading-brands {
   padding:160px 0;
 }
-.leading-brands .brand-image ul li{
+.leading-brands .brand-image{
+  display: flex;
+}
+.leading-brands .brand-image .brand-item {
+  display: flex;
+}
+/* .leading-brands .brand-image ul li{
   display: inline-block;
   margin: 0 60px;
 }
 .leading-brands .brand-image ul.row-2 li{
   margin-top: 67px;
-}
+} */
 
 .date-section .date-content .underline-button .btn.btn-primary {
   color:#fff;
