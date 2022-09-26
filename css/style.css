@@ -850,20 +850,31 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 55px;
   color:var(--c-cyan-100);
   margin-top: -50px;
-  border-bottom: 1px solid #5a5a5a;
-  padding: 60px 0px;
+  padding: 60px 0 32px 0;
+  width: 71%;
+  position: relative;
+}
+.blog-text p::after {
+  content: "";
+  position: absolute;
+  background-color: #5a5a5a;
+  bottom: 0px;
+  width: 1440px;
+  height: 1px;
+  left: 0;
 }
 
 .blog-button {
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 .blog-content {
-  margin-bottom: 130px;
+  margin-bottom: 126px;
 }
 
 .blog-section.custom-pad {
-  padding-top: 170px;
+  padding-top: 165px;
 }
 /*---blog-section-end---*/
 
