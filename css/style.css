@@ -820,16 +820,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   color:var(--c-secondary-text);
 }
-.footer-2 .technology {
-  padding: 0;
-}
 .footer-wrap .links {
   margin-top: 30px;
 }
-.footer-wrap .links .vertical-footer-wrap {
+.footer-wrap .vertical-footer-wrap .links li {
   padding: 0 0 10px 0;
 }
-.footer-wrap .links .vertical-footer-wrap a {
+.footer-wrap .vertical-footer-wrap .links a {
   font-family:var(--ff-secondary);
   /* color:var(--c-tertiary-text); */
   color: var(--c-cyan-100);
@@ -837,7 +834,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   position: relative;
 }
-.footer-wrap .links .vertical-footer-wrap a::after{
+.footer-wrap .vertical-footer-wrap .links a::after{
   background: none repeat scroll 0 0 transparent;
   bottom: -3px;
   content: "";
@@ -849,7 +846,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.footer-wrap .links .vertical-footer-wrap a:hover:after{ 
+.footer-wrap .vertical-footer-wrap .links a:hover::after{
   width: 100%; 
   left: 0; 
 }
@@ -866,14 +863,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height:30px;
 }
 .footer-wrap .contact li {
-  padding: 0 0 50px 0;
-}
-.footer-wrap .footer-5 .contact li h3 {
-  font-family:var(--ff-secondary);
-  color:var(--c-tertiary-text);
-  font-weight: 400;
-  font-size: 20px;
-  line-height:30px;
+  padding: 0 0 47px 0;
 }
 .footer-wrap .footer-5 .follow-us {
   margin-top: 30px;
