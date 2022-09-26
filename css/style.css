@@ -804,6 +804,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Leading-Brands-Start---*/
 
+.brand-image {
+  margin-top: 100px;
+  text-align: center;
+}
+.leading-brands {
+  padding:180px 0;
+}
+
+
+
+/*---Leading-Brands-End---*/
+
+
+/*---blog-section-start----*/
+
 /* .custom-heading {
   font-family:var(--ff-secondary);
   font-size: 45px;
@@ -819,49 +834,39 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 60px;
 }
-.brand-image {
-  margin-top: 100px;
-  text-align: center;
-}
-.leading-brands {
-  padding:180px 0;
-}
 
-.date-section .date-content .underline-button .btn.btn-primary {
-  color:#fff;
-  margin-top: 20px;
-}
 .blog-section {
   background-color: var(--c-black-800);
 }
-.date-content h5 {
+.custom-heading h5 .sub-heading .c-white-900 {
   font-family: #d6d6d7;
   color:var(--c-cyan-100);
   font-size:18px;
 }
-.date-content p {
+.blog-text p {
   font-family:var(--ff-secondary);
   font-size: 37px;
   font-weight:700;
   line-height: 55px;
   color:var(--c-cyan-100);
-  margin-top: -20px;
+  margin-top: -50px;
   border-bottom: 1px solid #5a5a5a;
   padding: 60px 0px;
 }
-.date-content {
-  margin: 0 0 100px 0;
+
+.blog-button {
+  margin-top: 30px;
 }
 
-.custom-button-alt1{
-  color: #d6d6d7;
-  font-size: 18px;
-  font-family: var(--ff-primary);
-  border-bottom: 2px solid var(--c-white-800);
-  padding-bottom: 8px;
+.blog-content {
+  margin-bottom: 130px;
 }
 
-/*---Leading-Brands-End---*/
+.blog-section.custom-pad {
+  padding-top: 170px;
+}
+/*---blog-section-end---*/
+
 
 /*---Technology-Start---*/
 
