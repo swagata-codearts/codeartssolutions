@@ -19,6 +19,8 @@
   --c-white-900: #ffffff;
   --c-white-800: #f9fcfd; /* codearts stroke fill color */
 
+  --c-gray-800: #99a2a4; /*Conatct us text*/
+
   --ff-primary: 'Cutive Mono', monospace;
   --ff-secondary: 'Work Sans', sans-serif;
   --ff-tertiary: 'Roboto Mono', monospace;
@@ -912,13 +914,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .form  .form-control::placeholder {
   font-family: var(--ff-primary);
-  color: var(--c-secondary-text);
+  color: var(--c-black-800);
   opacity: 1;
   font-size: 20px;
 }
 .form .form-control {
   margin: 0 0 70px 0;
   padding: 0 0 15px 0;
+}
+.contact-us .form #floatingTextarea {
+  height: 130px;
+  width: 100%;
 }
 .contact-button {
   text-align: right;
