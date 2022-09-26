@@ -7,14 +7,93 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+	/*---see all projects start(Supriyo)---*/
+    .project .all-project-1 {min-height: 520px;}
+    .project .all-project-2 {min-height: 550px;}
+    .project .section-category-3 .inner-project-1 {min-height: 260px;}
+    .project .section-category-3 .inner-project-2 {min-height: 260px;}
+    .project .section-category-3 .inner-project-3 {min-height: 260px;}
+    .inner-project-3-content {left: 50px;}
+    .all-project-2-content {bottom: 40%;}
+    .project .all-project-2-content:hover {bottom: 42%;}
+
+
+    /*---see all projects end(Supriyo)---*/
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	
+	/*---see all projects start(Supriyo)---*/
+    .project .all-project-1 {min-height: 420px;}
+    .project .all-project-2 {min-height: 450px;}
+    .project .section-category-3 .inner-project-1 {min-height: 210px;}
+    .project .section-category-3 .inner-project-2 {min-height: 210px;}
+    .project .section-category-3 .inner-project-3 {min-height: 210px;}
+    .all-project-1-content h3 a {font-size: 25px;}
+    .all-project-2-content h3 a {font-size: 25px;}
+    .inner-project-1 .inner-project-1-content h3 a {font-size: 25px;}
+    .inner-project-1-content {left: 50px;}
+    .inner-project-2 .inner-project-2-content h3 a {font-size: 25px;}
+    .inner-project-3 .inner-project-3-content h3 a {font-size: 25px;}
+    .inner-project-3-content {left: 25px;}
+    .inner-project-2-content {left: 50px;}
+    .project .all-project-2-content:hover {bottom: 50%;}
+    .all-project-2-content {bottom: 48%;left: 50px;}
+    .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    
+
+
+    /*---see all projects end(Supriyo)---*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
+
+	/*---see all projects start(Supriyo)---*/
+    .project .all-project-1 {min-height: 370px;}
+    .project .all-project-2 {min-height: 410px;}
+    .project .section-category-3 .inner-project-1 {min-height: 185px;}
+    .project .section-category-3 .inner-project-2 {min-height: 185px;}
+    .project .section-category-3 .inner-project-3 {min-height: 185px;}
+    .all-project-1-content h3 a {font-size: 22px;}
+    .all-project-2-content h3 a {font-size: 22px;}
+    .inner-project-1 .inner-project-1-content h3 a {font-size: 22px;}
+    .inner-project-1-content {left: 50px;}
+    .inner-project-2 .inner-project-2-content h3 a {font-size: 22px;}
+    .inner-project-2-content {left: 50px;}
+    .inner-project-3 .inner-project-3-content h3 a {font-size: 22px;}
+    .inner-project-3-content {left: 15px;}
+    .inner-project-3-content {left: 30px;}
+    .project .all-project-2-content:hover {bottom: 54%;}
+    .all-project-2-content {bottom: 52%;left: 42px;}
+    .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    
+
+
+    /*---see all projects end(Supriyo)---*/
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*---see all projects start(Supriyo)---*/
+    .project .all-project-1 {min-height: 370px;}
+    .project .all-project-2 {min-height: 410px;}
+    .project .section-category-3 .inner-project-1 {min-height: 185px;}
+    .project .section-category-3 .inner-project-2 {min-height: 185px;}
+    .project .section-category-3 .inner-project-3 {min-height: 185px;}
+    .all-project-1-content h3 a {font-size: 22px;}
+    .all-project-2-content h3 a {font-size: 22px;}
+    .inner-project-1 .inner-project-1-content h3 a {font-size: 22px;}
+    .inner-project-1-content {left: 50px;}
+    .inner-project-2 .inner-project-2-content h3 a {font-size: 22px;}
+    .inner-project-3 .inner-project-3-content h3 a {font-size: 22px;}
+    .inner-project-3-content {left: 15px;}
+    .inner-project-2-content {left: 50px;}
+    .project .all-project-2-content:hover {bottom: 54%;}
+    .all-project-2-content {bottom: 52%;left: 42px;}
+    .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    .all-project-heading {padding: 70px 0;}
+
+
+    /*---see all projects end(Supriyo)---*/
+
     .footer-wrap {padding-top: 145px;}	
 }
 
@@ -54,6 +133,25 @@
 .custom-navbar-toggle .icon-bar {width: 20px;height: 1px;display: inline-block;transition: .5s ease;background-color: black;}
 .banner-content h1{margin-left: 180px;}
 /*.banner-content h4{margin-left: 180px;}*/
+
+
+/*---see all projects start(Supriyo)---*/
+.project {display: none;}
+.project-2 {display: block;}
+.project-2 .project-heading {display: block;}
+.project-2 .project-heading {position: relative; padding: 20px 0;}
+.project-2 #project-carousel {position: relative;}
+.project-2 #project-carousel .owl-prev {position: absolute;top: 45%;left:15px;}
+.project-2 #project-carousel .owl-prev span {font-size: 50px; color:var(--c-white-900);transition: all 0.2s ease-in-out;}
+.project-2 #project-carousel .owl-next {position: absolute;top: 45%; right: 15px;}
+.project-2 #project-carousel .owl-next span {font-size: 50px; color:var(--c-white-900);transition: all 0.2s ease-in-out;}
+.project-2 #project-carousel .owl-next span:hover {color:var(--c-primary);}
+.project-2 #project-carousel .owl-prev span:hover {color:var(--c-primary);}
+.project-2 .all-project-2 {background-size: cover;}
+.all-project-2-content {bottom: 10%;}
+.project-2 .all-project-2-content:hover {bottom: 12%;}
+
+/*---see all projects end(Supriyo)---*/
 
 }
 
@@ -103,15 +201,45 @@
 
     .custom-button{width: 130px;height: 50px;line-height: 50px;}
     .custom-navbar-brand img {width: 80%;}
+
+/*---see all projects start(Supriyo)---*/
+    .inner-project-3-content {left: 40px;}
+
+/*---see all projects end(Supriyo)---*/
 }
 
 @media (max-width: 575.98px){
     .navbar-brand.custom-navbar-brand.ms-0 {width: 40%;}
+
+    /*---see all projects start(Supriyo)---*/
+    .project-2 .section-category-3 .d-flex {display: block !important;}
+    .project-2 .section-category-3 .inner-project-1 {min-height: 250px;}
+    .project-2 .section-category-3 .inner-project-2 {min-height: 185px;}
+    .project-2 .section-category-3 .inner-project-3 {min-height: 185px;}
+
+    /*---see all projects end(Supriyo)---*/
+
+
 
 }
 
 @media only screen and (max-width: 480.98px) {	
     .custom-button{display: none;}
     .navbar-brand.custom-navbar-brand.ms-0 {width: 50%;}
+    /*---see all projects start(Supriyo)---*/
+    .project-2 .all-project-1 {min-height: 450px;}
+    .project-2 .all-project-2 {min-height: 450px;}
+    .project-2 .section-category-3 .inner-project-1 {min-height: 250px;}
+    .project-2 .section-category-3 .inner-project-2 {min-height: 100px;}
+    .project-2 .section-category-3 .inner-project-3 {min-height: 100px;}
+    .project-2 #project-carousel .owl-prev {top: 40%;}
+    .project-2 #project-carousel .owl-next {top: 40%;}
+    .project-2 .all-project-1-content {left: 40px;}
+    .all-project-2-content {left: 40px;}
+    .inner-project-3-content {left: 40px;}
+    .inner-project-2-content {left: 40px;}
+    .inner-project-1-content {left: 40px;}
+
+    /*---see all projects end(Supriyo)---*/
 }
 
