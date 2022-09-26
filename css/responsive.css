@@ -51,6 +51,7 @@
     .form .form-control::placeholder {font-size: 17px;}
     .contact-button .btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 70px 0 0;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 180px 0 0px;}
     /*---Contact us end(Supriyo)---*/
 }
 
@@ -74,7 +75,6 @@
     .project .all-project-2-content:hover {bottom: 54%;}
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
-    
 
 
     /*---see all projects end(Supriyo)---*/
@@ -90,7 +90,7 @@
     .contact-button .btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
     .form {margin-top: 80px;}
-    .contact-us .custom-heading.ms-md-0 {padding: 0 130px 0 0px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 140px 0 0px;}
 
     /*---Contact us end(Supriyo)---*/
 }
@@ -127,7 +127,7 @@
     .contact-button .btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
     .form {margin-top: 80px;}
-    .contact-us .custom-heading.ms-md-0 {padding: 0 130px 0 0px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0 100px 0 0px;}
 
 
     /*---Contact us end(Supriyo)---*/
