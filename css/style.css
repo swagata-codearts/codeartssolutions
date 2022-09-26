@@ -831,8 +831,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#fff;
   margin-top: 20px;
 }
-.date-section {
-  padding: 180px 0 90px;
+.blog-section {
   background-color: var(--c-black-800);
 }
 .date-content h5 {
