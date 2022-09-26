@@ -26,7 +26,6 @@
   /* 0c171f */
 }
 
-
 /******** CSS Resets ********/
 * {
   padding: 0;
@@ -876,27 +875,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Technology-Start---*/
 
-/*---Contact-Start---*/
+/*---Contact us Start(Supriyo)---*/
 
 .contact-us {
-  padding: 130px 0;
-  background-color:var(--c-light);
+  padding: 130px 0 145px;
+  background-color:var(--c-cyan-100);
 }
-.contact-us .contact-top-left h5 {
+.contact-us .custom-heading h5 {
   font-family: var(--ff-primary);
   font-size: 18px;
-  color: var(--c-secondary-text);
-}
-.contact-us .contact-top-left h2 {
+  color: var(--c-black-700);
   text-align: left;
-  margin-top:50px;
+}
+.contact-us .custom-heading h3 {
+  text-align: left;
+  margin-top:40px;
+  font-family:var(--ff-secondary);
+  color:var(--c-black-800);
+  line-height: 66px;
+  font-size: 45px;
 }
 .contact-top-right p {
   font-family: var(--ff-primary);
-  color: var(--c-secondary-text);
+  color: var(--c-black-800);
   font-size: 19px;
-  line-height: 35px;
-  margin-top: 60px;
+  line-height: 33px;
 }
 .form {
   margin-top: 120px;
@@ -934,7 +937,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #00a695;
 }
 
-/*---Contact-End---*/
+/*---Contact us End(Supriyo)---*/
 
 
 /*---Footer-start---*/
