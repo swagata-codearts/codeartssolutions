@@ -806,6 +806,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Leading-Brands-Start---*/
 
+.brand-image {
+  margin-top: 100px;
+  text-align: center;
+}
+.leading-brands {
+  padding:180px 0;
+}
+
+
+
+/*---Leading-Brands-End---*/
+
+
+/*---blog-section-start----*/
+
 /* .custom-heading {
   font-family:var(--ff-secondary);
   font-size: 45px;
@@ -821,6 +836,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 55px;
 }
+
+
 
 .brand-image {
   margin-top: 80px;
@@ -843,41 +860,50 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 67px;
 } */
 
-.date-section .date-content .underline-button .btn.btn-primary {
-  color:#fff;
-  margin-top: 20px;
-}
+
 .blog-section {
   background-color: var(--c-black-800);
 }
-.date-content h5 {
+.custom-heading h5 .sub-heading .c-white-900 {
   font-family: #d6d6d7;
   color:var(--c-cyan-100);
   font-size:18px;
 }
-.date-content p {
+.blog-text p {
   font-family:var(--ff-secondary);
   font-size: 37px;
   font-weight:700;
   line-height: 55px;
   color:var(--c-cyan-100);
-  margin-top: -20px;
-  border-bottom: 1px solid #5a5a5a;
-  padding: 60px 0px;
+  margin-top: -50px;
+  padding: 60px 0 32px 0;
+  width: 71%;
+  position: relative;
 }
-.date-content {
-  margin: 0 0 100px 0;
+.blog-text p::after {
+  content: "";
+  position: absolute;
+  background-color: #5a5a5a;
+  bottom: 0px;
+  width: 1440px;
+  height: 1px;
+  left: 0;
 }
 
-.custom-button-alt1{
-  color: #d6d6d7;
-  font-size: 18px;
-  font-family: var(--ff-primary);
-  border-bottom: 2px solid var(--c-white-800);
-  padding-bottom: 8px;
+.blog-button {
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
-/*---Leading-Brands-End---*/
+.blog-content {
+  margin-bottom: 126px;
+}
+
+.blog-section.custom-pad {
+  padding-top: 165px;
+}
+/*---blog-section-end---*/
+
 
 /*---Technology-Start---*/
 
@@ -885,7 +911,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 170px 0;
 }
 
-/*---Technology-Start---*/
+.custom-paragraph p {
+  margin: 0;
+  padding: 0 150px;
+  font-size: 18px;
+  color: var(--c-black-text);
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--ff-primary);
+}
+
+.owl-images {
+  width: 35%;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+/*---Technology-end---*/
 
 /*---Contact us Start(Supriyo)---*/
 .contact-us .custom-heading.ms-md-0 {

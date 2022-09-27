@@ -110,6 +110,14 @@
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
 
+    /*---see all projects end(Supriyo)---*/
+    /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
+    /*--blog-section-end--*/
+
+
 
     /*---see all projects end(Supriyo)---*/
 
@@ -142,6 +150,7 @@
  /* **********************Introduction End*************************** */
 
  /* Paulami Saha 24.09.2022 End */
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -171,10 +180,20 @@
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
     .all-project-heading {padding: 70px 0;}
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
 
 
     /*---see all projects end(Supriyo)---*/
 
+
+        /*--blog-section-start-(Deep)--*/
+        .blog-text p::after{width: 130%;}
+        .blog-text p{font-size: 30px;}
+        .blog-content{margin-left: 60px; margin-bottom: 60px;}
+        .blog-section.custom-pad {padding-top: 60px;}
+        /*--blog-section-end--*/
 
       /*---Contact us start(Supriyo)---*/
     .contact-us {padding: 70px 0 85px;}
@@ -192,6 +211,7 @@
 
 
     /* Paulami Saha 23.09.2022 Start */
+
     .footer-wrap {padding-top: 145px;}	
 
 }
@@ -284,6 +304,14 @@
 
 /*---see all projects end(Supriyo)---*/
 
+
+/*--blog-section-start-(Deep)--*/
+.blog-text p::after{width: 120%;}
+.blog-text p{font-size: 22px;}
+.blog-content{margin-left: 60px; margin-bottom: 40px;}
+.blog-section.custom-pad {padding-top: 70px;}
+/*--blog-section-end--*/
+
  /*---Contact us start(Supriyo)---*/
  .contact-us {padding: 60px 0 75px;}
  .contact-top-right p {font-size: 19px;}
@@ -298,7 +326,6 @@
  .contact-us .sub-heading.ms-md-0 {text-align: center !important;margin: 0 !important;}
  .contact-us .main-heading.ms-md-0 {margin: 0 !important;text-align: center !important;}
  /*---Contact us end(Supriyo)---*/
-
 
 
 }
@@ -336,6 +363,12 @@
     .introduction .underline-button .btn.btn-primary {margin-top: 30px; }
 /* **********************Introduction End*************************** */
       /* Paulami Saha 24.09.2022 End */
+      /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 120%;}
+    .blog-text p{font-size: 20px; line-height: 40px;}
+    .blog-content{margin-left: 60px; margin-bottom: 40px;}
+    .blog-section.custom-pad {padding-top: 80px;}
+    /*--blog-section-end--*/
 
     /*---Contact us start(Supriyo)---*/
     .contact-us .custom-heading h3 {margin-top: 20px;line-height: 50px;}
@@ -448,6 +481,14 @@
 
     /*---see all projects end(Supriyo)---*/
 
+
+          /*--blog-section-start-(Deep)--*/
+
+          .blog-content{margin-left: 40px; margin-bottom: 20px;}
+          .blog-section.custom-pad {padding-top: 40px;}
+          .blog-text p {font-size: 16px; line-height: 35px;}
+          /*--blog-section-end--*/
+
     /*---Contact us start(Supriyo)---*/
     .contact-button {text-align: center;}
     .contact-us {padding: 30px 0 45px;}
@@ -462,6 +503,7 @@
 
 
     /*---Contact us end(Supriyo)---*/
+
 
 }
 

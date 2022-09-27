@@ -16,6 +16,25 @@ jQuery('#custom-owl').owlCarousel({
     }
 });
 
+
+jQuery('#technology-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:6
+      }
+  }
+});
+
+
 jQuery('.js-accordion__item').on('click', function () {
   // set active class
   jQuery(this).parent().find('.state-active').removeClass('state-active');
@@ -27,6 +46,7 @@ jQuery('.js-accordion__item').on('click', function () {
   
   
 });
+
 
 
 jQuery(document).ready(function() {
