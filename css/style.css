@@ -547,6 +547,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 .project-2 .all-project-1-content {
   position: absolute;
@@ -578,6 +580,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
+  top: 0;
+  left: 0;
+}
+.all-project-2-content h5 {
+  text-align: left;
 }
 .all-project-2-content {
   position: absolute;
@@ -628,6 +635,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 .inner-project-1-content {
   position: absolute;
@@ -658,6 +667,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 .inner-project-2-content {
   position: absolute;
@@ -688,6 +699,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 .inner-project-3-content {
   position: absolute;

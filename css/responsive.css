@@ -318,6 +318,10 @@
 
 /*---see all projects start(Supriyo)---*/
 .project {display: none;}
+.all-project-1-content h5 {text-align: left;}
+.inner-project-1-content h5 {text-align: left;}
+.inner-project-2-content h5 {text-align: left;}
+.inner-project-3-content h5 {text-align: left;}
 .project-2 {display: block;position: relative;z-index: 3;}
 .project-2 .project-heading {display: block;}
 .project-2 .project-heading {position: relative; padding: 20px 0;}
@@ -410,6 +414,11 @@
 
     /*---Contact us start(Supriyo)---*/
     .contact-us .custom-heading h3 {margin-top: 20px;line-height: 50px;}
+    .inner-project-3 .inner-project-3-content h3 a {font-size: 23px;}
+    .inner-project-2 .inner-project-2-content h3 a {font-size: 23px;}
+    .inner-project-1 .inner-project-1-content h3 a {font-size: 23px;}
+    .all-project-1-content h3 a {font-size: 23px;}
+    .all-project-2-content h3 a {font-size: 23px;}
     .contact-top-right p {font-size: 15px;line-height: 26px;}
     .contact-form .form-control::placeholder {font-size: 15px;}
     .contact-form .form-control {margin: 0 0 50px 0;}
@@ -417,6 +426,8 @@
     .contact-form {margin-top: 60px;}
     .contact-form .form-control {padding: 0 0 10px 0;}
     .contact-form .row {flex-direction: column;}
+    .inner-project-3-content {left: 50px;}
+    .contact-button .custom-button {width: 100%;}
     /*---Contact us end(Supriyo)---*/
 
    /*----technology-start-(Deep)-----*/
@@ -476,6 +487,8 @@
 .navbar-brand.custom-navbar-brand.ms-0 {width: 40%;}
 
 /*---see all projects start(Supriyo)---*/
+.contact-button .custom-button {width: 100%;}
+.inner-project-3-content {left: 70px;}
 .project-2 .section-category-3 .d-flex {display: block !important;}
 .project-2 .section-category-3 .inner-project-1 {min-height: 250px;}
 .project-2 .section-category-3 .inner-project-2 {min-height: 185px;}
@@ -535,6 +548,7 @@
           /*--blog-section-end--*/
 
     /*---Contact us start(Supriyo)---*/
+    .contact-button .custom-button {display: block;}
     .contact-button {text-align: center;}
     .contact-us {padding: 30px 0 45px;}
     .contact-form .form-control::placeholder {font-size: 13px;}
