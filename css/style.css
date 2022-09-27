@@ -962,25 +962,34 @@ h1, h2, h3, h4, h5, h6 {
 .form {
   margin-top: 120px;
 }
-.form .form-control {
+.contact-form .form-control {
   background-color: transparent;
   border: 1px solid transparent;
   border-bottom: 1px solid var(--c-gray-900);
   border-radius: 0px;
 }
-.form  .form-control::placeholder {
+.contact-form  .form-control::placeholder {
   font-family: var(--ff-primary);
   color: var(--c-gray-900);
   opacity: 1;
   font-size: 20px;
 }
-.form .form-control {
+.contact-form .form-control {
   margin: 0 0 70px 0;
   padding: 0 0 15px 0;
 }
-.contact-us .form #floatingTextarea {
+.contact-us .contact-form #exampleFormControlTextarea1 {
   height: 130px;
   width: 100%;
+}
+.contact-form .form-label {
+  font-family: var(--ff-primary);
+  color: var(--c-gray-900);
+  opacity: 1;
+  font-size: 20px;
+}
+.contact-form {
+  margin-top: 158px;
 }
 .contact-button {
   text-align: right;
@@ -998,7 +1007,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   border-color: #00a695;
 }*/
-.contact-button .custom-button {
+.contact-button .btn.btn-primary {
   background-color: var(--c-primary);
   color: var(--c-white-900);
   display: inline-block;
@@ -1011,8 +1020,9 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   margin-right: 0px;
   border:1px solid var(--c-primary);
+  padding: 0 0;
 }
-.contact-button .custom-button:hover {
+.contact-button .btn.btn-primary:hover {
   color: var(--c-black-900);
   background-color: transparent;
   border:1px solid var(--c-primary);
