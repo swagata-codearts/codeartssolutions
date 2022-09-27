@@ -74,10 +74,8 @@
     /* Paulami Saha 23.09.2022 Start */
 
    /* **********************Introduction Start*************************** */
-   .introduction {padding: 120px 0;}
    .introduction .intro-left p {font-size: 28px;line-height: 46px;margin-top: 50px;padding-right: 56px;}
    .introduction .intro-right {padding-top: 65px;}
-   .introduction .underline-button .btn.btn-primary{margin-top: 65px;}
    .introduction .intro-right .website li p {    margin-top: 10px;line-height: 24px; }
    .introduction .intro-right .count-2 {margin-top: 25px;}
  /* **********************Introduction End*************************** */
@@ -161,9 +159,7 @@
     /* Paulami Saha 23.09.2022 Start */
 
    /* **********************Introduction Start*************************** */
-   .introduction {padding: 100px 0;}
    .introduction .intro-left p {font-size: 28px;line-height: 40px;margin-top: 50px;padding-right: 43px;}
-   .introduction .underline-button .btn.btn-primary{margin-top: 56px;}
    .introduction .intro-right {padding-top: 62px;}
    .introduction .intro-right .website li p {    margin-top: 8px;line-height: 24px; }
    .introduction .intro-right .count-2 {margin-top: 25px;}
@@ -243,9 +239,7 @@
   .footer-wrap {padding: 140px 0 130px;}
 
    /* **********************Introduction Start*************************** */   
-   .introduction {padding: 90px 0;}
    .introduction .intro-left p {font-size: 25px;line-height: 37px;margin-top: 35px;padding-right: 40px;}
-   .introduction .underline-button .btn.btn-primary{margin-top: 50px;}
    .introduction .intro-right {padding-top: 52px;}
    .introduction .intro-right .website li p {    margin-top: 8px;line-height: 22px; }
    .introduction .intro-right .count-2 {margin-top: 25px;}
@@ -292,14 +286,14 @@
 .footer-wrap .vertical-footer .vertical-footer-wrap {padding: 0 0 40px 0;}
 
 /* **********************Introduction Start*************************** */
-.introduction {padding: 80px 0;}
 .introduction .intro-left p {font-size: 22px;line-height: 30px;margin-top: 40px;padding-right: 22px;}
 .introduction .intro-right {padding-top: 52px;}
 .introduction .intro-right .website li h2 { font-size: 60px;}
 .introduction .intro-right .count-2 {margin-top: 30px;}
 .introduction .intro-right .website li p {  font-size: 17px;line-height: 24px;margin-top: 8px;}
-.introduction .underline-button .btn.btn-primary {margin-top: 50px;}
 /* **********************Introduction End*************************** */
+.leading-brands .brand-image {margin-top: 60px;gap: 25px 0;}
+.leading-brands .brand-image .brand-item {flex: 0 0 35%;}
 
 /* Paulami Saha 24.09.2022 End */
 
@@ -378,14 +372,14 @@
     .footer-wrap .vertical-footer-wrap .links a {font-size: 18px;}
     .footer-wrap .footer-5 ul li a {font-size: 18px;}
     /* **********************Introduction Start*************************** */
-    .introduction {padding: 60px 0;}
+    .introduction {text-align: center;}
     .introduction .intro-left p {font-size: 17px;line-height: 24px;margin-top: 25px;padding-right: 0px;}
-    .introduction .intro-right {padding-top: 37px;}
-    .introduction .intro-right .website li h2 {font-size: 45px;}
-    .introduction .intro-right .website li p {font-size: 15px;line-height: 20px;margin-top: 6px;}
-    .introduction .intro-right .count-2 { margin-top: 18px;}
-    .introduction .underline-button .btn.btn-primary {margin-top: 30px; }
+    .introduction .intro-right {display: flex;align-items: center;gap: 70px;}
+    .introduction .intro-right .website li p {line-height: 21px;margin-top: 10px;}
+    .introduction .intro-right .count-2 { margin-top: 0;}
+    .introduction .intro-right .website li{display: inline-block;}
 /* **********************Introduction End*************************** */
+.leading-brands .brand-image {margin-top: 50px;}
       /* Paulami Saha 24.09.2022 End */
       /*--blog-section-start-(Deep)--*/
     .blog-text p::after{width: 120%;}
@@ -436,15 +430,13 @@
   .footer-wrap .contact li {padding: 0 0 27px 0;}
   .footer-wrap .copyright-left p {line-height: 16px;}
   /* **********************Introduction Start*************************** */
-  .introduction .custom-heading {text-align: center;  }
-  .introduction{text-align: center;  padding: 30px 0;}
   .introduction .intro-right .website li h2 {font-size: 60px;}
-  .introduction .intro-right .website li p {font-size: 16px;line-height: 22px;margin-top: 5px;}
-  .introduction .intro-right .count-2 {margin-top: 20px;}
+  .introduction .intro-right .website li p {font-size: 15px;line-height: 19px;margin-top: 5px;}
   .introduction .intro-left p {font-size: 16px;line-height: 22px;margin-top: 15px;padding: 0 13px;}
-  .introduction .underline-button .btn.btn-primary {margin-top: 10px;}
-  .introduction .intro-right {padding-top: 30px;}
-/* **********************Introduction End*************************** */
+  .introduction .intro-right {gap: 50px;}
+  .introduction .intro-right .website li h2 {font-size: 50px;}
+  /* **********************Introduction End*************************** */
+  .leading-brands .brand-image {margin-top: 30px;}
 /* Paulami Saha 24.09.2022 End */
 
 
