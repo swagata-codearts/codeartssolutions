@@ -195,8 +195,8 @@
 
         /*--blog-section-start-(Deep)--*/
         .blog-text p::after{width: 130%;}
-        .blog-text p{font-size: 30px;}
-        .blog-content{margin-left: 60px; margin-bottom: 60px;}
+        .blog-text p{font-size: 30px;line-height: 40px;}
+        .blog-content{margin-left: 60px; margin-bottom: 30px;}
         .blog-section.custom-pad {padding-top: 60px;}
         /*--blog-section-end--*/
 
@@ -220,10 +220,11 @@
     .footer-wrap {padding-top: 145px;}	
 
    /*----technology-start-(Deep)-----*/
-    #technology-carousel .owl-nav {display: none;}
-    .technology {padding: 80px 0;}
+    #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
+    .technology {padding: 80px 0 40px 0;}
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
     .owl-images {width: 40%;}
+    .custom-paragraph p{padding: 0 20px;}
   /*----technology-end-(Deep)-----*/
 
 }
@@ -319,9 +320,9 @@
 
 /*--blog-section-start-(Deep)--*/
 .blog-text p::after{width: 120%;}
-.blog-text p{font-size: 22px;}
-.blog-content{margin-left: 60px; margin-bottom: 40px;}
-.blog-section.custom-pad {padding-top: 70px;}
+.blog-text p{font-size: 22px;line-height: 30px;}
+.blog-content{margin-left: 60px; margin-bottom: 20px;}
+.blog-section.custom-pad {padding-top: 60px;}
 /*--blog-section-end--*/
 
  /*---Contact us start(Supriyo)---*/
@@ -340,8 +341,8 @@
  /*---Contact us end(Supriyo)---*/
  
     /*----technology-start-(Deep)-----*/
-    #technology-carousel .owl-nav {display: none;}
-    .technology {padding: 80px 0;}
+    #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
+    .technology {padding: 80px 0 40px 0;}
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
     .owl-images {width: 40%;margin-top: 50px;}
     .custom-paragraph p{padding: 0 0px;}
@@ -384,9 +385,9 @@
       /* Paulami Saha 24.09.2022 End */
       /*--blog-section-start-(Deep)--*/
     .blog-text p::after{width: 120%;}
-    .blog-text p{font-size: 20px; line-height: 40px;}
-    .blog-content{margin-left: 60px; margin-bottom: 40px;}
-    .blog-section.custom-pad {padding-top: 80px;}
+    .blog-text p{font-size: 20px; line-height: 24px;}
+    .blog-content{margin-left: 60px; margin-bottom: 15px;}
+    .blog-section.custom-pad {padding-top: 60px;}
     /*--blog-section-end--*/
 
     /*---Contact us start(Supriyo)---*/
@@ -401,9 +402,10 @@
 
    /*----technology-start-(Deep)-----*/
     .custom-heading .main-heading {font-size: 30px;line-height: 10px;}
-    .custom-paragraph p{padding: 0 0px;}
-    .owl-images {width: 20%;margin-top: 40px;}
-    .technology {padding: 60px 0 30px 0;}
+    .custom-paragraph p{padding: 0 0px;line-height: 20px;}
+    .owl-images {width: 35%;margin-top: 30px;}
+    .technology {padding: 60px 0 20px 0;}
+    .technology-content .custom-paragraph{margin-top: 30px;}
    /*----technology-end-(Deep)-----*/
 }
 
@@ -470,8 +472,9 @@
 .contact-top-right p {line-height: 26px;}
 .form {margin-top: 60px;}
  /*---Contact us start(Supriyo)---*/ 
-
-
+/*----------technology-start-(Deep)---------*/
+ .owl-images {width: 25%;}
+/*----------technology-end-(Deep)---------*/
 }
 
 /*@media (max-width: 575.98px){
@@ -508,9 +511,10 @@
 
           /*--blog-section-start-(Deep)--*/
 
-          .blog-content{margin-left: 40px; margin-bottom: 20px;}
+          .blog-content{margin-left: 40px; margin-bottom: 8px;}
           .blog-section.custom-pad {padding-top: 40px;}
-          .blog-text p {font-size: 16px; line-height: 35px;}
+          .blog-text p {font-size: 16px; line-height: 25px;}
+          .blog-text p::after{bottom: 10px;}
           /*--blog-section-end--*/
 
     /*---Contact us start(Supriyo)---*/
@@ -529,9 +533,12 @@
     /*---Contact us end(Supriyo)---*/
 
     /*----technology-start-(Deep)-----*/
-    .custom-heading .main-heading {font-size: 22px; line-height: 0px;}
-    .custom-paragraph{margin-top: 30px;}
-    .owl-images {width: 30%;}
+    .custom-heading .main-heading {font-size: 20px; line-height: 0px;}
+    .owl-images {width: 25%;margin-top: 15px;}
+    .custom-paragraph p{line-height: 18px;font-size: 16px;}
+    .technology-content .custom-paragraph {margin-top: 20px;}
+    #technology-carousel .owl-nav{font-size: 20px;margin-top: 0px;}
+    .technology {padding: 60px 0 0 0;}
     /*----technology-end-(Deep)-----*/
 
 
