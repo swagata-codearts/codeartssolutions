@@ -855,9 +855,6 @@ h1, h2, h3, h4, h5, h6 {
 .leading-brands .brand-image .brand-item{
   flex: 0 0 20%;
   /* display: inline-block; */
-}
-.leading-brands .brand-image .brand-item img{
-  width: 100%;
 } 
 
 /* .leading-brands .brand-image ul li{
