@@ -966,9 +966,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
   line-height: 33px;
 }
-.form {
-  margin-top: 120px;
-}
 .contact-form .form-control {
   background-color: transparent;
   border: 1px solid transparent;
@@ -1001,38 +998,9 @@ h1, h2, h3, h4, h5, h6 {
 .contact-button {
   text-align: right;
 }
-/*.contact-button .btn-primary {
-  color: #fff;
-  background-color: #00a695;
-  border-color: #00a695;
-  font-family: var(--ff-primary);
-  font-size: 15px;
-  padding: 20px 20px;
-}
-.contact-button .btn-primary:hover {
-  color: #000;
-  background-color: transparent;
-  border-color: #00a695;
-}*/
-.contact-button .btn.btn-primary {
-  background-color: var(--c-primary);
-  color: var(--c-white-900);
-  display: inline-block;
-  width: 170px;
-  height: 71px;
-  border-radius: 3px;
-  font-size: 15px;
-  text-align: center;
-  line-height: 70px;
-  text-transform: capitalize;
+.contact-button .custom-button {
   margin-right: 0px;
-  border:1px solid var(--c-primary);
-  padding: 0 0;
-}
-.contact-button .btn.btn-primary:hover {
-  color: var(--c-black-900);
-  background-color: transparent;
-  border:1px solid var(--c-primary);
+  transition: all 0.3s ease-in-out;
 }
 
 /*---Contact us End(Supriyo)---*/

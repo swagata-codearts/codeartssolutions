@@ -177,7 +177,7 @@
 
 @media (min-width: 992px) and (max-width: 1024px) {
   /*---Banner start(Supriyo)---*/
-  .banner-right .banner-right-heading {font-size: 140px;line-height: 170px;bottom: -36px;line-height:180px;bottom:-34px;}
+  .banner-right .banner-right-heading {font-size: 140px;line-height: 150px;bottom: -26px;}
   .banner {padding: 100px 0 100px 0;}
   .banner-content h2 {font-size: 35px;margin-top: 30px;}
   .underline-button {margin-top: 30px;}
