@@ -100,17 +100,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-button {
-  background-color: #00a695;
-  color: #fff;
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
   display: inline-block;
-  width: 156px;
+  width: 170px;
   height: 71px;
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 15px;
   text-align: center;
   line-height: 70px;
   text-transform: capitalize;
+  border:1px solid var(--c-primary);
+  padding: 0 0;
   margin-right: 42px;
+}
+.custom-button:hover {
+  color: var(--c-black-900);
+  background-color: transparent;
+  border:1px solid var(--c-primary);
 }
 
 .custom-navbar-toggle {
@@ -231,10 +238,10 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
-.underline-button .custom-button-alt {
+.custom-button-alt {
   color: var(--c-black-900);
   font-size: 14px;
   font-family: var(--ff-primary);
@@ -242,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: inline-block;
 }
-.underline-button .custom-button-alt::after {
+.custom-button-alt::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -258,10 +265,10 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button-alt.cb-white::after {
   background-color: var(--c-white-900);
 }
-.underline-button .custom-button-alt:hover{
+.custom-button-alt:hover{
   color: var(--c-primary);
 }
-.underline-button .custom-button-alt:hover::after {
+.custom-button-alt:hover::after {
   background-color: var(--c-primary);
 }
 .banner-left {
@@ -276,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.underline-button .custom-button-alt:nth-child(2) {
+.custom-button-alt:nth-child(2) {
   margin: 0 0 0 30px;
 }
 /*---Banner-End---*/
@@ -968,63 +975,41 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
   line-height: 33px;
 }
-.form {
-  margin-top: 120px;
-}
-.form .form-control {
+.contact-form .form-control {
   background-color: transparent;
   border: 1px solid transparent;
   border-bottom: 1px solid var(--c-gray-900);
   border-radius: 0px;
 }
-.form  .form-control::placeholder {
+.contact-form  .form-control::placeholder {
   font-family: var(--ff-primary);
   color: var(--c-gray-900);
   opacity: 1;
   font-size: 20px;
 }
-.form .form-control {
+.contact-form .form-control {
   margin: 0 0 70px 0;
   padding: 0 0 15px 0;
 }
-.contact-us .form #floatingTextarea {
+.contact-us .contact-form #exampleFormControlTextarea1 {
   height: 130px;
   width: 100%;
+}
+.contact-form .form-label {
+  font-family: var(--ff-primary);
+  color: var(--c-gray-900);
+  opacity: 1;
+  font-size: 20px;
+}
+.contact-form {
+  margin-top: 158px;
 }
 .contact-button {
   text-align: right;
 }
-/*.contact-button .btn-primary {
-  color: #fff;
-  background-color: #00a695;
-  border-color: #00a695;
-  font-family: var(--ff-primary);
-  font-size: 15px;
-  padding: 20px 20px;
-}
-.contact-button .btn-primary:hover {
-  color: #000;
-  background-color: transparent;
-  border-color: #00a695;
-}*/
 .contact-button .custom-button {
-  background-color: var(--c-primary);
-  color: var(--c-white-900);
-  display: inline-block;
-  width: 170px;
-  height: 71px;
-  border-radius: 3px;
-  font-size: 15px;
-  text-align: center;
-  line-height: 70px;
-  text-transform: capitalize;
   margin-right: 0px;
-  border:1px solid var(--c-primary);
-}
-.contact-button .custom-button:hover {
-  color: var(--c-black-900);
-  background-color: transparent;
-  border:1px solid var(--c-primary);
+  transition: all 0.3s ease-in-out;
 }
 
 /*---Contact us End(Supriyo)---*/

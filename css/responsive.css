@@ -7,10 +7,7 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-  /*---Banner start(Supriyo)---*/
-  .banner-right .banner-right-heading {font-size: 225px;}
-  .banner-right .banner-right-heading {bottom: -41px;}
-  /*---Banner end(Supriyo)---*/
+  
   
 
 	/*---see all projects start(Supriyo)---*/
@@ -25,16 +22,37 @@
 
     /*---see all projects end(Supriyo)---*/
 }
-
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1700px) and (max-width: 1920px){
   /*---Banner start(Supriyo)---*/
-  .banner-right .banner-right-heading {font-size: 160px;line-height: 140px;bottom: -14px;}
-  .banner {padding: 100px 0 100px 0;}
-  .banner-content h2 {font-size: 35px;margin-top: 30px;}
-  .underline-button {margin-top: 30px;}
+  .banner-right .banner-right-heading {font-size: 225px;}
+  .banner-right .banner-right-heading {bottom: -41px;}
 
   /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 225px;}
+  .banner-right .banner-right-heading {bottom: -41px;}
 
+  /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1400px) and (max-width: 1600px){
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 205px;line-height: 220px;bottom: -39px;}
+
+  /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    /*---Banner start(Supriyo)---*/
+    .banner-right .banner-right-heading {font-size: 180px;line-height: 180px;bottom: -28px;}
+    .banner {padding: 100px 0 100px 0;}
+    .banner-content h2 {font-size: 35px;margin-top: 30px;}
+    .underline-button {margin-top: 30px;}
+  
+    /*---Banner end(Supriyo)---*/
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
 
 	/*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 420px;}
@@ -72,22 +90,25 @@
     .contact-us {padding: 100px 0 115px;}
     .contact-top-right p {font-size: 17px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
-    .form .form-control::placeholder {font-size: 17px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 17px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 70px 0 0;}
     .contact-us .custom-heading.ms-md-0 {padding: 0px 180px 0 0px;}
+    .contact-form {margin-top: 110px;}
     /*---Contact us end(Supriyo)---*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
 
-    /*---Banner start(Supriyo)---*/
-    .banner-right .banner-right-heading {font-size: 150px;line-height: 140px;bottom: -16px;}
-    .banner {padding: 100px 0 100px 0;}
-    .banner-content h2 {font-size: 35px;margin-top: 30px;}
-    .underline-button {margin-top: 30px;}
-    .banner .banner-content-wrap .banner-left img {width: 100px;}
-    /*---Banner end(Supriyo)---*/
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size:160px;line-height:180px;bottom:-34px;}
+  .banner {padding: 100px 0 100px 0;}
+  .banner-content h2 {font-size: 35px;margin-top: 30px;}
+  .underline-button {margin-top: 30px;}
+  .banner .banner-content-wrap .banner-left img {width: 100px;}
+  .banner-content {z-index: 3;}
+  /*---Banner end(Supriyo)---*/
+    
 
 	/*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 370px;}
@@ -127,13 +148,14 @@
     .contact-top-right p {font-size: 15px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
     .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
-    .form {margin-top: 80px;}
-    .contact-us .custom-heading.ms-md-0 {padding: 0px 140px 0 0px;}
+    .contact-form {margin-top: 80px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 120px 0 0px;}
 
     /*---Contact us end(Supriyo)---*/
+    
     /* Paulami Saha 23.09.2022 Start */
 
    /* **********************Introduction Start*************************** */
@@ -156,11 +178,12 @@
 
 @media (min-width: 992px) and (max-width: 1024px) {
   /*---Banner start(Supriyo)---*/
-  .banner-right .banner-right-heading {font-size: 140px;line-height: 140px;bottom: -21px;}
+  .banner-right .banner-right-heading {font-size: 140px;line-height: 150px;bottom: -26px;}
   .banner {padding: 100px 0 100px 0;}
-  .banner-content h2 {font-size: 35px;line-height: 50px;margin-top: 20px;}
+  .banner-content h2 {font-size: 35px;margin-top: 30px;}
   .underline-button {margin-top: 30px;}
   .banner .banner-content-wrap .banner-left img {width: 100px;}
+  .banner-content {z-index: 3;}
   /*---Banner end(Supriyo)---*/
 
     /*---see all projects start(Supriyo)---*/
@@ -197,14 +220,14 @@
         /*--blog-section-end--*/
 
       /*---Contact us start(Supriyo)---*/
-    .contact-us {padding: 70px 0 85px;}
+    .contact-us {padding: 60px 0 75px;}
     .contact-top-right p {font-size: 15px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
     .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
-    .form {margin-top: 70px;}
+    .contact-form {margin-top: 70px;}
     .contact-us .custom-heading.ms-md-0 {padding: 0 100px 0 0px;}
 
 
@@ -252,7 +275,7 @@
 .navbar-header {display: block;}
 
  /*---Banner start(Supriyo)---*/
- .banner-right .banner-right-heading {font-size: 140px;line-height: 140px;bottom: -21px;}
+ .banner-right .banner-right-heading {font-size: 125px;line-height: 140px;bottom: -25px;}
  .banner {padding: 80px 0 80px 0;}
  .banner-content h2 {font-size: 35px;margin-top: 20px;line-height: 50px;}
  .underline-button {margin-top: 30px;}
@@ -324,9 +347,9 @@
  .contact-top-right p {font-size: 19px;}
  .contact-us .custom-heading h3 {font-size: 40px;}
  .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
- .form .form-control::placeholder {font-size: 17px;}
- .contact-button .btn-primary {font-size: 14px;}
- .form {margin-top: 80px;}
+ .contact-form .form-control::placeholder {font-size: 17px;}
+ .contact-button .btn.btn-primary {font-size: 14px;}
+ .contact-form {margin-top: 80px;}
  .contact-top-right {margin-top: 30px;}
  .contact-top-right p {padding: 0 0px 0 0;text-align: center;}
  .contact-us .custom-heading.ms-md-0 {padding: 0 0px 0 0px;}
@@ -347,7 +370,8 @@
 
 @media (max-width: 767.98px){
     /*Banner start(Supriyo)*/
-    .banner-right .banner-right-heading {font-size: 110px;line-height: 90px;bottom: -7px;}
+    .banner-right .banner-right-heading {font-size: 105px;line-height: 90px;bottom: -8px;}
+    .banner-content h4 {font-size: 17px;}
     .underline-button {margin-top: 25px;}
     .banner-content h2 {font-size: 32px;margin-top: 20px;line-height: 45px;}
     .banner-content {width: 80%;}
@@ -387,11 +411,12 @@
     /*---Contact us start(Supriyo)---*/
     .contact-us .custom-heading h3 {margin-top: 20px;line-height: 50px;}
     .contact-top-right p {font-size: 15px;line-height: 26px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .form .form-control {margin: 0 0 50px 0;}
-    .contact-button .custom-button {width: 100%;}
-    .form {margin-top: 60px;}
-
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-form .form-control {margin: 0 0 50px 0;}
+    .contact-button .btn.btn-primary {width: 100%;}
+    .contact-form {margin-top: 60px;}
+    .contact-form .form-control {padding: 0 0 10px 0;}
+    .contact-form .row {flex-direction: column;}
     /*---Contact us end(Supriyo)---*/
 
    /*----technology-start-(Deep)-----*/
@@ -406,7 +431,7 @@
 @media (max-width: 575.98px){
    /*Banner start(Supriyo)*/
    .banner-content h4 {font-size: 14px;}
-   .banner-right .banner-right-heading {font-size: 90px;line-height: 75px;bottom: -7px;}
+   .banner-right .banner-right-heading {font-size: 70px;line-height: 75px;bottom: -12px;}
    .banner-content h2 {font-size: 28px;margin-top: 15px;line-height: 40px;}
    .banner-content {width: 100%;}
 
@@ -462,7 +487,7 @@
 .contact-us {padding: 40px 0 55px;}
 .contact-us .custom-heading h3 {margin-top: 18px;line-height: 45px;font-size: 34px;}
 .contact-top-right p {line-height: 26px;}
-.form {margin-top: 60px;}
+.contact-form {margin-top: 60px;}
  /*---Contact us start(Supriyo)---*/ 
 /*----------technology-start-(Deep)---------*/
  .owl-images {width: 25%;}
@@ -478,8 +503,8 @@
   .banner-content {text-align: center;}
   .banner-right {right: 20px;}
   .banner {padding: 50px 0 80px 0;}
-  .banner-right .banner-right-heading {font-size: 70px;line-height: 60px;bottom: -6px;}
-  .banner-right {right: 0;left: 0;margin: 0 auto;}
+  .banner-right .banner-right-heading {font-size: 50px;line-height: 60px;bottom: -12px;}
+  .banner-right {right: 0;}
 
   /*Banner start(Supriyo)*/
     .custom-button{display: none;}
@@ -512,14 +537,13 @@
     /*---Contact us start(Supriyo)---*/
     .contact-button {text-align: center;}
     .contact-us {padding: 30px 0 45px;}
-    .form {margin-top: 60px;}
-    .form .form-control::placeholder {font-size: 13px;}
-    .form .form-control {margin: 0 0 40px 0;}
+    .contact-form .form-control::placeholder {font-size: 13px;}
+    .contact-form .form-control {margin: 0 0 40px 0;}
     .contact-top-right p {line-height: 22px;}
     .contact-us .custom-heading h5 {font-size: 14px;}
     .contact-us .custom-heading h3 {line-height: 37px;font-size: 28px;margin-top: 8px;}
     .contact-top-right {margin-top: 20px;}
-    .form {margin-top: 40px;}
+    .contact-form {margin-top: 40px;}
 
 
     /*---Contact us end(Supriyo)---*/
