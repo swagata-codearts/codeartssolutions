@@ -32,6 +32,39 @@ jQuery('#project-carousel').owlCarousel({
   }
 })
 
+
+jQuery('#technology-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:6
+      }
+  }
+});
+
+
+jQuery('.js-accordion__item').on('click', function () {
+  // set active class
+  jQuery(this).parent().find('.state-active').removeClass('state-active');
+  
+  jQuery(this).removeClass('state-collapsed').addClass('state-active');
+  
+  //collapse other items
+  jQuery('.js-accordion__item').not(this).addClass('state-collapsed');
+  
+  
+});
+
+
+
 jQuery(document).ready(function() {
     jQuery('.-accordion').asAccordion({
       namespace: '-accordion'

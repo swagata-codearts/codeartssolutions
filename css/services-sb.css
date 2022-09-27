@@ -1,4 +1,8 @@
 /*---Service-Start---*/
+:root {
+  --c-cyan-500: #39bbb0;
+}
+
 .custom-heading {
   display: flex;
   flex-direction: column;
@@ -33,5 +37,114 @@
   font-size: 27px;
   font-weight: 400;
   line-height: 48px;
+}
+
+
+
+
+
+
+
+.accordion__container {
+  /* border: 1px solid blue; */
+}
+.accordion__container::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.accordion__item-wrapper {
+  margin-left: -1px;
+  margin-right: -1px;
+  overflow: hidden;
+}
+.accordion__item {
+  height: 500px;
+  width: 20%;
+  float: left;
+  background-color: var(--c-cyan-100);
+  border-right: 1px solid #c0e7ed;
+  border-left: 1px solid #c0e7ed;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  display: flex;
+}
+.accordion__item.state-collapsed {
+  width: 50px;
+}
+.accordion__item.state-active {
+  width: calc(100% - 200px);
+}
+
+
+
+.accordion__item .service-acc-title {
+  font-family: var(--ff-secondary);
+  font-size: 45px;
+  line-height: 42px;
+  writing-mode: sideways-rl;
+  transition: all 0.5s ease-in-out;
+}
+.accordion__item.js-accordion__item.state-active .service-acc-title {
+  padding: 0 25px;
+}
+.accordion__item.js-accordion__item.state-collapsed .service-acc-title {
+  font-size: 38px;
+  line-height: 50px;
+}
+.accordion__item .service-acc-content, .accordion__item.state-collapsed .service-acc-content{
+  align-self: center;
+  display: none;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.accordion__item.js-accordion__item.state-active .service-acc-content {
+  display: block;
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+}
+.service-acc-content .service-text {
+  color: var(--c-black-800);
+  font-family: var(--ff-secondary);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 48px;
+  padding: 35px 75px 35px;
+}
+.plus-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.plus-icon > * {
+  width: inherit;
+  height: 2px;
+  display: inline-block;
+  background-color: var(--c-cyan-500);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.accordion__item.js-accordion__item.state-active .plus-icon {
+  margin: 0 25px;
+}
+.service-title-wrap .icon > * {
+  width: 42px;
+  height: 2px;
+  display: inline-block;
+  background-color: var(--c-cyan-500);
+  position: absolute;
+  top: 50%;
+left: 50%;
+margin: 0 auto;
+transform: translate(-50%, -50%);
+}
+.bar-y {
+  transform: translate(-50%, -50%) rotate(90deg) !important;
 }
 /*---Service-End---*/

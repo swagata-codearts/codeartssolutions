@@ -229,6 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .underline-button {
   display: inline-block;
+
   margin-top: 50px;
   margin-left: 10px;
 }
@@ -762,13 +763,12 @@ h1, h2, h3, h4, h5, h6 {
 /*---Introduction-Start---*/
 
 .introduction {
-  padding: 180px 0;
+  padding: 170px 0;
 }
-.introduction .intro-left h5 {
-  font-family: var(--ff-primary);
-  font-size: 14px;
-  color:var(--c-primary-text);
-}
+.introduction .custom-heading {
+  text-align: left;
+} 
+
 .introduction .intro-left p {
   font-family: var(--ff-secondary);
   font-size: 30px;
@@ -776,34 +776,26 @@ h1, h2, h3, h4, h5, h6 {
   color:#0c171f;
   margin-top: 60px;
   font-weight: 400;
+  padding-right: 65px;
 }
-.introduction .intro-right .website-count-1 li h2 {
+.introduction .intro-right{
+  padding-top: 82px;
+}
+.introduction .intro-right .website li h2 {
   font-family: var(--ff-tertiary);
   font-size: 73px;
   color:#0c171f;
   font-weight: 700;
 }
-.introduction .intro-right .website-count-1 li h4 {
+.introduction .intro-right .website li p {
   font-family: var(--ff-secondary);
   font-size: 17px;
   color:#0c171f;
+  line-height: 26px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 12px;
 }
-.introduction .intro-right .website-count-2 li h2 {
-  font-family: var(--ff-tertiary);
-  font-size: 73px;
-  color:#0c171f;
-  font-weight: 700;
-}
-.introduction .intro-right .website-count-2 li h4 {
-  font-family: var(--ff-secondary);
-  font-size: 17px;
-  color:#0c171f;
-  font-weight: 400;
-  margin-top: 20px;
-}
-.introduction .intro-right .website-count-2 {
+.introduction .intro-right .count-2 {
   margin-top: 40px;
 }
 
@@ -813,6 +805,21 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*---Leading-Brands-Start---*/
+
+.brand-image {
+  margin-top: 100px;
+  text-align: center;
+}
+.leading-brands {
+  padding:180px 0;
+}
+
+
+
+/*---Leading-Brands-End---*/
+
+
+/*---blog-section-start----*/
 
 /* .custom-heading {
   font-family:var(--ff-secondary);
@@ -827,51 +834,76 @@ h1, h2, h3, h4, h5, h6 {
   font-size:19px;
   line-height:35px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 55px;
 }
+
+
+
 .brand-image {
-  margin-top: 100px;
+  margin-top: 80px;
   text-align: center;
 }
 .leading-brands {
-  padding:180px 0;
+  padding:160px 0;
 }
+.leading-brands .brand-image{
+  display: flex;
+}
+.leading-brands .brand-image .brand-item {
+  display: flex;
+}
+/* .leading-brands .brand-image ul li{
+  display: inline-block;
+  margin: 0 60px;
+}
+.leading-brands .brand-image ul.row-2 li{
+  margin-top: 67px;
+} */
 
-.date-section .date-content .underline-button .btn.btn-primary {
-  color:#fff;
-  margin-top: 20px;
-}
+
 .blog-section {
   background-color: var(--c-black-800);
 }
-.date-content h5 {
+.custom-heading h5 .sub-heading .c-white-900 {
   font-family: #d6d6d7;
   color:var(--c-cyan-100);
   font-size:18px;
 }
-.date-content p {
+.blog-text p {
   font-family:var(--ff-secondary);
   font-size: 37px;
   font-weight:700;
   line-height: 55px;
   color:var(--c-cyan-100);
-  margin-top: -20px;
-  border-bottom: 1px solid #5a5a5a;
-  padding: 60px 0px;
+  margin-top: -50px;
+  padding: 60px 0 32px 0;
+  width: 71%;
+  position: relative;
 }
-.date-content {
-  margin: 0 0 100px 0;
+.blog-text p::after {
+  content: "";
+  position: absolute;
+  background-color: #5a5a5a;
+  bottom: 0px;
+  width: 1440px;
+  height: 1px;
+  left: 0;
 }
 
-.custom-button-alt1{
-  color: #d6d6d7;
-  font-size: 18px;
-  font-family: var(--ff-primary);
-  border-bottom: 2px solid var(--c-white-800);
-  padding-bottom: 8px;
+.blog-button {
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
-/*---Leading-Brands-End---*/
+.blog-content {
+  margin-bottom: 126px;
+}
+
+.blog-section.custom-pad {
+  padding-top: 165px;
+}
+/*---blog-section-end---*/
+
 
 /*---Technology-Start---*/
 
@@ -879,7 +911,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 170px 0;
 }
 
-/*---Technology-Start---*/
+.custom-paragraph p {
+  margin: 0;
+  padding: 0 150px;
+  font-size: 18px;
+  color: var(--c-black-text);
+  line-height: 30px;
+  font-weight: 400;
+  font-family: var(--ff-primary);
+}
+
+.owl-images {
+  width: 35%;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+/*---Technology-end---*/
 
 /*---Contact us Start(Supriyo)---*/
 .contact-us .custom-heading.ms-md-0 {
@@ -999,16 +1047,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   color:var(--c-secondary-text);
 }
-.footer-2 .technology {
-  padding: 0;
-}
 .footer-wrap .links {
   margin-top: 30px;
 }
-.footer-wrap .links li {
+.footer-wrap .vertical-footer-wrap .links li {
   padding: 0 0 10px 0;
 }
-.footer-wrap .links li a {
+.footer-wrap .vertical-footer-wrap .links a {
   font-family:var(--ff-secondary);
   /* color:var(--c-tertiary-text); */
   color: var(--c-cyan-100);
@@ -1016,7 +1061,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   position: relative;
 }
-.footer-wrap .links li a::after{
+.footer-wrap .vertical-footer-wrap .links a::after{
   background: none repeat scroll 0 0 transparent;
   bottom: -3px;
   content: "";
@@ -1028,7 +1073,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.footer-wrap .links li a:hover:after{ 
+.footer-wrap .vertical-footer-wrap .links a:hover::after{
   width: 100%; 
   left: 0; 
 }
@@ -1045,14 +1090,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height:30px;
 }
 .footer-wrap .contact li {
-  padding: 0 0 50px 0;
-}
-.footer-wrap .footer-5 .contact li h3 {
-  font-family:var(--ff-secondary);
-  color:var(--c-tertiary-text);
-  font-weight: 400;
-  font-size: 20px;
-  line-height:30px;
+  padding: 0 0 47px 0;
 }
 .footer-wrap .footer-5 .follow-us {
   margin-top: 30px;
