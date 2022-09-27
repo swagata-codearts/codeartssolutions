@@ -41,8 +41,8 @@ jQuery('#technology-carousel').owlCarousel({
       0:{
           items:1
       },
-      600:{
-          items:1
+      575:{
+          items:3
       },
       1000:{
           items:6
