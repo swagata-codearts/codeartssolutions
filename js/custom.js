@@ -16,6 +16,23 @@ jQuery('#custom-owl').owlCarousel({
     }
 });
 
+jQuery('#technology-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:6
+      }
+  }
+});
+
 jQuery(document).ready(function() {
     jQuery('.-accordion').asAccordion({
       namespace: '-accordion'
