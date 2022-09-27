@@ -16,6 +16,19 @@ jQuery('#custom-owl').owlCarousel({
     }
 });
 
+jQuery('.js-accordion__item').on('click', function () {
+  // set active class
+  jQuery(this).parent().find('.state-active').removeClass('state-active');
+  
+  jQuery(this).removeClass('state-collapsed').addClass('state-active');
+  
+  //collapse other items
+  jQuery('.js-accordion__item').not(this).addClass('state-collapsed');
+  
+  
+});
+
+
 jQuery(document).ready(function() {
     jQuery('.-accordion').asAccordion({
       namespace: '-accordion'

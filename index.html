@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="css/services-sb.css">
   <!-- Responsive CSS Stylesheet -->
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/asAccordion.css">
   <!-- Fontawesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <title>Codearts Home Page</title>
@@ -378,26 +377,73 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7 col-12">
-          <ul data-direction="vertical" class="-accordion -accordion--basic -accordion--vertical">
-            <li class="-accordion__panel">
-              <span class="-accordion__heading">Section 1<i class="-icon -icon--right"></i></span>
-              <div class="-accordion__expander">Content 1.</div>
-            </li>
-            <li class="-accordion__panel" > 
-              <span class="-accordion__heading">Section 2<i class="-icon -icon--right"></i></span>
-              <div class="-accordion__expander">Content 2.</div>
-            </li>
-            <li class="-accordion__panel"> 
-              <span class="-accordion__heading">Section 3<i class="-icon -icon--right"></i></span>
-              <div class="-accordion__expander">Content 3.</div>
-            </li>
-          </ul>
+        <div class="col-lg-7 col-12 p-0">
+          <div class="accordion__container" data-item-count="5">
+            <div class="accordion__item-wrapper"> 
+              <div class="accordion__item js-accordion__item">
+                <div class="service-acc-title-wrap">
+                  <h4 class="service-acc-title">Web development</h4>
+                  <div class="plus-icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div>
+                <div class="service-acc-content"><p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis porro. Laudantium libero consequuntur eligendi nam, mollitia voluptate quisquam aperiam distinctio sint laboriosam accusantium praesentium vitae, id iusto tempore, molestias porro quas quos? Pariatur perspiciatis vero voluptas nobis modi quos?</p>  </div>
+              </div>
+              <div class="accordion__item js-accordion__item">
+                <div class="service-acc-title-wrap">
+                  <h4 class="service-acc-title">Web development</h4>
+                  <div class="plus-icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div>
+                <div class="service-acc-content"><p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis porro. Laudantium libero consequuntur eligendi nam, mollitia voluptate quisquam aperiam distinctio sint laboriosam accusantium praesentium vitae, id iusto tempore, molestias porro quas quos? Pariatur perspiciatis vero voluptas nobis modi quos?</p>  </div>
+              </div>
+              <div class="accordion__item js-accordion__item">
+                <div class="service-acc-title-wrap">
+                  <h4 class="service-acc-title">Web development</h4>
+                  <div class="plus-icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div>
+                <div class="service-acc-content"><p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis porro. Laudantium libero consequuntur eligendi nam, mollitia voluptate quisquam aperiam distinctio sint laboriosam accusantium praesentium vitae, id iusto tempore, molestias porro quas quos? Pariatur perspiciatis vero voluptas nobis modi quos?</p>  </div>
+              </div>
+              <div class="accordion__item js-accordion__item">
+                <div class="service-acc-title-wrap">
+                  <h4 class="service-acc-title">Web development</h4>
+                  <div class="plus-icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div>
+                <div class="service-acc-content"><p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis porro. Laudantium libero consequuntur eligendi nam, mollitia voluptate quisquam aperiam distinctio sint laboriosam accusantium praesentium vitae, id iusto tempore, molestias porro quas quos? Pariatur perspiciatis vero voluptas nobis modi quos?</p>  </div>
+              </div>
+              <div class="accordion__item js-accordion__item">
+                <div class="service-acc-title-wrap">
+                  <h4 class="service-acc-title">Web development</h4>
+                  <div class="plus-icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div>
+                <div class="service-acc-content"><p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis porro. Laudantium libero consequuntur eligendi nam, mollitia voluptate quisquam aperiam distinctio sint laboriosam accusantium praesentium vitae, id iusto tempore, molestias porro quas quos? Pariatur perspiciatis vero voluptas nobis modi quos?</p>  </div>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
+ <!-- <div class="service-title-wrap d-flex flex-column justify-content-between h-100">
+                  <h4 class="service-title">Web Development</h4>
+                  <div class="icon">
+                    <span class="bar-y"></span>
+                    <span class="bar-x"></span>
+                  </div>
+                </div> -->
 
   <section class="leading-brands">
     <div class="container">
@@ -659,7 +705,6 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
-<script src="src/jquery-asAccordion.js"></script>
 
   <script>
     jQuery('#project-carousel').owlCarousel({
