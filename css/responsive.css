@@ -74,10 +74,11 @@
     .contact-us {padding: 100px 0 115px;}
     .contact-top-right p {font-size: 17px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
-    .form .form-control::placeholder {font-size: 17px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 17px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 70px 0 0;}
     .contact-us .custom-heading.ms-md-0 {padding: 0px 180px 0 0px;}
+    .contact-form {margin-top: 110px;}
     /*---Contact us end(Supriyo)---*/
 }
 
@@ -129,13 +130,14 @@
     .contact-top-right p {font-size: 15px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
     .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
-    .form {margin-top: 80px;}
-    .contact-us .custom-heading.ms-md-0 {padding: 0px 140px 0 0px;}
+    .contact-form {margin-top: 80px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 120px 0 0px;}
 
     /*---Contact us end(Supriyo)---*/
+    
     /* Paulami Saha 23.09.2022 Start */
 
    /* **********************Introduction Start*************************** */
@@ -196,14 +198,14 @@
         /*--blog-section-end--*/
 
       /*---Contact us start(Supriyo)---*/
-    .contact-us {padding: 70px 0 85px;}
+    .contact-us {padding: 60px 0 75px;}
     .contact-top-right p {font-size: 15px;}
     .contact-us .custom-heading h3 {font-size: 40px;}
     .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .contact-button .btn-primary {font-size: 14px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
     .contact-top-right p {padding: 0 10px 0 0;}
-    .form {margin-top: 70px;}
+    .contact-form {margin-top: 70px;}
     .contact-us .custom-heading.ms-md-0 {padding: 0 100px 0 0px;}
 
 
@@ -317,9 +319,9 @@
  .contact-top-right p {font-size: 19px;}
  .contact-us .custom-heading h3 {font-size: 40px;}
  .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
- .form .form-control::placeholder {font-size: 17px;}
- .contact-button .btn-primary {font-size: 14px;}
- .form {margin-top: 80px;}
+ .contact-form .form-control::placeholder {font-size: 17px;}
+ .contact-button .btn.btn-primary {font-size: 14px;}
+ .contact-form {margin-top: 80px;}
  .contact-top-right {margin-top: 30px;}
  .contact-top-right p {padding: 0 0px 0 0;text-align: center;}
  .contact-us .custom-heading.ms-md-0 {padding: 0 0px 0 0px;}
@@ -373,11 +375,12 @@
     /*---Contact us start(Supriyo)---*/
     .contact-us .custom-heading h3 {margin-top: 20px;line-height: 50px;}
     .contact-top-right p {font-size: 15px;line-height: 26px;}
-    .form .form-control::placeholder {font-size: 15px;}
-    .form .form-control {margin: 0 0 50px 0;}
-    .contact-button .custom-button {width: 100%;}
-    .form {margin-top: 60px;}
-
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-form .form-control {margin: 0 0 50px 0;}
+    .contact-button .btn.btn-primary {width: 100%;}
+    .contact-form {margin-top: 60px;}
+    .contact-form .form-control {padding: 0 0 10px 0;}
+    .contact-form .row {flex-direction: column;}
     /*---Contact us end(Supriyo)---*/
 
 
@@ -444,7 +447,7 @@
 .contact-us {padding: 40px 0 55px;}
 .contact-us .custom-heading h3 {margin-top: 18px;line-height: 45px;font-size: 34px;}
 .contact-top-right p {line-height: 26px;}
-.form {margin-top: 60px;}
+.contact-form {margin-top: 60px;}
  /*---Contact us start(Supriyo)---*/ 
 
 
@@ -492,14 +495,13 @@
     /*---Contact us start(Supriyo)---*/
     .contact-button {text-align: center;}
     .contact-us {padding: 30px 0 45px;}
-    .form {margin-top: 60px;}
-    .form .form-control::placeholder {font-size: 13px;}
-    .form .form-control {margin: 0 0 40px 0;}
+    .contact-form .form-control::placeholder {font-size: 13px;}
+    .contact-form .form-control {margin: 0 0 40px 0;}
     .contact-top-right p {line-height: 22px;}
     .contact-us .custom-heading h5 {font-size: 14px;}
     .contact-us .custom-heading h3 {line-height: 37px;font-size: 28px;margin-top: 8px;}
     .contact-top-right {margin-top: 20px;}
-    .form {margin-top: 40px;}
+    .contact-form {margin-top: 40px;}
 
 
     /*---Contact us end(Supriyo)---*/

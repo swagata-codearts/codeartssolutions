@@ -100,17 +100,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-button {
-  background-color: #00a695;
-  color: #fff;
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
   display: inline-block;
-  width: 156px;
+  width: 170px;
   height: 71px;
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 15px;
   text-align: center;
   line-height: 70px;
   text-transform: capitalize;
+  margin-right: 0px;
+  border:1px solid var(--c-primary);
+  padding: 0 0;
   margin-right: 42px;
+}
+.custom-button:hover {
+  color: var(--c-black-900);
+  background-color: transparent;
+  border:1px solid var(--c-primary);
 }
 
 .custom-navbar-toggle {
@@ -229,12 +237,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .underline-button {
   display: inline-block;
-
+  
   margin-top: 50px;
   margin-left: 10px;
 }
 
-.underline-button .custom-button-alt {
+.custom-button-alt {
   color: var(--c-black-900);
   font-size: 14px;
   font-family: var(--ff-primary);
@@ -242,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: inline-block;
 }
-.underline-button .custom-button-alt::after {
+.custom-button-alt::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -258,10 +266,10 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button-alt.cb-white::after {
   background-color: var(--c-white-900);
 }
-.underline-button .custom-button-alt:hover{
+.custom-button-alt:hover{
   color: var(--c-primary);
 }
-.underline-button .custom-button-alt:hover::after {
+.custom-button-alt:hover::after {
   background-color: var(--c-primary);
 }
 .banner-left {
@@ -276,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.underline-button .custom-button-alt:nth-child(2) {
+.custom-button-alt:nth-child(2) {
   margin: 0 0 0 30px;
 }
 /*---Banner-End---*/
