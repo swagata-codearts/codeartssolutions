@@ -46,6 +46,7 @@ jQuery('#technology-carousel').owlCarousel({
       },
       1000:{
           items:6
+
       }
   }
 });
