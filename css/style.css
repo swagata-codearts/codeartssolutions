@@ -15,9 +15,13 @@
   --c-black-900: #000000;
   --c-black-800: #0c171f; /* black heading, body text color */
   --c-black-700: #292929; /* black sub heading text color */
-
+  --c-black-600: #5f5f5f; /*Contact form text*/
   --c-white-900: #ffffff;
   --c-white-800: #f9fcfd; /* codearts stroke fill color */
+
+  --c-gray-900: #5f5f5f; /*Contact form text*/
+  --c-gray-800: #99a2a4; /*Conatct us text*/
+  
 
   --ff-primary: 'Cutive Mono', monospace;
   --ff-secondary: 'Work Sans', sans-serif;
@@ -25,7 +29,6 @@
 
   /* 0c171f */
 }
-
 
 /******** CSS Resets ********/
 * {
@@ -230,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 10px;
 }
 
-.custom-button-alt {
+.underline-button .custom-button-alt {
   color: var(--c-black-900);
   font-size: 14px;
   font-family: var(--ff-primary);
@@ -238,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: inline-block;
 }
-.custom-button-alt::after {
+.underline-button .custom-button-alt::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -246,12 +249,19 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   background-color: var(--c-black-900);
   bottom: 0;
+  transition: all 0.3s ease-in-out;
 }
 .custom-button-alt.cb-white {
   color: var(--c-white-900);
 }
 .custom-button-alt.cb-white::after {
   background-color: var(--c-white-900);
+}
+.underline-button .custom-button-alt:hover{
+  color: var(--c-primary);
+}
+.underline-button .custom-button-alt:hover::after {
+  background-color: var(--c-primary);
 }
 .banner-left {
   position: absolute;
@@ -871,27 +881,35 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Technology-Start---*/
 
-/*---Contact-Start---*/
-
-.contact-us {
-  padding: 130px 0;
-  background-color:var(--c-light);
+/*---Contact us Start(Supriyo)---*/
+.contact-us .custom-heading.ms-md-0 {
+  padding: 0px 230px 0 0px;
 }
-.contact-us .contact-top-left h5 {
+.contact-us {
+  padding: 130px 0 145px;
+  background-color:var(--c-cyan-100);
+}
+.contact-us .custom-heading h5 {
   font-family: var(--ff-primary);
   font-size: 18px;
-  color: var(--c-secondary-text);
-}
-.contact-us .contact-top-left h2 {
+  color: var(--c-black-700);
   text-align: left;
-  margin-top:50px;
+}
+.contact-us .custom-heading h3 {
+  text-align: left;
+  font-family:var(--ff-secondary);
+  color:var(--c-black-800);
+  line-height: 66px;
+  font-size: 45px;
+}
+.contact-top-right p {
+  padding: 0 140px 0 0;
 }
 .contact-top-right p {
   font-family: var(--ff-primary);
-  color: var(--c-secondary-text);
+  color: var(--c-gray-800);
   font-size: 19px;
-  line-height: 35px;
-  margin-top: 60px;
+  line-height: 33px;
 }
 .form {
   margin-top: 120px;
@@ -899,12 +917,12 @@ h1, h2, h3, h4, h5, h6 {
 .form .form-control {
   background-color: transparent;
   border: 1px solid transparent;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--c-gray-900);
   border-radius: 0px;
 }
 .form  .form-control::placeholder {
   font-family: var(--ff-primary);
-  color: var(--c-secondary-text);
+  color: var(--c-gray-900);
   opacity: 1;
   font-size: 20px;
 }
@@ -912,10 +930,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 70px 0;
   padding: 0 0 15px 0;
 }
+.contact-us .form #floatingTextarea {
+  height: 130px;
+  width: 100%;
+}
 .contact-button {
   text-align: right;
 }
-.contact-button .btn-primary {
+/*.contact-button .btn-primary {
   color: #fff;
   background-color: #00a695;
   border-color: #00a695;
@@ -927,9 +949,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   background-color: transparent;
   border-color: #00a695;
+}*/
+.contact-button .custom-button {
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  display: inline-block;
+  width: 170px;
+  height: 71px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 70px;
+  text-transform: capitalize;
+  margin-right: 0px;
+  border:1px solid var(--c-primary);
+}
+.contact-button .custom-button:hover {
+  color: var(--c-black-900);
+  background-color: transparent;
+  border:1px solid var(--c-primary);
 }
 
-/*---Contact-End---*/
+/*---Contact us End(Supriyo)---*/
 
 
 /*---Footer-start---*/
