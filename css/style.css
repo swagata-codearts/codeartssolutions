@@ -110,7 +110,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   line-height: 70px;
   text-transform: capitalize;
-  margin-right: 0px;
   border:1px solid var(--c-primary);
   padding: 0 0;
   margin-right: 42px;
@@ -237,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .underline-button {
   display: inline-block;
-  
+
   margin-top: 50px;
   margin-left: 10px;
 }
