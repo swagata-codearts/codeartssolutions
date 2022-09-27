@@ -806,10 +806,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Leading-Brands-Start---*/
 
-.brand-image {
+/* .brand-image {
   margin-top: 100px;
   text-align: center;
-}
+} */
 .leading-brands {
   padding:180px 0;
 }
@@ -839,19 +839,24 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.brand-image {
+/* .brand-image {
   margin-top: 80px;
-  text-align: center;
-}
+} */
 .leading-brands {
   padding:160px 0;
 }
 .leading-brands .brand-image{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 46px 0;
+  margin-top: 80px;
 }
-.leading-brands .brand-image .brand-item {
-  display: flex;
-}
+.leading-brands .brand-image .brand-item{
+  flex: 0 0 20%;
+  /* display: inline-block; */
+} 
+
 /* .leading-brands .brand-image ul li{
   display: inline-block;
   margin: 0 60px;
