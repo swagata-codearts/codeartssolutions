@@ -49,6 +49,22 @@ jQuery('#technology-carousel').owlCarousel({
       }
   }
 });
+jQuery('#brand-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+});
 
 
 jQuery('.js-accordion__item').on('click', function () {
