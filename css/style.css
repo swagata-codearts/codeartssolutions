@@ -908,7 +908,7 @@ h1, h2, h3, h4, h5, h6 {
 /*---Technology-Start---*/
 
 .technology {
-  padding: 170px 0;
+  padding: 150px 0;
 }
 
 .custom-paragraph p {
@@ -918,13 +918,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--c-black-text);
   line-height: 30px;
   font-weight: 400;
-  font-family: var(--ff-primary);
+  font-family: var(--c-black-600);
 }
 
 .owl-images {
   width: 35%;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+.item {
+  text-align: center;
 }
 
 /*---Technology-end---*/
