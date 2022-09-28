@@ -309,7 +309,7 @@
 .leading-brands .brand-image .brand-item {flex: 0 0 35%;}
 .leading-brands .brand-image{display: none;}
 .leading-brands .brand-carousal-image{display: block;}
-/* .leading-brands .brand-image .owl-nav {display: none;} */
+.leading-brands .brand-image .owl-nav {display: none;}
 
 /* Paulami Saha 24.09.2022 End */
 
