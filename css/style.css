@@ -876,6 +876,12 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 20%;
   /* display: inline-block; */
 } 
+.leading-brands .brand-carousal-image{
+  display: none;
+}
+.leading-brands .brand-carousal-image .owl-carousel .owl-item img {
+  width: auto;
+}
 
 /* .leading-brands .brand-image ul li{
   display: inline-block;

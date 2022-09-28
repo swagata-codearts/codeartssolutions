@@ -307,6 +307,8 @@
 /* **********************Introduction End*************************** */
 .leading-brands .brand-image {margin-top: 60px;gap: 25px 0;}
 .leading-brands .brand-image .brand-item {flex: 0 0 35%;}
+.leading-brands .brand-image{display: none;}
+.leading-brands .brand-carousal-image{display: block;}
 
 /* Paulami Saha 24.09.2022 End */
 
