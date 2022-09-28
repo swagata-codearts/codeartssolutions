@@ -923,9 +923,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Technology-Start---*/
 
-.technology {
-  padding: 150px 0;
-}
 
 .custom-paragraph p {
   margin: 0;
@@ -955,12 +952,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .technology-carousel .item .tech-image-title-wrap .tech-image-title {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 18px;
-  font-weight: bold;
-  font-family: var(--ff-primary);
+  font-weight: 500;
+  font-family: var(--ff-tertiary);
 }
 
+.technology-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.technology-carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+}
+.technology-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+}
 
 /*---Technology-end---*/
 
