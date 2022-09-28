@@ -369,6 +369,10 @@
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
     .owl-images {width: 40%;margin-top: 50px;}
     .custom-paragraph p{padding: 0 0px;}
+    .technology-carousel .item .owl-images img {width: 70px; height: 70px;}
+    .technology-carousel {margin-top: 20px;}
+    .technology-carousel .item .tech-image-title-wrap .tech-image-title {padding-top: 10px;}
+    .technology-carousel {margin-top: 0px;}
   /*----technology-end-(Deep)-----*/
 
 }
@@ -571,6 +575,7 @@
     .technology-content .custom-paragraph {margin-top: 20px;}
     #technology-carousel .owl-nav{font-size: 20px;margin-top: 0px;}
     .technology {padding: 60px 0 0 0;}
+    .technology-carousel {margin-top: 10px;}
     /*----technology-end-(Deep)-----*/
 
 
