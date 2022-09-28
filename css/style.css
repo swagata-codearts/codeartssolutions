@@ -975,6 +975,19 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.technology-carousel .owl-dots .owl-dot.active {
+  background-color: var(--c-cyan-400) !important;
+  width: 11px;
+  height: 11px;
+  border-radius: 10px;
+}
+
+.technology .technology-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  display: none;
+}
 /*---Technology-end---*/
 
 /*---Contact us Start(Supriyo)---*/

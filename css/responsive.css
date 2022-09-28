@@ -174,7 +174,8 @@
  /*----technology-start-(Deep)-----*/
  .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
  .technology-carousel {margin-top: 40px;}
- 
+ .technology-carousel .owl-dots .owl-dot.active {background-color: var(--c-cyan-400) !important;width: 11px;height: 11px;border-radius: 10px;} 
+ .technology .technology-carousel .owl-dots {display: flex;justify-content: center;margin-top: 15px;}
 /*----technology-end-(Deep)-----*/
 }
 
@@ -245,6 +246,7 @@
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
     .custom-paragraph p{padding: 0 20px;}
     .technology-carousel {margin-top: 40px;}
+    
     
   /*----technology-end-(Deep)-----*/
 
