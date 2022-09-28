@@ -172,7 +172,42 @@
   transform: translate(-50%, -50%) rotate(90deg) !important;
 }
 /*---Service-End---*/
-
+@media (max-width: 1400px) and (min-width: 1300px) {
+  /* Service responsive */
+  .services-section .services-content-left {gap: 25px 0;padding-left: 3rem;padding-right: 3rem;}
+  .services-section .services-content-left .services-content-left-text p {font-size: 24px;line-height: 40px;}
+  .accordion__item .service-acc-content .service-text {font-size: 24px;line-height: 40px;padding: 10px 22px 10px;}
+  .accordion__item .service-acc-title {font-size: 36px;}
+  .accordion__item.js-accordion__item.state-collapsed .service-acc-title {font-size: 32px;}
+  .accordion__item {height: 680px;}
+  .accordion__item .service-acc-title-wrap {padding: 60px 0 40px;}
+  .accordion__item .service-acc-title-wrap .plus-icon {width: 34px;height: 34px;}
+  /* Service responsive */
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+  /* Service responsive */
+  .services-section .services-content-left {gap: 20px 0;padding-left: 2rem;padding-right: 2rem;}
+  .services-section .services-content-left .services-content-left-text p {font-size: 22px;line-height: 36px;}
+  .accordion__item .service-acc-content .service-text {font-size: 21px;line-height: 32px;padding: 10px 12px 10px;}
+  .accordion__item .service-acc-title {font-size: 33px;}
+  .accordion__item.js-accordion__item.state-collapsed .service-acc-title {font-size: 30px;}
+  .accordion__item {height: 640px;}
+  .accordion__item .service-acc-title-wrap {padding: 40px 0 25px;}
+  .accordion__item .service-acc-title-wrap .plus-icon {width: 30px;height: 30px;}
+  /* Service responsive */
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  /* Service responsive */
+  .services-section .services-content-left {gap: 20px 0;padding-left: 2rem;padding-right: 2rem;}
+  .services-section .services-content-left .services-content-left-text p {font-size: 19px;line-height: 32px;}
+  .accordion__item .service-acc-content .service-text {font-size: 18px;line-height: 28px;padding: 10px 12px 10px 0;}
+  .accordion__item .service-acc-title {font-size: 30px;}
+  .accordion__item.js-accordion__item.state-collapsed .service-acc-title {font-size: 26px;}
+  .accordion__item {height: 610px;}
+  .accordion__item .service-acc-title-wrap {padding: 40px 0 25px;}
+  .accordion__item .service-acc-title-wrap .plus-icon {width: 28px;height: 28px;}
+  /* Service responsive */
+}
 @media (max-width: 991.98px){
   /* Service responsive */
 .accordion__item {height: 600px;}
@@ -189,7 +224,7 @@
   /* Service responsive */
 .accordion__item {height: 500px;}
 .accordion__item .service-acc-title-wrap {padding: 50px 0 30px;}
-.accordion__item .service-acc-content .service-text {font-size: 18px;line-height: 36px;}
+.accordion__item .service-acc-content .service-text {font-size: 18px;line-height: 28px;}
 .accordion__item .service-acc-title {font-size: 28px;}
 .accordion__item.js-accordion__item.state-collapsed .service-acc-title {font-size: 24px;}
 .accordion__item .service-acc-title-wrap .plus-icon {width: 28px;height: 28px;}
@@ -199,14 +234,14 @@
 }
 @media (max-width: 576px){
   /* Service responsive */
-.accordion__item {width: 100%;float: unset;border: none;border-bottom: 1px solid #c0e7ed;flex-direction: column;height: 55px;justify-content: center;}
-.accordion__item.state-active {width: 100%;height: calc(100% - 140px);}
-.accordion__item.state-collapsed {width: 100%;height: 35px;}
+.accordion__item {width: 100%;float: unset;border: none;border-bottom: 1px solid #c0e7ed;flex-direction: column;height: 50px;justify-content: center;}
+.accordion__item.state-active {width: 100%;height: calc(100% - 200px);}
+.accordion__item.state-collapsed {width: 100%;height: 50px;}
 .accordion__item .service-acc-title-wrap {flex-direction: row;margin: 0;padding: 0 20px 0 15px;align-items: center;}
 .accordion__item .service-acc-title {writing-mode: unset;margin: 0;font-size: 22px;}
 .accordion__item .service-acc-title-wrap .plus-icon {margin: 0;}
 .accordion__item.js-accordion__item.state-collapsed .service-acc-title {font-size: 20px;}
-.accordion__item .service-acc-content .service-text {font-size: 16px;line-height: 26px;padding: 15px 25px 20px;}
+.accordion__item .service-acc-content .service-text {font-size: 16px;line-height: 26px;padding: 15px 20px 20px;}
 .accordion__item.state-active .service-acc-title-wrap {padding: 15px 20px 0;}
 .accordion__item .service-acc-title-wrap .plus-icon {width: 20px;height: 20px;}
 .services-section .services-content-left .services-content-left-text p {font-size: 16px;line-height: 26px;}
