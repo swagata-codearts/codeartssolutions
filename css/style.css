@@ -938,9 +938,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Technology-Start---*/
 
-.technology {
-  padding: 150px 0;
-}
 
 .custom-paragraph p {
   margin: 0;
@@ -976,6 +973,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-tertiary);
 }
 
+.technology-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.technology-carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+}
+.technology-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+}
 
 /*---Technology-end---*/
 
