@@ -171,7 +171,6 @@
  /*----technology-start-(Deep)-----*/
  .technology {padding: 80px 0;}
  .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
- .owl-images {width: 32%;}
  .custom-paragraph p{padding: 0 0px;}
 /*----technology-end-(Deep)-----*/
 }
@@ -242,7 +241,6 @@
     #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
     .technology {padding: 80px 0 40px 0;}
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
-    .owl-images {width: 40%;}
     .custom-paragraph p{padding: 0 20px;}
   /*----technology-end-(Deep)-----*/
 
@@ -375,8 +373,11 @@
     #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
     .technology {padding: 80px 0 40px 0;}
     .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
-    .owl-images {width: 40%;margin-top: 50px;}
     .custom-paragraph p{padding: 0 0px;}
+    .technology-carousel .item .owl-images img {width: 70px; height: 70px;}
+    .technology-carousel {margin-top: 20px;}
+    .technology-carousel .item .tech-image-title-wrap .tech-image-title {padding-top: 10px;}
+    .technology-carousel {margin-top: 0px;}
   /*----technology-end-(Deep)-----*/
 
 }
@@ -446,7 +447,6 @@
    /*----technology-start-(Deep)-----*/
     .custom-heading .main-heading {font-size: 30px;line-height: 10px;}
     .custom-paragraph p{padding: 0 0px;line-height: 20px;}
-    .owl-images {width: 35%;margin-top: 30px;}
     .technology {padding: 60px 0 20px 0;}
     .technology-content .custom-paragraph{margin-top: 30px;}
    /*----technology-end-(Deep)-----*/
@@ -523,7 +523,6 @@
 .contact-form {margin-top: 60px;}
  /*---Contact us start(Supriyo)---*/ 
 /*----------technology-start-(Deep)---------*/
- .owl-images {width: 25%;}
 /*----------technology-end-(Deep)---------*/
 }
 
@@ -584,11 +583,11 @@
 
     /*----technology-start-(Deep)-----*/
     .custom-heading .main-heading {font-size: 20px; line-height: 0px;}
-    .owl-images {width: 25%;margin-top: 15px;}
     .custom-paragraph p{line-height: 18px;font-size: 16px;}
     .technology-content .custom-paragraph {margin-top: 20px;}
     #technology-carousel .owl-nav{font-size: 20px;margin-top: 0px;}
     .technology {padding: 60px 0 0 0;}
+    .technology-carousel {margin-top: 10px;}
     /*----technology-end-(Deep)-----*/
 
 

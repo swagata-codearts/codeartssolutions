@@ -39,12 +39,21 @@ jQuery('#technology-carousel').owlCarousel({
   nav:true,
   responsive:{
       0:{
-          items:1
-      },
-      575:{
-          items:3
-      },
-      1000:{
+          items:2
+      },  
+      576:{
+        items:3
+
+     },
+      992:{
+        items:4
+
+     },
+      1200:{
+        items:5
+
+     },
+      1400:{
           items:6
 
       }
