@@ -970,10 +970,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .technology-carousel .item .tech-image-title-wrap .tech-image-title {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 18px;
-  font-weight: bold;
-  font-family: var(--ff-primary);
+  font-weight: 500;
+  font-family: var(--ff-tertiary);
 }
 
 
