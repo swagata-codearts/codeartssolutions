@@ -56,13 +56,13 @@ jQuery('#brand-carousel').owlCarousel({
   nav:true,
   responsive:{
       0:{
-          items:2
+          items:1
       },
-      600:{
+      576:{
+          items:3
+      },
+      992:{
           items:4
-      },
-      1000:{
-          items:5
       }
   }
 });

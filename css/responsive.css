@@ -309,9 +309,9 @@
 .leading-brands .brand-image .brand-item {flex: 0 0 35%;}
 .leading-brands .brand-image{display: none;}
 .leading-brands .brand-carousal-image{display: block;}
-.leading-brands .brand-carousal-image .owl-nav{text-align: center;font-size: 50px;position: absolute;font-weight: 800;top: 10%;transform: translateY(-20%);width: 100%;}
-.leading-brands .brand-carousal-image .owl-nav .owl-prev{position: absolute;left: 3px;}
-.leading-brands .brand-carousal-image .owl-nav .owl-next{position: absolute;right: 3px;}
+.leading-brands .brand-carousal-image .owl-nav{text-align: center;position: absolute;font-weight: 800;top: 10%;transform: translateY(-50%);width: 100%;}
+.leading-brands .brand-carousal-image .owl-nav .owl-prev{position: absolute;left: 0;font-size: 50px}
+.leading-brands .brand-carousal-image .owl-nav .owl-next{position: absolute;right: 0;font-size: 50px}
 .leading-brands .brand-carousal-image .owl-dots{display: flex;justify-content: center;gap: 10px;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot{display: flex;width: 10px;height: 10px;border-radius: 50%;background-color: var(--c-white-800) !important;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot.active{background-color: var(--c-cyan-400) !important;width: 11px;height: 11px;}
@@ -414,8 +414,6 @@
     .introduction .intro-right .website li{display: inline-block;}
 /* **********************Introduction End*************************** */
 .leading-brands .brand-image {margin-top: 50px;}
-.leading-brands .brand-carousal-image .owl-nav .owl-prev{left: 15px;}
-.leading-brands .brand-carousal-image .owl-nav .owl-next{right: 15px;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot {width: 8px;height: 8px;}
 .leading-brands .brand-carousal-image .owl-dots {gap: 5px;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot.active{width: 9px;height: 9px;}
@@ -489,9 +487,9 @@
   .introduction .intro-right .website li h2 {font-size: 50px;}
   /* **********************Introduction End*************************** */
   .leading-brands .brand-image {margin-top: 30px;}
-  .leading-brands .brand-carousal-image .owl-nav {font-size: 30px;top: 25%;}
-  .leading-brands .brand-carousal-image .owl-nav .owl-prev{left: 0;}
-  .leading-brands .brand-carousal-image .owl-nav .owl-next{right: 0;}
+  .leading-brands .brand-carousal-image .owl-nav {top: 25%;}
+  .leading-brands .brand-carousal-image .owl-nav .owl-prev{font-size: 30px;}
+  .leading-brands .brand-carousal-image .owl-nav .owl-next{font-size: 30px;}
   .leading-brands .brand-carousal-image .owl-dots .owl-dot {width: 6px;height: 6px;}
 .leading-brands .brand-carousal-image .owl-dots {gap: 3px;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot.active{width: 7px;height: 7px;}
