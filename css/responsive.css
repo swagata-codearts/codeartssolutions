@@ -314,7 +314,7 @@
 .leading-brands .brand-carousal-image .owl-nav .owl-next{position: absolute;right: 3px;}
 .leading-brands .brand-carousal-image .owl-dots{display: flex;justify-content: center;gap: 10px;}
 .leading-brands .brand-carousal-image .owl-dots .owl-dot{display: flex;width: 10px;height: 10px;border-radius: 50%;background-color: var(--c-white-800) !important;}
-.leading-brands .brand-carousal-image .owl-dots .owl-dot.active{background-color: var(--c-cyan-400) !important;}
+.leading-brands .brand-carousal-image .owl-dots .owl-dot.active{background-color: var(--c-cyan-400) !important;width: 11px;height: 11px;}
 /* Paulami Saha 24.09.2022 End */
 
 
@@ -416,6 +416,9 @@
 .leading-brands .brand-image {margin-top: 50px;}
 .leading-brands .brand-carousal-image .owl-nav .owl-prev{left: 15px;}
 .leading-brands .brand-carousal-image .owl-nav .owl-next{right: 15px;}
+.leading-brands .brand-carousal-image .owl-dots .owl-dot {width: 8px;height: 8px;}
+.leading-brands .brand-carousal-image .owl-dots {gap: 5px;}
+.leading-brands .brand-carousal-image .owl-dots .owl-dot.active{width: 9px;height: 9px;}
       /* Paulami Saha 24.09.2022 End */
       /*--blog-section-start-(Deep)--*/
     .blog-text p::after{width: 120%;}
@@ -489,6 +492,10 @@
   .leading-brands .brand-carousal-image .owl-nav {font-size: 30px;top: 25%;}
   .leading-brands .brand-carousal-image .owl-nav .owl-prev{left: 0;}
   .leading-brands .brand-carousal-image .owl-nav .owl-next{right: 0;}
+  .leading-brands .brand-carousal-image .owl-dots .owl-dot {width: 6px;height: 6px;}
+.leading-brands .brand-carousal-image .owl-dots {gap: 3px;}
+.leading-brands .brand-carousal-image .owl-dots .owl-dot.active{width: 7px;height: 7px;}
+
 /* Paulami Saha 24.09.2022 End */
 
 
