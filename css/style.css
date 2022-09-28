@@ -953,9 +953,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .owl-images {
-  width: 35%;
+  /* width: 35%; */
   display: inline-block;
-  margin-top: 80px;
 }
 
 .item {
