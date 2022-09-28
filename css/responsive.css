@@ -309,6 +309,7 @@
 .leading-brands .brand-image .brand-item {flex: 0 0 35%;}
 .leading-brands .brand-image{display: none;}
 .leading-brands .brand-carousal-image{display: block;}
+/* .leading-brands .brand-image .owl-nav {display: none;} */
 
 /* Paulami Saha 24.09.2022 End */
 
@@ -400,7 +401,7 @@
     /* **********************Introduction Start*************************** */
     .introduction {text-align: center;}
     .introduction .intro-left p {font-size: 17px;line-height: 24px;margin-top: 25px;padding-right: 0px;}
-    .introduction .intro-right {display: flex;align-items: center;gap: 70px;}
+    .introduction .intro-right {display: flex;align-items: center;gap: 70px; padding-top: 48px;}
     .introduction .intro-right .website li p {line-height: 21px;margin-top: 10px;}
     .introduction .intro-right .count-2 { margin-top: 0;}
     .introduction .intro-right .website li{display: inline-block;}
@@ -472,7 +473,7 @@
   .introduction .intro-right .website li h2 {font-size: 60px;}
   .introduction .intro-right .website li p {font-size: 15px;line-height: 19px;margin-top: 5px;}
   .introduction .intro-left p {font-size: 16px;line-height: 22px;margin-top: 15px;padding: 0 13px;}
-  .introduction .intro-right {gap: 50px;}
+  .introduction .intro-right {gap: 50px;  padding-top: 40px;}
   .introduction .intro-right .website li h2 {font-size: 50px;}
   /* **********************Introduction End*************************** */
   .leading-brands .brand-image {margin-top: 30px;}

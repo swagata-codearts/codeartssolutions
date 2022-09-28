@@ -781,10 +781,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*---Introduction-Start---*/
-
-.introduction {
-  padding: 170px 0;
-}
 .introduction .custom-heading {
   text-align: left;
 } 
@@ -826,13 +822,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Leading-Brands-Start---*/
 
-/* .brand-image {
-  margin-top: 100px;
-  text-align: center;
-} */
-.leading-brands {
-  padding:180px 0;
-}
 
 
 
@@ -858,13 +847,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-/* .brand-image {
-  margin-top: 80px;
-} */
-.leading-brands {
-  padding:160px 0;
-}
 .leading-brands .brand-image{
   display: flex;
   flex-wrap: wrap;
@@ -880,7 +862,9 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 .leading-brands .brand-carousal-image .owl-carousel .owl-item img {
-  width: auto;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
 }
 
 /* .leading-brands .brand-image ul li{
