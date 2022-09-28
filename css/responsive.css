@@ -7,6 +7,9 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
+  
+  
+
 	/*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 520px;}
     .project .all-project-2 {min-height: 550px;}
@@ -17,11 +20,40 @@
     .all-project-2-content {bottom: 40%;}
     .project .all-project-2-content:hover {bottom: 42%;}
 
-
     /*---see all projects end(Supriyo)---*/
+}
+@media (min-width: 1700px) and (max-width: 1920px){
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 225px;}
+  .banner-right .banner-right-heading {bottom: -41px;}
+
+  /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 225px;}
+  .banner-right .banner-right-heading {bottom: -41px;}
+
+  /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1400px) and (max-width: 1600px){
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 205px;line-height: 220px;bottom: -39px;}
+
+  /*---Banner end(Supriyo)---*/
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    /*---Banner start(Supriyo)---*/
+    .banner-right .banner-right-heading {font-size: 180px;line-height: 180px;bottom: -28px;}
+    .banner {padding: 100px 0 100px 0;}
+    .banner-content h2 {font-size: 35px;margin-top: 30px;}
+    .underline-button {margin-top: 30px;}
+  
+    /*---Banner end(Supriyo)---*/
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
+
 	/*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 420px;}
     .project .all-project-2 {min-height: 450px;}
@@ -39,13 +71,44 @@
     .project .all-project-2-content:hover {bottom: 50%;}
     .all-project-2-content {bottom: 48%;left: 50px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
+    /* Paulami Saha 23.09.2022 Start */
+
+   /* **********************Introduction Start*************************** */
+   .introduction .intro-left p {font-size: 28px;line-height: 46px;margin-top: 50px;padding-right: 56px;}
+   .introduction .intro-right {padding-top: 65px;}
+   .introduction .intro-right .website li p {    margin-top: 10px;line-height: 24px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
+ /* **********************Introduction End*************************** */
+
+ /* Paulami Saha 24.09.2022 End */
     
 
 
     /*---see all projects end(Supriyo)---*/
+
+    /*---Contact us start(Supriyo)---*/
+    .contact-us {padding: 100px 0 115px;}
+    .contact-top-right p {font-size: 17px;}
+    .contact-us .custom-heading h3 {font-size: 40px;}
+    .contact-form .form-control::placeholder {font-size: 17px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
+    .contact-top-right p {padding: 0 70px 0 0;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 180px 0 0px;}
+    .contact-form {margin-top: 110px;}
+    /*---Contact us end(Supriyo)---*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
+
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size:160px;line-height:180px;bottom:-34px;}
+  .banner {padding: 100px 0 100px 0;}
+  .banner-content h2 {font-size: 35px;margin-top: 30px;}
+  .underline-button {margin-top: 30px;}
+  .banner .banner-content-wrap .banner-left img {width: 100px;}
+  .banner-content {z-index: 3;}
+  /*---Banner end(Supriyo)---*/
+    
 
 	/*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 370px;}
@@ -65,13 +128,64 @@
     .project .all-project-2-content:hover {bottom: 54%;}
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
-    
+
+    /*---see all projects end(Supriyo)---*/
+    /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
+    /*--blog-section-end--*/
+
 
 
     /*---see all projects end(Supriyo)---*/
+
+
+    /*---see all projects end(Supriyo)---*/
+
+    /*---Contact us start(Supriyo)---*/
+    .contact-us {padding: 80px 0 95px;}
+    .contact-top-right p {font-size: 15px;}
+    .contact-us .custom-heading h3 {font-size: 40px;}
+    .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
+    .contact-top-right p {padding: 0 10px 0 0;}
+    .contact-form {margin-top: 80px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0px 120px 0 0px;}
+
+    /*---Contact us end(Supriyo)---*/
+    
+    /* Paulami Saha 23.09.2022 Start */
+
+   /* **********************Introduction Start*************************** */
+   .introduction .intro-left p {font-size: 28px;line-height: 40px;margin-top: 50px;padding-right: 43px;}
+   .introduction .intro-right {padding-top: 62px;}
+   .introduction .intro-right .website li p {    margin-top: 8px;line-height: 24px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
+   .introduction .intro-right .website li h2 {font-size: 66px;}
+
+ /* **********************Introduction End*************************** */
+
+ /* Paulami Saha 24.09.2022 End */
+ /*----technology-start-(Deep)-----*/
+ .technology {padding: 80px 0;}
+ .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
+ .owl-images {width: 32%;}
+ .custom-paragraph p{padding: 0 0px;}
+/*----technology-end-(Deep)-----*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+  /*---Banner start(Supriyo)---*/
+  .banner-right .banner-right-heading {font-size: 140px;line-height: 150px;bottom: -26px;}
+  .banner {padding: 100px 0 100px 0;}
+  .banner-content h2 {font-size: 35px;margin-top: 30px;}
+  .underline-button {margin-top: 30px;}
+  .banner .banner-content-wrap .banner-left img {width: 100px;}
+  .banner-content {z-index: 3;}
+  /*---Banner end(Supriyo)---*/
+
     /*---see all projects start(Supriyo)---*/
     .project .all-project-1 {min-height: 370px;}
     .project .all-project-2 {min-height: 410px;}
@@ -90,16 +204,63 @@
     .all-project-2-content {bottom: 52%;left: 42px;}
     .all-project-heading h4 a {padding: 0px 0 8px 0;font-size: 18px;}
     .all-project-heading {padding: 70px 0;}
+    .blog-text p::after{width: 130%;}
+    .blog-text p{font-size: 30px;}
+    .blog-content{margin-left: 60px;}
 
 
     /*---see all projects end(Supriyo)---*/
 
+
+        /*--blog-section-start-(Deep)--*/
+        .blog-text p::after{width: 130%;}
+        .blog-text p{font-size: 30px;line-height: 40px;}
+        .blog-content{margin-left: 60px; margin-bottom: 30px;}
+        .blog-section.custom-pad {padding-top: 60px;}
+        /*--blog-section-end--*/
+
+      /*---Contact us start(Supriyo)---*/
+    .contact-us {padding: 60px 0 75px;}
+    .contact-top-right p {font-size: 15px;}
+    .contact-us .custom-heading h3 {font-size: 40px;}
+    .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-button .btn.btn-primary {font-size: 14px;}
+    .contact-top-right p {padding: 0 10px 0 0;}
+    .contact-form {margin-top: 70px;}
+    .contact-us .custom-heading.ms-md-0 {padding: 0 100px 0 0px;}
+
+
+    /*---Contact us end(Supriyo)---*/
+
+
+    /* Paulami Saha 23.09.2022 Start */
+
     .footer-wrap {padding-top: 145px;}	
+
+   /*----technology-start-(Deep)-----*/
+    #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
+    .technology {padding: 80px 0 40px 0;}
+    .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
+    .owl-images {width: 40%;}
+    .custom-paragraph p{padding: 0 20px;}
+  /*----technology-end-(Deep)-----*/
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .footer-wrap {padding: 140px 0 130px;}
-	
+
+   /* **********************Introduction Start*************************** */   
+   .introduction .intro-left p {font-size: 25px;line-height: 37px;margin-top: 35px;padding-right: 40px;}
+   .introduction .intro-right {padding-top: 52px;}
+   .introduction .intro-right .website li p {    margin-top: 8px;line-height: 22px; }
+   .introduction .intro-right .count-2 {margin-top: 25px;}
+   .introduction .intro-right .website li h2 {font-size: 66px;}
+
+ /* **********************Introduction End*************************** */
+
+ /* Paulami Saha 24.09.2022 End */
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -113,10 +274,19 @@
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
 
+ /*---Banner start(Supriyo)---*/
+ .banner-right .banner-right-heading {font-size: 125px;line-height: 140px;bottom: -25px;}
+ .banner {padding: 80px 0 80px 0;}
+ .banner-content h2 {font-size: 35px;margin-top: 20px;line-height: 50px;}
+ .underline-button {margin-top: 30px;}
+ .banner .banner-content-wrap .banner-left img {width: 100px;}
+ .banner-right {z-index: -1;}
+ /*---Banner end(Supriyo)---*/
+
 
 /* Paulami Saha 23.09.2022 Start */
 .footer-wrap {padding: 120px 0 100px;} 
-.footer-wrap .links {margin-top: 22px;}
+.footer-wrap .vertical-footer-wrap .links {margin-top: 22px;}
 /* .footer-wrap .vertical-footer {text-align: center;} */
 .footer-wrap .footer-5{text-align: center;}
 .footer-wrap .copyright-left {text-align: center;margin-top: 15px;}
@@ -126,6 +296,18 @@
 .footer-wrap .contact li {padding: 0 0 40px 0;}
 .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 22px;}
 .footer-wrap .footer-5 .follow-us {margin-top: 26px;}
+.footer-wrap .vertical-footer .vertical-footer-wrap {padding: 0 0 40px 0;}
+
+/* **********************Introduction Start*************************** */
+.introduction .intro-left p {font-size: 22px;line-height: 30px;margin-top: 40px;padding-right: 22px;}
+.introduction .intro-right {padding-top: 52px;}
+.introduction .intro-right .website li h2 { font-size: 60px;}
+.introduction .intro-right .count-2 {margin-top: 30px;}
+.introduction .intro-right .website li p {  font-size: 17px;line-height: 24px;margin-top: 8px;}
+/* **********************Introduction End*************************** */
+.leading-brands .brand-image {margin-top: 60px;gap: 25px 0;}
+.leading-brands .brand-image .brand-item {flex: 0 0 35%;}
+
 /* Paulami Saha 24.09.2022 End */
 
 
@@ -136,7 +318,7 @@
 
 /*---see all projects start(Supriyo)---*/
 .project {display: none;}
-.project-2 {display: block;}
+.project-2 {display: block;position: relative;z-index: 3;}
 .project-2 .project-heading {display: block;}
 .project-2 .project-heading {position: relative; padding: 20px 0;}
 .project-2 #project-carousel {position: relative;}
@@ -152,11 +334,48 @@
 
 /*---see all projects end(Supriyo)---*/
 
+
+/*--blog-section-start-(Deep)--*/
+.blog-text p::after{width: 120%;}
+.blog-text p{font-size: 22px;line-height: 30px;}
+.blog-content{margin-left: 60px; margin-bottom: 20px;}
+.blog-section.custom-pad {padding-top: 60px;}
+/*--blog-section-end--*/
+
+ /*---Contact us start(Supriyo)---*/
+ .contact-us {padding: 60px 0 75px;}
+ .contact-top-right p {font-size: 19px;}
+ .contact-us .custom-heading h3 {font-size: 40px;}
+ .contact-us .custom-heading h3 {font-size: 38px;line-height: 56px;}
+ .contact-form .form-control::placeholder {font-size: 17px;}
+ .contact-button .btn.btn-primary {font-size: 14px;}
+ .contact-form {margin-top: 80px;}
+ .contact-top-right {margin-top: 30px;}
+ .contact-top-right p {padding: 0 0px 0 0;text-align: center;}
+ .contact-us .custom-heading.ms-md-0 {padding: 0 0px 0 0px;}
+ .contact-us .sub-heading.ms-md-0 {text-align: center !important;margin: 0 !important;}
+ .contact-us .main-heading.ms-md-0 {margin: 0 !important;text-align: center !important;}
+ /*---Contact us end(Supriyo)---*/
+ 
+    /*----technology-start-(Deep)-----*/
+    #technology-carousel .owl-nav {text-align: center;font-size: 30px;font-weight: bold; margin-top: 20px;}
+    .technology {padding: 80px 0 40px 0;}
+    .custom-heading .main-heading{font-size: 40px;line-height: 20px;}
+    .owl-images {width: 40%;margin-top: 50px;}
+    .custom-paragraph p{padding: 0 0px;}
+  /*----technology-end-(Deep)-----*/
+
 }
 
 
 @media (max-width: 767.98px){
-
+    /*Banner start(Supriyo)*/
+    .banner-right .banner-right-heading {font-size: 105px;line-height: 90px;bottom: -8px;}
+    .banner-content h4 {font-size: 17px;}
+    .underline-button {margin-top: 25px;}
+    .banner-content h2 {font-size: 32px;margin-top: 20px;line-height: 45px;}
+    .banner-content {width: 80%;}
+    /*Banner end(Supriyo)*/
 
     /* Paulami Saha 23.09.2022 Start */
     .footer-wrap {padding: 90px 0 80px;} 
@@ -166,22 +385,64 @@
     .footer-wrap .copyright-right .review li {padding: 0 0 0 2px;}
     .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 18px;}
     .footer-wrap .contact li {padding: 0 0 36px 0;}
-    .footer-wrap .links li a {font-size: 18px;}
-    .footer-wrap .footer-5 .contact li p {font-size: 18px;margin-top: 18px;}
-    .footer-wrap .footer-5 ul li a {font-size: 18px;}
-    .footer-wrap .links {margin-top: 18px;}
+    .footer-wrap .footer-5 .contact li p {font-size: 18px;}
     .footer-wrap .footer-5 .follow-us {margin-top: 24px;}
+    .footer-wrap .vertical-footer-wrap .links {margin-top: 16px;}
+    .footer-wrap .vertical-footer-wrap .links li {padding: 0 0 8px 0;}
+    .footer-wrap .vertical-footer-wrap .links a {font-size: 18px;}
+    .footer-wrap .footer-5 ul li a {font-size: 18px;}
+    /* **********************Introduction Start*************************** */
+    .introduction {text-align: center;}
+    .introduction .intro-left p {font-size: 17px;line-height: 24px;margin-top: 25px;padding-right: 0px;}
+    .introduction .intro-right {display: flex;align-items: center;gap: 70px;}
+    .introduction .intro-right .website li p {line-height: 21px;margin-top: 10px;}
+    .introduction .intro-right .count-2 { margin-top: 0;}
+    .introduction .intro-right .website li{display: inline-block;}
+/* **********************Introduction End*************************** */
+.leading-brands .brand-image {margin-top: 50px;}
       /* Paulami Saha 24.09.2022 End */
+      /*--blog-section-start-(Deep)--*/
+    .blog-text p::after{width: 120%;}
+    .blog-text p{font-size: 20px; line-height: 24px;}
+    .blog-content{margin-left: 60px; margin-bottom: 15px;}
+    .blog-section.custom-pad {padding-top: 60px;}
+    /*--blog-section-end--*/
 
+    /*---Contact us start(Supriyo)---*/
+    .contact-us .custom-heading h3 {margin-top: 20px;line-height: 50px;}
+    .contact-top-right p {font-size: 15px;line-height: 26px;}
+    .contact-form .form-control::placeholder {font-size: 15px;}
+    .contact-form .form-control {margin: 0 0 50px 0;}
+    .contact-button .btn.btn-primary {width: 100%;}
+    .contact-form {margin-top: 60px;}
+    .contact-form .form-control {padding: 0 0 10px 0;}
+    .contact-form .row {flex-direction: column;}
+    /*---Contact us end(Supriyo)---*/
+
+   /*----technology-start-(Deep)-----*/
+    .custom-heading .main-heading {font-size: 30px;line-height: 10px;}
+    .custom-paragraph p{padding: 0 0px;line-height: 20px;}
+    .owl-images {width: 35%;margin-top: 30px;}
+    .technology {padding: 60px 0 20px 0;}
+    .technology-content .custom-paragraph{margin-top: 30px;}
+   /*----technology-end-(Deep)-----*/
 }
 
 @media (max-width: 575.98px){
+   /*Banner start(Supriyo)*/
+   .banner-content h4 {font-size: 14px;}
+   .banner-right .banner-right-heading {font-size: 70px;line-height: 75px;bottom: -12px;}
+   .banner-content h2 {font-size: 28px;margin-top: 15px;line-height: 40px;}
+   .banner-content {width: 100%;}
+
+  /*Banner start(Supriyo)*/
+
 
   /* Paulami Saha 23.09.2022 Start */
   .footer-wrap .vertical-footer {text-align: center;}
-  .footer-wrap .links li {padding: 0 0 7px 0;}
-  .footer-wrap .links {margin-top: 12px;}
-  .footer-wrap .links li a {font-weight: 410;font-size: 16px;}
+  .footer-wrap .vertical-footer-wrap .links li {padding: 0 0 5px 0;}
+  .footer-wrap .vertical-footer-wrap .links {margin-top: 12px;}
+  .footer-wrap .vertical-footer-wrap .links li a {font-weight: 410;font-size: 16px;}
   .footer-wrap .footer-5 .contact li p {font-weight: 410;margin-top: 14px;line-height: 25px;font-size: 16px;}
   .footer-wrap .footer-5 .custom-phone-heading {margin-bottom: 12px;}
   .footer-wrap .footer-5 ul li a {font-weight: 410;font-size: 16px;}
@@ -193,6 +454,15 @@
   .footer-wrap .copyright-right {margin-top: 30px;}
   .footer-wrap .copyright-left {margin-top: 18px;}
   .footer-wrap .contact li {padding: 0 0 27px 0;}
+  .footer-wrap .copyright-left p {line-height: 16px;}
+  /* **********************Introduction Start*************************** */
+  .introduction .intro-right .website li h2 {font-size: 60px;}
+  .introduction .intro-right .website li p {font-size: 15px;line-height: 19px;margin-top: 5px;}
+  .introduction .intro-left p {font-size: 16px;line-height: 22px;margin-top: 15px;padding: 0 13px;}
+  .introduction .intro-right {gap: 50px;}
+  .introduction .intro-right .website li h2 {font-size: 50px;}
+  /* **********************Introduction End*************************** */
+  .leading-brands .brand-image {margin-top: 30px;}
 /* Paulami Saha 24.09.2022 End */
 
 
@@ -203,24 +473,40 @@
     .inner-project-3-content {left: 40px;}
 
 /*---see all projects end(Supriyo)---*/
+.navbar-brand.custom-navbar-brand.ms-0 {width: 40%;}
+
+/*---see all projects start(Supriyo)---*/
+.project-2 .section-category-3 .d-flex {display: block !important;}
+.project-2 .section-category-3 .inner-project-1 {min-height: 250px;}
+.project-2 .section-category-3 .inner-project-2 {min-height: 185px;}
+.project-2 .section-category-3 .inner-project-3 {min-height: 185px;}
+
+/*---see all projects end(Supriyo)---*/
+
+/*---Contact us start(Supriyo)---*/
+.contact-us {padding: 40px 0 55px;}
+.contact-us .custom-heading h3 {margin-top: 18px;line-height: 45px;font-size: 34px;}
+.contact-top-right p {line-height: 26px;}
+.contact-form {margin-top: 60px;}
+ /*---Contact us start(Supriyo)---*/ 
+/*----------technology-start-(Deep)---------*/
+ .owl-images {width: 25%;}
+/*----------technology-end-(Deep)---------*/
 }
 
-@media (max-width: 575.98px){
-    .navbar-brand.custom-navbar-brand.ms-0 {width: 40%;}
-
-    /*---see all projects start(Supriyo)---*/
-    .project-2 .section-category-3 .d-flex {display: block !important;}
-    .project-2 .section-category-3 .inner-project-1 {min-height: 250px;}
-    .project-2 .section-category-3 .inner-project-2 {min-height: 185px;}
-    .project-2 .section-category-3 .inner-project-3 {min-height: 185px;}
-
-    /*---see all projects end(Supriyo)---*/
-
-
-
-}
+/*@media (max-width: 575.98px){
+   
+}*/
 
 @media only screen and (max-width: 480.98px) {	
+  /*Banner start(Supriyo)*/
+  .banner-content {text-align: center;}
+  .banner-right {right: 20px;}
+  .banner {padding: 50px 0 80px 0;}
+  .banner-right .banner-right-heading {font-size: 50px;line-height: 60px;bottom: -12px;}
+  .banner-right {right: 0;}
+
+  /*Banner start(Supriyo)*/
     .custom-button{display: none;}
     .navbar-brand.custom-navbar-brand.ms-0 {width: 50%;}
     /*---see all projects start(Supriyo)---*/
@@ -238,5 +524,39 @@
     .inner-project-1-content {left: 40px;}
 
     /*---see all projects end(Supriyo)---*/
+
+
+          /*--blog-section-start-(Deep)--*/
+
+          .blog-content{margin-left: 40px; margin-bottom: 8px;}
+          .blog-section.custom-pad {padding-top: 40px;}
+          .blog-text p {font-size: 16px; line-height: 25px;}
+          .blog-text p::after{bottom: 10px;}
+          /*--blog-section-end--*/
+
+    /*---Contact us start(Supriyo)---*/
+    .contact-button {text-align: center;}
+    .contact-us {padding: 30px 0 45px;}
+    .contact-form .form-control::placeholder {font-size: 13px;}
+    .contact-form .form-control {margin: 0 0 40px 0;}
+    .contact-top-right p {line-height: 22px;}
+    .contact-us .custom-heading h5 {font-size: 14px;}
+    .contact-us .custom-heading h3 {line-height: 37px;font-size: 28px;margin-top: 8px;}
+    .contact-top-right {margin-top: 20px;}
+    .contact-form {margin-top: 40px;}
+
+
+    /*---Contact us end(Supriyo)---*/
+
+    /*----technology-start-(Deep)-----*/
+    .custom-heading .main-heading {font-size: 20px; line-height: 0px;}
+    .owl-images {width: 25%;margin-top: 15px;}
+    .custom-paragraph p{line-height: 18px;font-size: 16px;}
+    .technology-content .custom-paragraph {margin-top: 20px;}
+    #technology-carousel .owl-nav{font-size: 20px;margin-top: 0px;}
+    .technology {padding: 60px 0 0 0;}
+    /*----technology-end-(Deep)-----*/
+
+
 }
 
