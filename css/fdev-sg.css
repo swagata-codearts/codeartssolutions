@@ -1,39 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 .custom-banner{
-    background-image: url(../images/desk_items.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100%;
-    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
-    padding: 140px 100px 250px 100px;
+background-image: url(../images/desk_items.jpg);
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+width: 100%;
+clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+padding: 140px 100px 250px 100px;
 }
 .custom-banner .banner-heading h2{
-    font-size: 30px;
-    font-weight: 500;
-    color: #00b2ad;
-    line-height: 30px;
+font-size: 30px;
+font-weight: 500;
+color: #00b2ad;
+line-height: 30px;
 }
 .custom-banner .banner-para p{
-    font-size: 4.125rem;
-    font-weight: 500;
-    color: #fff;
-    line-height: 40px;
-    margin: 40px 0;
+font-size: 4.125rem;
+font-weight: 500;
+color: #fff;
+line-height: 40px;
+margin: 40px 0;
 }
 .custom-banner .banner-para-two p{
-    font-size: 30px;
-    font-weight: 700;
-    color: #fff;
-    line-height: 28px;
+font-size: 30px;
+font-weight: 700;
+color: #fff;
+line-height: 28px;
 }
 .custom-banner .banner-para-two p a{
-    color: #00b2ad;
+color: #00b2ad;
 }
 .custom-banner .banner-para-two p a:hover{
-    border-bottom: 1px solid #00b2ad;
+border-bottom: 1px solid #00b2ad;
 }
+/*Inner-page-start*/
+.who-we-are.custom-pad .custom-heading.ms-md-0 {
+text-align: center;
+}
+.who-we-are.custom-pad .custom-heading.ms-md-0 h3 span {
+color: var(--c-primary);
+text-transform: uppercase;
+font-weight: 500;
+}
+/*Inner-page-end*/
