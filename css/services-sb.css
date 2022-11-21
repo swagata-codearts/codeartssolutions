@@ -55,14 +55,17 @@
 
 /* header */
 .nav-item.has-children .custom-nav-children {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   transition: all 0.6s ease-in-out;
 }
-.nav-item.has-children.on-hover .custom-nav-children {  
+.nav-item.has-children.on-hover .custom-nav-children {
+  opacity: 1;
+  visibility: visible;
   transition: all 0.6s ease-in-out;
-  display: flex;
 }
 .custom-nav-children {
+  display: flex;
   background-color: #0c171f;
   position: absolute;
   width: 60%;
@@ -74,8 +77,8 @@
   justify-content: flex-start;
   color: var(--c-cyan-100);
   flex-direction: column;
-  gap: 16px 0px;
-  padding-top: 15px;
+gap: 16px 0px;
+padding-top: 15px;
 }
 .custom-nav-children .title h4 {
   font-family: var(--ff-secondary);
@@ -85,21 +88,22 @@
   text-transform: capitalize;
 }
 .nav-children-item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: flex-start;
-  position: relative;
-  padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 15px;
 }
 .nav-children-item:not(:last-child)::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 2px;
-  background-color: var(--c-cyan-500);
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--c-cyan-500);
+    bottom: 0;
+    left: 0;
 }
 .nav-children-item li a {
   font-family: var(--ff-tertiary);
@@ -112,6 +116,7 @@
   display: inline-flex;
   transition: all 0.6s ease-in-out;
 }
+
 .nav-link span {
   transition: all 0.6s ease-in-out;
   display: none;
@@ -320,6 +325,23 @@
 .services-section .services-content-left {padding: 4rem 2rem;}
 .services-section .services-content-left .services-content-left-text p {font-size: 22px;line-height: 34px;}
 /* Service responsive */
+
+.custom-offcanvas-top .offcanvas-body {
+  justify-content: center;
+  flex-direction: column;}
+  .custom-navbar-nav {text-align: center;}
+  .custom-offcanvas-top .nav-link {font-size: 32px;line-height: 51px;}
+  .navbar-contact {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-contact-content {
+    padding: 10px 0 0;
+    border-top: none;
+  }
+  .navbar-contact-content .navbar-contact-socials {
+    justify-content: center;
+    }
 }
 @media (max-width: 767.98px){
   /* Service responsive */

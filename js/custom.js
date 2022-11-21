@@ -89,8 +89,15 @@ jQuery(document).ready(function() {
     jQuery('.custom-navbar-toggle').click(function() {
       jQuery(this).toggleClass('menu-open')
     })
-    jQuery('.custom-navbar-nav .has-children').hover(function() {
-      jQuery(this).toggleClass('on-hover')
-      jQuery(".custom-navbar-nav").toggleClass('nav-border-top')
+    jQuery('.custom-navbar-nav .nav-item').hover(function() {
+        if(jQuery(this).hasClass("has-children"))   {
+
+            jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
+            jQuery(this).addClass('on-hover')
+            jQuery(".custom-navbar-nav").addClass('nav-border-top')
+        }   else    {
+            jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
+            jQuery(".custom-navbar-nav").removeClass('nav-border-top')
+        }
     })
 });
