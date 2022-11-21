@@ -258,10 +258,10 @@ margin-top: 40px;
 .custom-offcanvas-top .offcanvas-body .navbar-nav::after {
 content: '';
 position: absolute;
-width: 5000px;
+width: 788px;
 height: 2px;
 background-color: var(--c-primary);
-right: 0;
+left: 0;
 bottom: 0;
 }
 .custom-offcanvas-top .offcanvas-body xxxxxxx.navbar-nav {

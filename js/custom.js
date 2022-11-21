@@ -91,5 +91,6 @@ jQuery(document).ready(function() {
     })
     jQuery('.custom-navbar-nav .has-children').hover(function() {
       jQuery(this).toggleClass('on-hover')
+      jQuery(".custom-navbar-nav").toggleClass('nav-border-top')
     })
 });
