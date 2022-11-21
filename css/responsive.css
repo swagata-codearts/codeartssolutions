@@ -120,6 +120,9 @@
 .blog-section.custom-pad {padding-top: 110px;}
 .introduction .intro-left p {font-size: 22px !important;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 160px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 50px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 45px;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 /*Changes-fdev-sg*/
@@ -133,6 +136,9 @@
 .introduction .intro-left p {font-size: 22px !important;}
 .introduction.custom-pad .underline-button {padding-top: 40px;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 160px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 50px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 45px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -223,6 +229,9 @@
 .custom-paragraph {margin-top: 35px;}
 .introduction.custom-pad .underline-button {padding-top: 40px;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 140px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 45px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 40px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -261,12 +270,12 @@
 /*---see all projects end(Supriyo)---*/
 
 
-  /*--blog-section-start-(Deep)--*/
-  .blog-text p::after{width: 130%;}
-  .blog-text p{font-size: 30px;line-height: 40px;}
-  .blog-content{margin-left: 60px; margin-bottom: 30px;}
-  .blog-section.custom-pad {padding-top: 60px;}
-  /*--blog-section-end--*/
+/*--blog-section-start-(Deep)--*/
+.blog-text p::after{width: 130%;}
+.blog-text p{font-size: 30px;line-height: 40px;}
+.blog-content{margin-left: 60px; margin-bottom: 30px;}
+.blog-section.custom-pad {padding-top: 60px;}
+/*--blog-section-end--*/
 
 /*---Contact us start(Supriyo)---*/
 .contact-us {padding: 60px 0 75px;}
@@ -323,6 +332,9 @@
 .blog-section.custom-pad {padding-top: 90px;}
 .introduction.custom-pad .underline-button {padding-top: 20px;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 140px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 45px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 40px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -455,6 +467,9 @@
 .blog-text p {width: 100%;}
 .introduction.custom-pad .underline-button {padding-top: 20px;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 120px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 40px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 35px;}
 }
 
 
@@ -533,6 +548,9 @@
 .services-content-left.d-flex.flex-column .custom-heading.ms-md-0 {text-align: center;}
 .introduction.custom-pad .underline-button {justify-content: center;}
 /*Changes-fdev-sg*/
+.custom-inner-banner {padding: 100px 0px;}
+.custom-inner-banner .breadcrumb-item {font-size: 35px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 30px;}
 }
 
 @media (max-width: 575.98px){
@@ -612,7 +630,9 @@
 .leading-brands.custom-pad {padding: 50px 0;}
 .technology.custom-pad {padding: 50px 0;}
 .introduction.custom-pad {padding: 30px 0 50px 0;}
-  /*Changes-fdev-sg*/
+/*Changes-fdev-sg*/
+.custom-inner-banner .breadcrumb-item {font-size: 28px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 25px;}
 }
 
 /*@media (max-width: 575.98px){
@@ -647,13 +667,13 @@
 /*---see all projects end(Supriyo)---*/
 
 
-    /*--blog-section-start-(Deep)--*/
+  /*--blog-section-start-(Deep)--*/
 
-    .blog-content{margin-left: 0px; margin-bottom: 8px;}
-    .blog-section.custom-pad {padding-top: 40px;}
-    .blog-text p {font-size: 16px; line-height: 25px;}
-    .blog-text p::after{bottom: 10px;}
-    /*--blog-section-end--*/
+  .blog-content{margin-left: 0px; margin-bottom: 8px;}
+  .blog-section.custom-pad {padding-top: 40px;}
+  .blog-text p {font-size: 16px; line-height: 25px;}
+  .blog-text p::after{bottom: 10px;}
+  /*--blog-section-end--*/
 
 /*---Contact us start(Supriyo)---*/
 .contact-button .custom-button {display: block;}
@@ -677,7 +697,8 @@
 .technology-carousel {margin-top: 20px;}
 .technology-carousel .item .owl-images img {width: 65px; height: 65px;}
 /*----technology-end-(Deep)-----*/
-
+.custom-inner-banner .breadcrumb-item {font-size: 22px;}
+.custom-inner-banner .breadcrumb-item + .breadcrumb-item::before {font-size: 20px;}
 
 }
 
