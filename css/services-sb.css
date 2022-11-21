@@ -25,6 +25,34 @@
   color: var(--c-white-900)!important ;
 }
 
+/* alt button */
+.custom-button-alt {
+  color: var(--c-black-900);
+  font-size: 14px;
+  font-family: var(--ff-primary);
+  padding-bottom: 5px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.custom-button-alt span {
+  display: inherit;
+}
+.custom-button-alt:nth-child(2) {
+  margin: 0 !important;
+}
+.underline-button {
+  display: flex !important;
+  gap: 0 39px;
+  align-items: center;
+  margin: 0 !important;
+}
+.banner .underline-button {
+  margin-top: 50px !important;
+}
+/* alt button */
+
 .services-section .services-content-left {
   background-color: var(--c-black-800);
   gap: 35px 0;
@@ -99,6 +127,7 @@
 .accordion__item.js-accordion__item.state-active .service-acc-content {
   display: block;
   opacity: 1;
+  padding: 35px 75px 35px;
   transition: all 0.6s ease-in-out;
 }
 .accordion__item .service-acc-content .service-text {
@@ -107,7 +136,8 @@
   font-size: 27px;
   font-weight: 400;
   line-height: 48px;
-  padding: 35px 75px 35px;
+  /* padding: 35px 75px 35px; */
+  padding-bottom: 25px;
 }
 .accordion__item .service-acc-title-wrap .plus-icon {
   width: 42px;
