@@ -89,7 +89,7 @@ jQuery(document).ready(function() {
     jQuery('.custom-navbar-toggle').click(function() {
       jQuery(this).toggleClass('menu-open')
     })
-    // jQuery('.custom-navbar-nav .has-children').hover(function() {
-    //   jQuery(this).toggleClass('on-hover')
-    // })
+    jQuery('.custom-navbar-nav .has-children').hover(function() {
+      jQuery(this).toggleClass('on-hover')
+    })
 });
