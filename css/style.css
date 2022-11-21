@@ -863,6 +863,9 @@ display: none;
 .introduction .custom-heading {
 text-align: left;
 } 
+.introduction.custom-pad .underline-button {
+padding-top: 70px;
+}
 .introduction.custom-pad {
 padding: 165px 0 205px 0;
 }
@@ -972,7 +975,6 @@ left: 0;
 
 .blog-button {
 margin-top: 25px;
-margin-left: 10px;
 }
 
 .blog-content {
@@ -1238,7 +1240,7 @@ text-align: right;
 /* margin-top: 100px; */
 }
 .copyright-left {
-  margin-top: 60px;
+margin-top: 60px;
 }
 
 /*---Footer-End---*/
