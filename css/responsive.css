@@ -33,8 +33,11 @@
   /*---Banner start(Supriyo)---*/
   .banner-right .banner-right-heading {font-size: 225px;}
   .banner-right .banner-right-heading {bottom: -41px;}
-
   /*---Banner end(Supriyo)---*/
+  /*introduction-fdev-sg*/
+  .introduction.custom-pad {padding: 130px 0 170px 0;}
+  .blog-content {margin-bottom: 80px;}
+  /*introduction-fdev-sg*/
 }
 @media (min-width: 1400px) and (max-width: 1600px){
   /*---Banner start(Supriyo)---*/
