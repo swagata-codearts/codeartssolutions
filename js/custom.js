@@ -89,6 +89,9 @@ jQuery(document).ready(function() {
     jQuery('.custom-navbar-toggle').click(function() {
       jQuery(this).toggleClass('menu-open')
     })
+    
+});
+jQuery(document).ready(function() {
     jQuery('.custom-navbar-nav .nav-item').hover(function() {
         if(jQuery(this).hasClass("has-children"))   {
 
@@ -100,4 +103,5 @@ jQuery(document).ready(function() {
             jQuery(".custom-navbar-nav").removeClass('nav-border-top')
         }
     })
+    
 });
