@@ -137,13 +137,15 @@ font-weight: 500;
 .faq-accordion .custom-heading.ms-md-0 {
 text-align: center;
 }
+.faq-content .faq-btn {
+padding: 20px 0;
+}
 .about-contact {
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
 padding: 120px 0px;
 position: relative;
-background-attachment: fixed;
 }
 .about-contact .custom-heading.ms-md-0 h3 {
 color: var(--c-white-900);
@@ -160,7 +162,7 @@ color: var(--c-white-900);
 .about-contact::after {
 position: absolute;
 content: '';
-background-color: rgba(0,0,0,0.7);
+background-color: rgba(0,0,0,0.8);
 width: 100%;
 height: 100%;
 top: 0;
@@ -209,6 +211,7 @@ margin-top: 16px;
 .faq-accordion {padding: 90px 0;}
 .about-contact {padding: 90px 0px;}
 .about-contact-content {padding-left: 80px;}
+.about-contact-content h3 {font-size: 32px;}
 /*About-Us*/
 }
 
@@ -222,6 +225,7 @@ margin-top: 16px;
 .philosophy .philosophy-content .custom-paragraph {padding: 0 90px;}
 .faq-content .accordion-button.collapsed {font-size: 20px;}
 .faq-content .accordion-button {font-size: 20px;}
+.about-contact-content h3 {font-size: 32px;}
 /*About-Us*/
 }
 
@@ -236,6 +240,7 @@ margin-top: 16px;
 .faq-content .accordion-button.collapsed {font-size: 20px;}
 .faq-content .accordion-button {font-size: 20px;}
 .philosophy .underline-button {padding-top: 30px;}
+.about-contact-content h3 {font-size: 28px;}
 /*About-Us*/
 }
 
@@ -252,6 +257,8 @@ margin-top: 16px;
 .about-contact-btn {padding-top: 50px;}
 .philosophy .underline-button {padding-top: 30px;}
 .about-contact-btn .custom-button {margin-right: 0px;}
+.about-contact-content h3 {font-size: 28px;}
+.about-contact-content h3 {padding: 0 40px;}
 /*About-Us*/
 }
 
@@ -275,9 +282,14 @@ margin-top: 16px;
 .about-contact {padding: 40px 0px;}  
 .philosophy .custom-heading.ms-md-0 h3 {line-height: 45px;}
 .philosophy .philosophy-content .custom-paragraph p {padding: 6px 0;}
-.faq-content .accordion-button.collapsed {padding: 25px 20px;}
-.faq-content .accordion-button {padding: 25px 20px;}
 .faq-content {margin-top: 50px;}
+.about-contact-content h3 {font-size: 24px;line-height: 35px;}
+.faq-content {margin-top: 30px;}
+.about-contact-content h3 {padding: 0 30px;}
+.about-contact-btn {padding-top: 20px;}
+.philosophy .underline-button {padding-top: 20px;}
+.faq-content .accordion-button.collapsed {padding: 20px 20px;}
+.faq-content .accordion-button {padding: 20px 20px;}
 /*About-Us*/    
 }
 
