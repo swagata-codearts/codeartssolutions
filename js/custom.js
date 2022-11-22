@@ -112,7 +112,8 @@ jQuery(document).ready(function() {
         })
     } else  {
         jQuery('.custom-navbar-nav .has-children').click(function() {
-            jQuery(this).toggleClass('on-click', 2000, "easeOutSine")
+            jQuery('.custom-navbar-nav .has-children').removeClass('on-click')
+            jQuery(this).addClass('on-click')
             // jQuery(".custom-navbar-nav").addClass('nav-border-top')
         })
     }
