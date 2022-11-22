@@ -90,7 +90,18 @@ jQuery(document).ready(function() {
       jQuery(this).toggleClass('menu-open')
       jQuery('.custom-navbar-nav .has-children').removeClass('on-click')
     })
-    
+    setTimeout(() => {
+        jQuery(".owl-images .card-img-top").hover(function(){
+            jQuery(this).attr("src", function(index, attr){
+                return attr.replace(".png", "-colored.png");
+            });
+        },
+         function(){
+            jQuery(this).attr("src", function(index, attr){
+                return attr.replace("-colored.png", ".png");
+            });
+        });
+    }, 1000)
 });
 jQuery(document).ready(function() {
     // jQuery('.custom-navbar-nav .nav-item').hover(function() {
@@ -106,10 +117,12 @@ jQuery(document).ready(function() {
     // })
     if(jQuery(window).width() > 991) {
 
-        jQuery('.custom-navbar-nav .has-children').hover(function() {
-            jQuery(this).toggleClass('on-hover')
-            jQuery(".custom-navbar-nav").toggleClass('nav-border-top')
-        })
+        
+
+            jQuery('.custom-navbar-nav .has-children').hover(function() {
+                jQuery(this).toggleClass('on-hover')
+                jQuery(".custom-navbar-nav").toggleClass('nav-border-top')
+            })
     } else  {
         jQuery('.custom-navbar-nav .has-children').click(function() {
             // jQuery('.custom-navbar-nav').find('.has-children').removeClass('on-click')
