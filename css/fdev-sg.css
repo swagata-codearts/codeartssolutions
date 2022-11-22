@@ -106,15 +106,15 @@ box-shadow: 0px 0px 15px rgba(0,0,0,0.065);
 margin-top: 60px;
 }
 .faq-content .accordion-button.collapsed {
-font-family: var(--ff-secondary);
+font-family: var(--ff-tertiary);
 font-size: 22px;
-font-weight: 500;
+font-weight: 400;
 color: var(--c-gray-900);
 }
 .faq-content .accordion-button {
-font-family: var(--ff-secondary);
+font-family: var(--ff-tertiary);
 font-size: 22px;
-font-weight: 500;
+font-weight: 400;
 color: var(--c-primary);
 }
 .faq-content .accordion-body {
