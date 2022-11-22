@@ -88,6 +88,7 @@ jQuery('.js-accordion__item').on('click', function () {
 jQuery(document).ready(function() {
     jQuery('.custom-navbar-toggle').click(function() {
       jQuery(this).toggleClass('menu-open')
+      jQuery('.custom-navbar-nav .has-children').removeClass('on-click')
     })
     
 });

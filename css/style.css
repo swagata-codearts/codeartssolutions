@@ -104,7 +104,7 @@ line-height: 70px;
 text-transform: capitalize;
 border:1px solid var(--c-primary);
 padding: 0 0;
-margin-right: 42px;
+/* margin-right: 42px; */
 }
 .custom-button:hover {
 color: var(--c-black-900);
