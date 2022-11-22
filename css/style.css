@@ -212,7 +212,7 @@ left: 0;
 transition: all 0.3s ease-in-out;
 }
 .custom-inner-banner .breadcrumb-item a:hover::after {
-    background-color: var(--c-primary);
+background-color: var(--c-primary);
 }
 .custom-inner-banner  .breadcrumb {
 margin-bottom: 0rem;
