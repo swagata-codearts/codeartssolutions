@@ -94,7 +94,9 @@ padding: 60px 0;
 .custom-button {
 background-color: var(--c-primary);
 color: var(--c-white-900);
-display: inline-block;
+display: inline-flex;
+align-items: center;
+justify-content: center;
 width: 170px;
 height: 71px;
 border-radius: 3px;

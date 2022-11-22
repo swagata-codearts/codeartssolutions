@@ -474,6 +474,7 @@
 
 
 @media (max-width: 767.98px){
+.custom-button {width: 150px;height: 51px;}
 /*Banner start(Supriyo)*/
 .banner-right .banner-right-heading {font-size: 105px;line-height: 90px;bottom: -8px;}
 .banner-content h4 {font-size: 17px;}

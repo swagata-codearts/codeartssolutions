@@ -379,6 +379,19 @@ padding-top: 15px;
 .services-section .services-content-left .services-content-left-text p {font-size: 18px;line-height: 28px;text-align: center;}
 .services-section .services-content-left {padding: 3rem 1.5rem;gap: 20px 0;}
 /* Service responsive */
+
+.custom-offcanvas-top .nav-link {font-size: 23px;line-height: 38px;}
+.custom-nav-children {gap: 10px 0px;}
+.custom-nav-children .title h4 {font-size: 18px;line-height: 26px;}
+.custom-offcanvas-top .offcanvas-body {height: 85vh;}
+.navbar-contact-content {padding: 7px 0 0;}
+.navbar-contact-content .navbar-contact-heading {line-height: 22px;}
+.navbar-contact-cta {
+  margin-top: 20px;
+}
+.custom-navbar-brand img, .offcanvas-logo {
+  height: 46px;
+}
 }
 @media (max-width: 576px){
   /* Service responsive */
