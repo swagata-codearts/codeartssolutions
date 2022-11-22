@@ -1,0 +1,48 @@
+/*------------contact-us-start-------------*/
+.contact-card {
+    background-color: var(--c-cyan-100);
+  }
+.contact-card .card {
+    height: 220px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 6px 0 var(--c-cyan-500);
+  }
+.contact-card .card-icon,.card-content{
+    padding-left: 20px;
+  }
+.card-icon a span {
+    font-size: 30px;
+    color: var(--c-cyan-500);
+  }
+.card-icon a span:hover{
+    color: var(--c-gray-800);
+}
+.card-content h5 {
+    color: var(--c-cyan-500);
+    font-weight: 700;
+    font-size: 24px;
+  }
+.card-content a {
+    color: var(--c-cyan-500);
+    font-size: 17px;
+    font-weight: 600;
+  }
+.card-content a:hover{
+    color: var(--c-gray-800);
+}
+.contact .form-label {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: var(--ff-primary);
+    line-height: 30px;
+    padding-bottom: 5px;
+  }
+  .contact .form-control {
+    height: 50px;
+  }
+#exampleFormControlTextarea1 {
+    height: 150px;
+  }
+/*------------contact-us-end-------------*/
