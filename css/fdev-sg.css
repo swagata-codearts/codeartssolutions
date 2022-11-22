@@ -50,6 +50,9 @@ color: var(--c-primary);
 text-transform: uppercase;
 font-weight: 500;
 }
+.who-we-are-content .custom-paragraph {
+margin-top: 30px;
+}
 .philosophy {
 background-position: center center;
 background-size: cover;
@@ -92,6 +95,7 @@ padding: 15px 0;
 }
 .philosophy .philosophy-content .custom-paragraph {
 padding: 0 150px;
+margin-top: 30px;
 }
 .philosophy .underline-button {
 padding-top: 50px;
@@ -140,6 +144,9 @@ text-align: center;
 .faq-content .faq-btn {
 padding: 20px 0;
 }
+.faq-accordion .custom-paragraph {
+margin-top: 30px;
+}
 .about-contact {
 background-position: center center;
 background-size: cover;
@@ -154,7 +161,7 @@ color: var(--c-white-900);
 color: var(--c-white-900);
 }
 .about-contact-btn {
-padding-top: 30px;
+padding-top: 50px;
 }
 .about-contact-btn .custom-button:hover {
 color: var(--c-white-900);
@@ -200,7 +207,7 @@ margin-top: 16px;
 .philosophy {padding: 100px 0px;}
 .faq-accordion {padding: 100px 0;}
 .about-contact {padding: 100px 0px;}
-.about-contact-content {padding-left: 80px;}
+.philosophy .underline-button {padding-top: 20px;}
 /*About-Us*/
 }
 
@@ -210,8 +217,11 @@ margin-top: 16px;
 .philosophy {padding: 90px 0px;}
 .faq-accordion {padding: 90px 0;}
 .about-contact {padding: 90px 0px;}
-.about-contact-content {padding-left: 80px;}
 .about-contact-content h3 {font-size: 32px;}
+.philosophy .underline-button {padding-top: 20px;}
+.about-contact-btn {padding-top: 40px;}
+.who-we-are-content .custom-paragraph {margin-top: 40px;}
+.faq-accordion .custom-paragraph {margin-top: 40px;}
 /*About-Us*/
 }
 
@@ -221,11 +231,14 @@ margin-top: 16px;
 .philosophy {padding: 80px 0px;}
 .faq-accordion {padding: 80px 0;}
 .about-contact {padding: 80px 0px;}
-.about-contact-content {padding-left: 40px;}
 .philosophy .philosophy-content .custom-paragraph {padding: 0 90px;}
 .faq-content .accordion-button.collapsed {font-size: 20px;}
 .faq-content .accordion-button {font-size: 20px;}
 .about-contact-content h3 {font-size: 32px;}
+.philosophy .underline-button {padding-top: 20px;}
+.about-contact-btn {padding-top: 40px;}
+.who-we-are-content .custom-paragraph {margin-top: 40px;}
+.faq-accordion .custom-paragraph {margin-top: 40px;}
 /*About-Us*/
 }
 
@@ -235,12 +248,15 @@ margin-top: 16px;
 .philosophy {padding: 80px 0px;}
 .faq-accordion {padding: 80px 0;}
 .about-contact {padding: 80px 0px;}
-.about-contact-content {padding-left: 40px;}
 .philosophy .philosophy-content .custom-paragraph {padding: 0 60px;}
 .faq-content .accordion-button.collapsed {font-size: 20px;}
 .faq-content .accordion-button {font-size: 20px;}
-.philosophy .underline-button {padding-top: 30px;}
 .about-contact-content h3 {font-size: 28px;}
+.philosophy .underline-button {padding-top: 20px;}
+.about-contact-btn {padding-top: 40px;}
+.who-we-are-content .custom-paragraph {margin-top: 40px;}
+.faq-accordion .custom-paragraph {margin-top: 40px;}
+.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
 /*About-Us*/
 }
 
@@ -254,10 +270,18 @@ margin-top: 16px;
 .faq-content .accordion-button.collapsed {font-size: 20px;}
 .faq-content .accordion-button {font-size: 20px;}
 .about-contact-btn {padding-top: 50px;}
-.philosophy .underline-button {padding-top: 30px;}
 .about-contact-btn .custom-button {margin-right: 0px;}
 .about-contact-content h3 {font-size: 28px;}
 .about-contact-content h3 {padding: 0 40px;}
+.philosophy .underline-button {padding-top: 20px;}
+.about-contact-btn {padding-top: 40px;}
+.who-we-are-content .custom-paragraph {margin-top: 30px;}
+.faq-accordion .custom-paragraph {margin-top: 30px;}
+.philosophy .philosophy-content .custom-paragraph {padding: 0 0px;}
+.philosophy .custom-heading.ms-md-0 h3 {line-height: 40px;}
+.philosophy .philosophy-content .custom-paragraph {margin-top: 20px;}
+.faq-content {margin-top: 40px;}
+.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
 /*About-Us*/
 }
 
@@ -270,6 +294,9 @@ margin-top: 16px;
 .faq-content .accordion-button.collapsed {font-size: 17px;}
 .faq-content .accordion-button {font-size: 17px;}
 .faq-content .accordion-body {font-size: 15px;}
+.about-contact-content h3 {padding: 0 0px;}
+.about-contact-btn {padding-top: 30px;}
+.philosophy .philosophy-content .custom-paragraph {margin-top: 15px;}
 /*About-Us*/ 
 }
 
@@ -281,14 +308,15 @@ margin-top: 16px;
 .about-contact {padding: 40px 0px;}  
 .philosophy .custom-heading.ms-md-0 h3 {line-height: 45px;}
 .faq-content {margin-top: 50px;}
-.about-contact-content h3 {font-size: 24px;line-height: 35px;}
+.about-contact-content h3 {font-size: 22px;line-height: 35px;}
 .faq-content {margin-top: 30px;}
-.about-contact-content h3 {padding: 0 30px;}
 .about-contact-btn {padding-top: 20px;}
-.philosophy .underline-button {padding-top: 20px;}
+.philosophy .underline-button {padding-top: 10px;}
 .faq-content .accordion-button.collapsed {padding: 20px 20px;}
 .faq-content .accordion-button {padding: 20px 20px;}
 .faq-content .faq-btn {padding: 20px 0 15px;}
+.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 14px;}
+.philosophy .philosophy-content .custom-paragraph {margin-top: 8px;}
 /*About-Us*/    
 }
 
@@ -299,6 +327,7 @@ margin-top: 16px;
 .about-contact-btn {justify-content: center;display: flex;}
 .faq-content .accordion-button.collapsed {font-size: 16px;}
 .faq-content .accordion-button {font-size: 16px;}
+.about-contact-content h3 {padding: 0 0px;}
 /*About-Us*/ 
 }
 
