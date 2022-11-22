@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
         })
     } else  {
         jQuery('.custom-navbar-nav .has-children').click(function() {
-            // jQuery('.custom-navbar-nav').find('.has-children').removeClass('on-click')
+            jQuery('.custom-navbar-nav').find('.has-children').removeClass('on-click')
             jQuery(this).toggleClass('on-click')
             // jQuery(this).addClass('on-click')
             // jQuery(".custom-navbar-nav").addClass('nav-border-top')
