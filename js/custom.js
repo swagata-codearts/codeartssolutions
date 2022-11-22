@@ -104,15 +104,15 @@ jQuery(document).ready(function() {
     //         jQuery(".custom-navbar-nav").removeClass('nav-border-top')
     //     }
     // })
-    if(jQuery(window).width > 991) {
+    if(jQuery(window).width() > 991) {
 
         jQuery('.custom-navbar-nav .has-children').hover(function() {
-            jQuery(this).toggleClass('on-hover', 2000, "easeOutSine")
-            jQuery(".custom-navbar-nav").addClass('nav-border-top')
+            jQuery(this).toggleClass('on-hover')
+            jQuery(".custom-navbar-nav").toggleClass('nav-border-top')
         })
     } else  {
         jQuery('.custom-navbar-nav .has-children').click(function() {
-            jQuery('.custom-navbar-nav').find('.has-children').removeClass('on-click')
+            // jQuery('.custom-navbar-nav').find('.has-children').removeClass('on-click')
             jQuery(this).toggleClass('on-click')
             // jQuery(this).addClass('on-click')
             // jQuery(".custom-navbar-nav").addClass('nav-border-top')
