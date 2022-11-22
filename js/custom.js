@@ -92,16 +92,28 @@ jQuery(document).ready(function() {
     
 });
 jQuery(document).ready(function() {
-    jQuery('.custom-navbar-nav .nav-item').hover(function() {
-        if(jQuery(this).hasClass("has-children"))   {
+    // jQuery('.custom-navbar-nav .nav-item').hover(function() {
+    //     if(jQuery(this).hasClass("has-children"))   {
 
-            jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
-            jQuery(this).addClass('on-hover')
+    //         jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
+    //         jQuery(this).addClass('on-hover', 1000)
+    //         jQuery(".custom-navbar-nav").addClass('nav-border-top')
+    //     }   else    {
+    //         jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
+    //         jQuery(".custom-navbar-nav").removeClass('nav-border-top')
+    //     }
+    // })
+    if(jQuery(window).width > 991) {
+
+        jQuery('.custom-navbar-nav .has-children').hover(function() {
+            jQuery(this).toggleClass('on-hover', 2000, "easeOutSine")
             jQuery(".custom-navbar-nav").addClass('nav-border-top')
-        }   else    {
-            jQuery(".custom-navbar-nav .has-children").removeClass('on-hover')
-            jQuery(".custom-navbar-nav").removeClass('nav-border-top')
-        }
-    })
+        })
+    } else  {
+        jQuery('.custom-navbar-nav .has-children').click(function() {
+            jQuery(this).toggleClass('on-click', 2000, "easeOutSine")
+            // jQuery(".custom-navbar-nav").addClass('nav-border-top')
+        })
+    }
     
 });
