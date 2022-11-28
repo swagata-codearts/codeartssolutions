@@ -191,6 +191,59 @@ font-weight: 700;
 margin-top: 16px;
 }
 /*=====About-Us====*/
+/*=====Career=====*/
+.opportunity-box img {
+    width: 12%;object-fit: cover;
+}
+.career-opportunity {
+    text-align: center;
+}
+.career-btn {
+    margin-top: 30px;
+}
+.career-btn li {
+    display: inline-block;
+}
+.opportunity-box h3 {
+    padding: 30px 0 10px;
+}
+.opportunity-box {
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+    padding: 40px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+.opportunity-box::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-100);
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+.opportunity-box:hover::after {
+    height: 100%;
+    top: auto;
+    bottom: 0;
+}
+.opportunity-box h3 {
+    padding: 30px 0 10px;
+    font-size: 25px;
+    font-family: var(--ff-secondary);
+    font-weight: 600;
+    color: var(--c-primary);
+    text-transform: uppercase;
+}
+.opportunity-box h5 {
+    font-size: 18px;
+    color: var(--c-gray-900);
+    font-weight: 400;
+}
+/*=====Career=====*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -223,6 +276,11 @@ margin-top: 16px;
 .who-we-are-content .custom-paragraph {margin-top: 40px;}
 .faq-accordion .custom-paragraph {margin-top: 40px;}
 /*About-Us*/
+/*Career*/
+.opportunity-box {padding: 30px 20px;}
+.opportunity-box h3 {padding: 20px 0 10px;font-size: 22px;}
+.career-btn {margin-top: 20px;}
+/*Career*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -240,6 +298,13 @@ margin-top: 16px;
 .who-we-are-content .custom-paragraph {margin-top: 40px;}
 .faq-accordion .custom-paragraph {margin-top: 40px;}
 /*About-Us*/
+/*Career*/
+.opportunity-box {padding: 30px 20px;}
+.opportunity-box h3 {padding: 20px 0 10px;font-size: 22px;}
+.career-btn {margin-top: 20px;}
+.career-btn li .custom-button {width: 130px;height: 46px;}
+.opportunity-box h5 {font-size: 16px;}
+/*Career*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -258,6 +323,13 @@ margin-top: 16px;
 .faq-accordion .custom-paragraph {margin-top: 40px;}
 .who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
 /*About-Us*/
+/*Career*/
+.opportunity-box {padding: 30px 15px;}
+.opportunity-box h3 {padding: 20px 0 10px;font-size: 22px;}
+.career-btn {margin-top: 20px;}
+.career-btn li .custom-button {width: 130px;height: 46px;}
+.opportunity-box h5 {font-size: 14px;}
+/*Career*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -283,6 +355,14 @@ margin-top: 16px;
 .faq-content {margin-top: 40px;}
 .who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
 /*About-Us*/
+/*Career*/
+.opportunity-box {padding: 30px 15px;}
+.opportunity-box h3 {padding: 20px 0 10px;font-size: 22px;}
+.career-btn {margin-top: 20px;}
+.career-btn li .custom-button {width: 130px;height: 46px;}
+.opportunity-box h5 {font-size: 14px;}
+.opportunity-box.third {margin-top: 26px;}
+/*Career*/
 }
 
 @media (max-width: 767.98px){
@@ -298,6 +378,11 @@ margin-top: 16px;
 .about-contact-btn {padding-top: 30px;}
 .philosophy .philosophy-content .custom-paragraph {margin-top: 15px;}
 /*About-Us*/ 
+/*Career*/
+.opportunity-box.third {margin-bottom: 0px;}
+.opportunity-box.third {margin-top: 0px;}
+.opportunity-box {margin-bottom: 25px;}
+/*Career*/
 }
 
 @media (max-width: 575.98px){
@@ -318,6 +403,10 @@ margin-top: 16px;
 .who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 14px;}
 .philosophy .philosophy-content .custom-paragraph {margin-top: 8px;}
 /*About-Us*/    
+/*Career*/
+.opportunity-box h3 {font-size: 20px;}
+.opportunity-box {padding: 30px 5px;}
+/*Career*/
 }
 
 @media only screen and (max-width: 480.98px) {	
