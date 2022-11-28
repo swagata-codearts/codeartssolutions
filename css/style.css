@@ -1464,6 +1464,7 @@ font-size: 24px;
 font-weight: 600;
 color: var(--c-white-900);
 text-decoration:none;
+text-transform: uppercase;
 }
 .custom-inner-banner .breadcrumb-item a {
 text-decoration:none;
