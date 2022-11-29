@@ -244,6 +244,11 @@ margin-top: 16px;
     font-weight: 400;
 }
 /*=====Career=====*/
+/*=====Our Service====*/
+.who-we-are.our-service .custom-paragraph {
+    margin-top: 0px;
+}
+/*=====Our Service====*/
 /*=====Plugin====*/
 .service-inner-intro.custom-pad .custom-heading {
     text-align: center;
