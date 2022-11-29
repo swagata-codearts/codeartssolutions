@@ -317,6 +317,7 @@ margin-top: 16px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
 }
 .service-inner-best.custom-pad::after {
