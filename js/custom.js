@@ -76,6 +76,22 @@ jQuery('#brand-carousel').owlCarousel({
   }
 });
 
+jQuery('#team-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:2
+        }
+    }
+  })
 
 jQuery('.js-accordion__item').on('click', function () {
   jQuery(this).parent().find('.state-active').removeClass('state-active');

@@ -80,6 +80,7 @@ border-bottom: 1px solid #00b2ad;
 }
 .about-culture.custom-pad {
     background-color: var(--c-cyan-100);
+    padding: 90px 0;
 }
 .about-culture-content .custom-paragraph p {
     padding: 10px 0px;
@@ -91,7 +92,7 @@ border-bottom: 1px solid #00b2ad;
 }
 .team.custom-pad .custom-heading {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 .team-members-wrap img {
     width: 100%;
@@ -144,7 +145,7 @@ border-bottom: 1px solid #00b2ad;
     z-index: -1;
 }
 .join-team.custom-pad {
-    padding: 130px 0 60px;
+    padding: 130px 0 110px;
 }
 .join-team-text .custom-paragraph p {
     padding: 0 0px;
@@ -165,8 +166,17 @@ border-bottom: 1px solid #00b2ad;
 .join-team-text .underline-button {
     margin-top: 30px;
 }
+.team.carousel.custom-pad {
+    display: none;
+}
+.about-counter.custom-pad {
+    padding: 90px 0;
+}
 /*=====About-Us====*/
 /*=====Career=====*/
+.career.custom-pad {
+    padding: 110px 0;
+}
 .opportunity-box img {
     width: 12%;object-fit: cover;
 }
@@ -217,6 +227,29 @@ border-bottom: 1px solid #00b2ad;
     font-size: 18px;
     color: var(--c-gray-900);
     font-weight: 400;
+}
+.career-bg.custom-pad {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 250px 0;
+    position: relative;
+}
+.career-bg.custom-pad::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.career-text.custom-pad .custom-heading .main-heading {
+    text-align: center;
+}
+.career-text.custom-pad {
+  background-color: var(--c-cyan-100);
 }
 /*=====Career=====*/
 /*=====Our Service====*/
@@ -380,16 +413,22 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-intro-content .custom-paragraph p {padding: 8px 0;}
 .service-inner-intro-content .custom-paragraph {margin-top: 40px;}
 /*Plugin*/
+/*Career*/
+.career-bg.custom-pad {padding: 180px 0;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 36px;line-height: 50px;}
+/*Career*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
 /*About-Us*/
-
+.focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 20px;}
 .opportunity-box h3 {padding: 20px 0 10px;font-size: 22px;}
 .career-btn {margin-top: 20px;}
+.career-bg.custom-pad {padding: 180px 0;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 34px;line-height: 50px;}
 /*Career*/
 /*Plugin*/
 .ceo-img {text-align: right;}
@@ -407,7 +446,12 @@ border-bottom: 1px solid #00b2ad;
 
 @media (min-width: 1024px) and (max-width: 1200px){
 /*About-Us*/
-
+.focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
+.counter-content h5 {font-size: 26px;}
+.count-number-and-unit.secondary-font {margin-bottom: 5px;}
+.team-members-detail h4 {font-size: 20px;}
+.team-members-detail h6 {font-size: 16px;margin-top: 3px;}
+.team-members-detail {padding: 15px 0 20px;}
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 20px;}
@@ -415,6 +459,9 @@ border-bottom: 1px solid #00b2ad;
 .career-btn {margin-top: 20px;}
 .career-btn li .custom-button {width: 130px;height: 46px;}
 .opportunity-box h5 {font-size: 16px;}
+.career-bg.custom-pad {padding: 150px 0;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 28px;line-height: 45px;}
+.career.custom-pad {padding: 90px 0;}
 /*Career*/
 /*Plugin*/
 .ceo-img {text-align: right;}
@@ -434,7 +481,13 @@ border-bottom: 1px solid #00b2ad;
 
 @media (min-width: 992px) and (max-width: 1024px) {
 /*About-Us*/
-
+.focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
+.counter-content h5 {font-size: 26px;}
+.count-number-and-unit.secondary-font {margin-bottom: 3px;}
+.team-members-detail h4 {font-size: 20px;}
+.team-members-detail h6 {font-size: 14px;margin-top: 3px;}
+.team-members-detail {padding: 15px 0 20px;}
+.about-culture-content .custom-paragraph p {font-size: 18px;}
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 15px;}
@@ -442,6 +495,9 @@ border-bottom: 1px solid #00b2ad;
 .career-btn {margin-top: 20px;}
 .career-btn li .custom-button {width: 130px;height: 46px;}
 .opportunity-box h5 {font-size: 14px;}
+.career-bg.custom-pad {padding: 140px 0;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 28px;line-height: 45px;}
+.career.custom-pad {padding: 80px 0;}
 /*Career*/
 /*Plugin*/
 .ceo-img {text-align: right;}
@@ -461,7 +517,29 @@ border-bottom: 1px solid #00b2ad;
 
 @media only screen and (max-width: 991.98px) {    
 /*About-Us*/
-
+.focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
+.counter-content h5 {font-size: 26px;}
+.count-number-and-unit.secondary-font {margin-bottom: 3px;}
+.team-members-detail h4 {font-size: 20px;}
+.team-members-detail h6 {font-size: 14px;margin-top: 3px;}
+.team-members-detail {padding: 15px 0 20px;}
+.about-culture-content .custom-paragraph p {font-size: 18px;}
+.focus-grow.custom-pad .px-3 {padding-right: 15px !important;padding-left: 15px !important;}
+.counter-content.last-counter {margin-top: 20px;}
+.focus-grow-content {margin-top: 20px;}
+.join-team.custom-pad .px-5 {padding-right: 15px !important;padding-left: 15px !important;}
+.join-team-text {margin-top: 40px;}
+.team.carousel.custom-pad {display: block;}
+.team.custom-pad {display: none;}
+.team.carousel.custom-pad .owl-nav {position: relative;text-align: center;}
+.team.carousel.custom-pad .owl-next span {font-weight: 800;transition:all 0.3s ease-in-out;border-radius:50px;margin-left: 10px;background-color: var(--c-primary);height: 50px;width: 40px;display: inline-block;font-size: 35px;line-height: 47px;color: var(--c-white-900);}
+.team.carousel.custom-pad .owl-prev span {font-weight: 800;transition:all 0.3s ease-in-out;border-radius:50px;background-color: var(--c-primary);height: 50px;width: 40px;display: inline-block;font-size: 35px;line-height: 47px;color: var(--c-white-900);}
+.team.carousel.custom-pad .owl-prev span:hover {background-color: var(--c-cyan-400);color: var(--c-primary);}
+.team.carousel.custom-pad .owl-next span:hover {background-color: var(--c-cyan-400);color: var(--c-primary);}
+.team.custom-pad .custom-heading {margin: 10px 0 50px;}
+.join-team.custom-pad {padding: 130px 0 70px;}
+.about-culture.custom-pad {padding: 70px 0;}
+.about-counter.custom-pad {padding: 70px 0;}
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 15px;}
@@ -470,6 +548,9 @@ border-bottom: 1px solid #00b2ad;
 .career-btn li .custom-button {width: 130px;height: 46px;}
 .opportunity-box h5 {font-size: 14px;}
 .opportunity-box.third {margin-top: 26px;}
+.career-bg.custom-pad {padding: 140px 0;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 24px;line-height: 40px;}
+.career.custom-pad {padding: 70px 0;}
 /*Career*/
 /*Plugin*/
 .ceo-img {text-align: center;}
@@ -494,12 +575,26 @@ border-bottom: 1px solid #00b2ad;
 
 @media (max-width: 767.98px){
 /*About-Us*/
-
+.focus-grow-content .custom-heading .main-heading {text-align: center;}
+.counter-content {margin-bottom: 15px;}
+.counter-content.last-counter{margin: 0px 0;}
+.about-culture-content .custom-heading .main-heading {text-align: center;}
+.about-culture-content .custom-paragraph p {text-align: center;}
+.team.custom-pad .mb-4 {margin-bottom: 0.5rem !important;}
+.join-team-text .custom-heading .main-heading {text-align: center;}
+.join-team-text .custom-paragraph p {text-align: center;}
+.join-team-text .underline-button {justify-content: center;}
+.focus-grow-content .custom-paragraph p {text-align: center;}
+.join-team.custom-pad {padding: 130px 0 50px;}
+.about-culture.custom-pad {padding: 50px 0;}
+.about-counter.custom-pad {padding: 50px 0;}
 /*About-Us*/ 
 /*Career*/
 .opportunity-box.third {margin-bottom: 0px;}
 .opportunity-box.third {margin-top: 0px;}
 .opportunity-box {margin-bottom: 25px;}
+.career-bg.custom-pad {padding: 120px 0;}
+.career.custom-pad {padding: 50px 0;}
 /*Career*/
 /*Plugin*/
 .ceo-circle-img::after {left: 110px;width: 280px;}
@@ -511,11 +606,17 @@ border-bottom: 1px solid #00b2ad;
 
 @media (max-width: 575.98px){
 /*About-Us*/
-
+.counter-content h6 {font-size: 14px;}
+.about-culture-content .custom-paragraph p {font-size: 16px;}
+.team.custom-pad .custom-heading {margin-bottom: 30px;}
+.team-members-wrap img {height: 420px;}
 /*About-Us*/    
 /*Career*/
 .opportunity-box h3 {font-size: 20px;}
 .opportunity-box {padding: 30px 5px;}
+.career-text.custom-pad .custom-heading .main-heading {font-size: 22px;line-height: 32px;}
+.career-bg.custom-pad {padding: 100px 0;}
+.career.custom-pad {padding: 50px 0;}
 /*Career*/
 /*Plugin*/
 .ceo-circle-img::after {left: 40px;width: 320px;}
