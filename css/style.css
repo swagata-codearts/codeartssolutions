@@ -1421,17 +1421,18 @@ margin-top: 60px;
 /* ******* Inner Banner Section ******* */
 /*custom-inner-banner-fdev-sg*/
 .custom-inner-banner {
-padding: 180px 0px;
+padding: 150px 0px;
 }
 .custom-inner-banner-content-wrap h2 {
 text-align: center;
 color: #fff;
 font-family: var(--ff-secondary);
-font-size: 40px;
+font-size: 45px;
 font-weight: 700;
 margin-top: 15px;
 text-align: left;
 color: var(--c-black-700);
+padding-right: 200px;
 }
 .custom-inner-banner-content-wrap {
 position: relative;
@@ -1442,11 +1443,11 @@ float: left;
 padding-right: .5rem;
 color: var(--c-black-700);
 content: '/';
-font-size: 22px;
+font-size: 20px;
 }
 .custom-inner-banner .breadcrumb-item {
 font-family: var(--ff-primary);
-font-size: 22px;
+font-size: 20px;
 font-weight: 600;
 color: var(--c-black-700);
 text-decoration:none;
@@ -1462,7 +1463,7 @@ position: relative;
 position: absolute;
 content: '';
 background-color: var(--c-black-700);
-width: 54px;
+width: 50px;
 height: 1px;
 bottom: -4px;
 left: 0;
@@ -1477,7 +1478,9 @@ margin-bottom: 0rem;
 .custom-inner-banner .breadcrumb-item a:hover {
 color: var(--c-black-700);
 }
-
+.inner-banner-btn {
+  margin-top: 40px;
+}
 /*custom-inner-banner-fdev-sg*/
 
 /* ******* About Page ******* */

@@ -39,157 +39,107 @@ border-bottom: 1px solid #00b2ad;
 }
 /*Inner-page-start*/
 /*=====About-Us====*/
-.who-we-are {
-padding: 120px 0;
+.focus-grow.custom-pad {
+    background-color: #f7f7f7;
+  }
+.focus-grow-img img {
+    width: 100%;
+    object-fit: cover;
 }
-.who-we-are .custom-heading.ms-md-0 {
-text-align: center;
+.focus-grow-content .custom-heading .main-heading {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
 }
-.who-we-are .custom-heading.ms-md-0 h3 span {
-color: var(--c-primary);
-text-transform: uppercase;
-font-weight: 500;
+.focus-grow-content .custom-paragraph p {
+    padding: 0 0px;
+    text-align: left;
 }
-.who-we-are-content .custom-paragraph {
-margin-top: 30px;
+.counter-content {
+    text-align: center;
 }
-.philosophy {
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-padding: 120px 0px;
-position: relative;
+.count-number-and-unit.secondary-font {
+    font-family: var(--ff-secondary);
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--c-primary);
+    margin-bottom: 10px;
 }
-.philosophy::after {
-position: absolute;
-content: '';
-background-color: rgba(0,0,0,0.85);
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-z-index: 0;
+.counter-content h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--c-black-700);
+    margin-bottom: 8px;
+    text-transform: uppercase;
 }
-.philosophy .custom-heading.ms-md-0 {
-position: relative;
-z-index: 1;
-text-align: center;
+.counter-content h6 {
+    font-family: var(--ff-tertiary);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--c-black-700);
 }
-.philosophy .custom-heading.ms-md-0 h3 {
-color: var(--c-white-900);
+.about-culture.custom-pad {
+    background-color: var(--c-cyan-100);
 }
-.philosophy .custom-heading.ms-md-0 h5 {
-color: var(--c-white-900);
+.about-culture-content .custom-paragraph p {
+    padding: 10px 0px;
+    text-align: left;
+    font-size: 20px;
 }
-.philosophy .philosophy-content {
-position: relative;
-z-index: 2;
+.about-culture-content .custom-paragraph .bold-text {
+    font-weight: 600;
 }
-.philosophy .philosophy-content {
-text-align: left;
+.team.custom-pad .custom-heading {
+    text-align: center;
 }
-.philosophy .philosophy-content .custom-paragraph p {
-color: var(--c-white-900);
-padding: 15px 0;
+.team-members-wrap img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
 }
-.philosophy .philosophy-content .custom-paragraph {
-padding: 0 150px;
-margin-top: 30px;
+.team-members-detail {
+    padding: 25px 0 25px;
 }
-.philosophy .underline-button {
-padding-top: 50px;
-justify-content: center;
+.team-members-detail h4 {
+    font-family: var(--ff-secondary);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
-.faq-accordion {
-padding: 120px 0;
-background-color: var(--c-cyan-100);
+.team-members-detail h6 {
+    font-family: var(--ff-tertiary);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-primary);
+    margin-top: 5px;
 }
-.faq-content {
-box-shadow: 0px 0px 15px rgba(0,0,0,0.065);
-margin-top: 60px;
+.join-team-img img {
+    width: 65%;
+    object-fit: cover;
 }
-.faq-content .accordion-button.collapsed {
-font-family: var(--ff-tertiary);
-font-size: 22px;
-font-weight: 400;
-color: var(--c-gray-900);
+.join-team-img img {
+    width: 65%;
+    object-fit: cover;
 }
-.faq-content .accordion-button {
-font-family: var(--ff-tertiary);
-font-size: 22px;
-font-weight: 400;
-color: var(--c-primary);
+.join-team-img {
+    position: relative;
+    text-align: end;
 }
-.faq-content .accordion-body {
-font-family: var(--ff-primary);
-font-size: 18px;
-color: var(--c-black-700);
-background-color: var(--c-white-800);
+.join-team-img-2 img {
+    width: 65%;
+    object-fit: cover;
 }
-.faq-content .accordion-button.collapsed {
-padding: 25px 30px;
+.join-team-img-2 {
+    position: absolute;
+    top: -70px;
+    text-align: left;
+    z-index: -1;
 }
-.faq-content .accordion-button {
-padding: 25px 30px;
-}
-.faq-accordion .custom-heading.ms-md-0 span {
-color: var(--c-primary);
-text-transform: uppercase;
-font-weight: 500;
-}
-.faq-accordion .custom-heading.ms-md-0 {
-text-align: center;
-}
-.faq-content .faq-btn {
-padding: 20px 0;
-}
-.faq-accordion .custom-paragraph {
-margin-top: 30px;
-}
-.about-contact {
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-padding: 120px 0px;
-position: relative;
-}
-.about-contact .custom-heading.ms-md-0 h3 {
-color: var(--c-white-900);
-}
-.about-contact .custom-heading.ms-md-0 h5 {
-color: var(--c-white-900);
-}
-.about-contact-btn {
-padding-top: 50px;
-}
-.about-contact-btn .custom-button:hover {
-color: var(--c-white-900);
-}
-.about-contact::after {
-position: absolute;
-content: '';
-background-color: rgba(17, 56, 100, 0.8);
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-z-index: 0;
-}
-.about-contact-content {
-position: relative;
-z-index: 2;
-text-align: center;
-}
-.about-contact-content h3 {
-font-family: var(--ff-secondary);
-color: var(--c-white-900);
-font-size: 36px;
-font-weight: 700;
-}
-.who-we-are-content .custom-paragraph .demo.text-2 {
-margin-top: 16px;
-}
+.join-team.custom-pad {
+    padding: 130px 0 60px;
+  }
 /*=====About-Us====*/
 /*=====Career=====*/
 .opportunity-box img {
@@ -392,11 +342,7 @@ margin-top: 16px;
 
 @media (min-width: 1366px) and (max-width: 1600px){
 /*About-Us*/
-.who-we-are {padding: 100px 0;}
-.philosophy {padding: 100px 0px;}
-.faq-accordion {padding: 100px 0;}
-.about-contact {padding: 100px 0px;}
-.philosophy .underline-button {padding-top: 20px;}
+
 /*About-Us*/
 /*Plugin*/
 .ceo-img {text-align: right;}
@@ -413,15 +359,7 @@ margin-top: 16px;
 
 @media (min-width: 1200px) and (max-width: 1366px){
 /*About-Us*/
-.who-we-are {padding: 90px 0;}
-.philosophy {padding: 90px 0px;}
-.faq-accordion {padding: 90px 0;}
-.about-contact {padding: 90px 0px;}
-.about-contact-content h3 {font-size: 32px;}
-.philosophy .underline-button {padding-top: 20px;}
-.about-contact-btn {padding-top: 40px;}
-.who-we-are-content .custom-paragraph {margin-top: 40px;}
-.faq-accordion .custom-paragraph {margin-top: 40px;}
+
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 20px;}
@@ -444,18 +382,7 @@ margin-top: 16px;
 
 @media (min-width: 1024px) and (max-width: 1200px){
 /*About-Us*/
-.who-we-are {padding: 80px 0;}
-.philosophy {padding: 80px 0px;}
-.faq-accordion {padding: 80px 0;}
-.about-contact {padding: 80px 0px;}
-.philosophy .philosophy-content .custom-paragraph {padding: 0 90px;}
-.faq-content .accordion-button.collapsed {font-size: 20px;}
-.faq-content .accordion-button {font-size: 20px;}
-.about-contact-content h3 {font-size: 32px;}
-.philosophy .underline-button {padding-top: 20px;}
-.about-contact-btn {padding-top: 40px;}
-.who-we-are-content .custom-paragraph {margin-top: 40px;}
-.faq-accordion .custom-paragraph {margin-top: 40px;}
+
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 20px;}
@@ -482,19 +409,7 @@ margin-top: 16px;
 
 @media (min-width: 992px) and (max-width: 1024px) {
 /*About-Us*/
-.who-we-are {padding: 80px 0;}
-.philosophy {padding: 80px 0px;}
-.faq-accordion {padding: 80px 0;}
-.about-contact {padding: 80px 0px;}
-.philosophy .philosophy-content .custom-paragraph {padding: 0 60px;}
-.faq-content .accordion-button.collapsed {font-size: 20px;}
-.faq-content .accordion-button {font-size: 20px;}
-.about-contact-content h3 {font-size: 28px;}
-.philosophy .underline-button {padding-top: 20px;}
-.about-contact-btn {padding-top: 40px;}
-.who-we-are-content .custom-paragraph {margin-top: 40px;}
-.faq-accordion .custom-paragraph {margin-top: 40px;}
-.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
+
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 15px;}
@@ -521,26 +436,7 @@ margin-top: 16px;
 
 @media only screen and (max-width: 991.98px) {    
 /*About-Us*/
-.who-we-are {padding: 70px 0;}
-.philosophy {padding: 70px 0px;}
-.faq-accordion {padding: 70px 0;}
-.about-contact {padding: 70px 0px;}
-.about-contact-content {padding: 0px; text-align: center;}
-.faq-content .accordion-button.collapsed {font-size: 20px;}
-.faq-content .accordion-button {font-size: 20px;}
-.about-contact-btn {padding-top: 50px;}
-.about-contact-btn .custom-button {margin-right: 0px;}
-.about-contact-content h3 {font-size: 28px;}
-.about-contact-content h3 {padding: 0 40px;}
-.philosophy .underline-button {padding-top: 20px;}
-.about-contact-btn {padding-top: 40px;}
-.who-we-are-content .custom-paragraph {margin-top: 30px;}
-.faq-accordion .custom-paragraph {margin-top: 30px;}
-.philosophy .philosophy-content .custom-paragraph {padding: 0 0px;}
-.philosophy .custom-heading.ms-md-0 h3 {line-height: 40px;}
-.philosophy .philosophy-content .custom-paragraph {margin-top: 20px;}
-.faq-content {margin-top: 40px;}
-.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 24px;}
+
 /*About-Us*/
 /*Career*/
 .opportunity-box {padding: 30px 15px;}
@@ -573,16 +469,7 @@ margin-top: 16px;
 
 @media (max-width: 767.98px){
 /*About-Us*/
-.who-we-are {padding: 60px 0;}
-.philosophy {padding: 60px 0px;}
-.faq-accordion {padding: 60px 0;}
-.about-contact {padding: 60px 0px;}  
-.faq-content .accordion-button.collapsed {font-size: 17px;}
-.faq-content .accordion-button {font-size: 17px;}
-.faq-content .accordion-body {font-size: 15px;}
-.about-contact-content h3 {padding: 0 0px;}
-.about-contact-btn {padding-top: 30px;}
-.philosophy .philosophy-content .custom-paragraph {margin-top: 15px;}
+
 /*About-Us*/ 
 /*Career*/
 .opportunity-box.third {margin-bottom: 0px;}
@@ -599,21 +486,7 @@ margin-top: 16px;
 
 @media (max-width: 575.98px){
 /*About-Us*/
-.who-we-are {padding: 40px 0;}
-.philosophy {padding: 40px 0px;}
-.faq-accordion {padding: 40px 0;}
-.about-contact {padding: 40px 0px;}  
-.philosophy .custom-heading.ms-md-0 h3 {line-height: 45px;}
-.faq-content {margin-top: 50px;}
-.about-contact-content h3 {font-size: 22px;line-height: 35px;}
-.faq-content {margin-top: 30px;}
-.about-contact-btn {padding-top: 20px;}
-.philosophy .underline-button {padding-top: 10px;}
-.faq-content .accordion-button.collapsed {padding: 20px 20px;}
-.faq-content .accordion-button {padding: 20px 20px;}
-.faq-content .faq-btn {padding: 20px 0 15px;}
-.who-we-are-content .custom-paragraph .demo.text-2 {margin-top: 14px;}
-.philosophy .philosophy-content .custom-paragraph {margin-top: 8px;}
+
 /*About-Us*/    
 /*Career*/
 .opportunity-box h3 {font-size: 20px;}
@@ -628,14 +501,6 @@ margin-top: 16px;
 }
 
 @media only screen and (max-width: 480.98px) {	
-/*About-Us*/    
-.philosophy .custom-heading.ms-md-0 h3 {line-height: 25px;}
-.about-contact-btn .custom-button {display: block;}
-.about-contact-btn {justify-content: center;display: flex;}
-.faq-content .accordion-button.collapsed {font-size: 16px;}
-.faq-content .accordion-button {font-size: 16px;}
-.about-contact-content h3 {padding: 0 0px;}
-/*About-Us*/ 
 /*Plugin*/
 .service-inner-intro.custom-pad .custom-heading .main-heading {line-height: 30px;}
 .service-inner-intro-content .custom-paragraph {margin-top: 10px;}
