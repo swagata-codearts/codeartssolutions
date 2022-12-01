@@ -373,6 +373,9 @@ border-bottom: 1px solid #00b2ad;
 }
 /*=====Our Service====*/
 /*=====Plugin====*/
+.service-inner-intro.custom-pad {
+    background-color: #f4f4f4;
+}
 .service-inner-intro.custom-pad .custom-heading {
     text-align: center;
 }
@@ -503,6 +506,31 @@ border-bottom: 1px solid #00b2ad;
     border-radius: 10px;
   }
 /*=====Plugin=====*/
+/*Contact Us*/
+.contact-details.custom-pad {
+    padding: 120px 0px;
+    background-color: #f4f4f4;
+}
+.contact-details-box {
+    text-align: center;
+    background-color: var(--c-white-900);
+    padding: 40px 20px;
+    height: 160px;
+}
+.contact-list {
+    margin-top: 30px;
+}
+.contact-list li {
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.contact-list li a {
+    text-decoration: none;
+    color: var(--c-black-600);
+}
+/*Contact Us*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
