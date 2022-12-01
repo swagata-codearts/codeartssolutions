@@ -320,6 +320,57 @@ border-bottom: 1px solid #00b2ad;
 .faq-content .faq-btn {
     margin-top: 20px;
 }
+.service-approach.custom-pad {
+    padding: 120px 0;
+    background-color: var(--c-black-800);
+}
+.service-approach.custom-pad .custom-paragraph p {
+    padding: 0 260px 0 0;font-size: 20px;
+    color: var(--c-white-900);
+    line-height: 35px;
+    text-align: left;
+}
+.service-approach.custom-pad .custom-heading .sub-heading {
+    color: var(--c-white-900);
+}
+.service-approach.custom-pad .custom-heading .main-heading {
+    color: var(--c-white-900);
+}
+.approach-content .custom-paragraph p {
+    padding: 0 60px 0 0 !important;
+    font-size: 16px !important;
+    font-family: var(--ff-tertiary);
+    font-weight: 300;
+}
+.approach-content .custom-paragraph {
+    margin-top: 35px !important;
+}
+.approach-content {
+    height: 250px;
+    padding: 0 0 0 70px;
+    position: relative;
+}
+.approach-content::before {
+    position: absolute;
+    content: '';
+    background-color: var(--c-primary);
+    width: 55px;
+    height: 3px;
+    top: 17px;
+    left: 0;
+}
+.approach-content h3 {
+    font-family: var(--ff-secondary);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--c-white-900);
+}
+.approach-wrap {
+    margin-top: 100px;
+}
+.approach-wrap.second-line {
+    margin-top: 70px;
+}
 /*=====Our Service====*/
 /*=====Plugin====*/
 .service-inner-intro.custom-pad .custom-heading {
