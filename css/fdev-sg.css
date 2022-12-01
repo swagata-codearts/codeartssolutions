@@ -569,6 +569,62 @@ border-bottom: 1px solid #00b2ad;
     line-height: 110px;
 }
 /*Contact Us*/
+/*our reviews*/
+.testimonial.custom-pad {
+    padding: 120px 0;
+    background-color: #F6F5F4;
+}
+.testimonial-box {
+    background-color: var(--c-white-900);
+    height: 375px;
+    margin-bottom: 30px;
+    padding: 50px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+.fivestar li {
+    display: inline-block;
+    color: var(--c-primary);
+}
+.testimonial-box .custom-paragraph p {
+    padding: 0 0px;
+    text-align: left;
+    height: 120px;
+}
+.testimonial-box h4 {
+    font-family: var(--ff-secondary);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--c-black-700);
+    margin-top: 50px;
+}
+.verified {
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    color: var(--c-primary);
+    font-weight: 600;
+}
+.verified span .fas.fa-check {
+    margin-right: 6px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-color: var(--c-primary);
+    color: var(--c-white-900);
+    text-align: center;
+    border-radius: 50px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.client-review {
+    position: relative;
+}
+.verified span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*our reviews*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
