@@ -515,20 +515,58 @@ border-bottom: 1px solid #00b2ad;
     text-align: center;
     background-color: var(--c-white-900);
     padding: 40px 20px;
-    height: 160px;
+    height: 270px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--c-primary);
+}
+.contact-details-box::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-100);
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.contact-details-box:hover::after {
+    height: 100%;
+    top: auto;
+    bottom: 0;
+}
+.contact-details-text {
+    position: relative;
+    z-index: 2;
 }
 .contact-list {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contact-list li {
     font-family: var(--ff-secondary);
     font-size: 16px;
     font-weight: 400;
     padding: 5px 0;
+    color: var(--c-black-600);
 }
 .contact-list li a {
     text-decoration: none;
     color: var(--c-black-600);
+}
+.contact-details-text span {
+    color: var(--c-white-900);
+    font-size: 40px;
+    background-color: var(--c-cyan-500);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50px;
+    line-height: 110px;
 }
 /*Contact Us*/
 /*Inner-page-end*/
@@ -609,6 +647,11 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-intro-content .custom-paragraph {margin-top: 35px;}
 .ceo-circle-img img {border-radius: 10px;width: 70%;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details-text span {font-size: 32px;height: 80px;width: 80px;line-height: 90px;}
+.contact-list.speacial-text li {font-size: 15px;}
+.contact-details-box {height: 260px;}
+/*Contact Us*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -660,6 +703,14 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-best-content {text-align: center;}
 .service-inner-intro.custom-pad .custom-heading .main-heading {line-height: 55px;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details-text span {font-size: 26px;height: 70px;width: 70px;line-height: 76px;}
+.contact-list.speacial-text li {font-size: 13px;}
+.contact-details-box {height: 230px;}
+.contact-details-box {padding: 40px 10px;}
+.contact-list li {font-size: 14px;}
+.contact-details.custom-pad {padding: 100px 0px;}
+/*Contact Us*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -714,6 +765,14 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-best-content {text-align: center;}
 .service-inner-intro.custom-pad .custom-heading .main-heading {line-height: 50px;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details-text span {font-size: 26px;height: 70px;width: 70px;line-height: 76px;}
+.contact-list.speacial-text li {font-size: 13px;}
+.contact-details-box {height: 230px;}
+.contact-details-box {padding: 40px 10px;}
+.contact-list li {font-size: 14px;}
+.contact-details.custom-pad {padding: 80px 0px;}
+/*Contact Us*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -793,6 +852,15 @@ border-bottom: 1px solid #00b2ad;
 .ceo-content .custom-paragraph {margin-top: 20px;}
 .ceo-content {padding: 30px 0 0;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details-text span {font-size: 26px;height: 70px;width: 70px;line-height: 76px;}
+.contact-list.speacial-text li {font-size: 15px;}
+.contact-details-box {height: 230px;}
+.contact-details-box {padding: 40px 10px;}
+.contact-list li {font-size: 15px;}
+.contact-details-box {margin-bottom: 30px;}
+.contact-details.custom-pad {padding: 70px 0px 40px;}
+/*Contact Us*/
 }
 
 @media (max-width: 767.98px){
@@ -838,6 +906,9 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-best-content h4 {font-size: 18px;}
 .service-inner-intro.custom-pad .custom-heading .main-heading {line-height: 40px;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details.custom-pad {padding: 60px 0px 30px;}
+/*Contact Us*/
 }
 
 @media (max-width: 575.98px){
@@ -881,6 +952,9 @@ border-bottom: 1px solid #00b2ad;
 .service-inner-best-content h3 {font-size: 24px;}
 .service-inner-best-content h4 {margin-top: 10px;}
 /*Plugin*/
+/*Contact Us*/
+.contact-details.custom-pad {padding: 50px 0px 20px;}
+/*Contact Us*/
 }
 
 @media only screen and (max-width: 480.98px) {	
