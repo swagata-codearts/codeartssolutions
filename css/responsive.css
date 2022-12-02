@@ -607,7 +607,7 @@
 .leading-brands .brand-carousal-image .owl-dots .owl-dot.active{width: 7px;height: 7px;}
 
 /* Paulami Saha 24.09.2022 End */
-
+.custom-navbar-text {margin-left: 0px;}
 
 .custom-button{width: 130px;height: 50px;line-height: 50px;}
 /* .custom-navbar-brand img {width: 80%;} */
