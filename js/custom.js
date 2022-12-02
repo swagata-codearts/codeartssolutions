@@ -113,6 +113,26 @@ jQuery('#blog-carousel').owlCarousel({
     }
   })
 
+  jQuery('#delhi-bangalore-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:2
+        }
+    }
+  })
+
 jQuery('.js-accordion__item').on('click', function () {
   jQuery(this).parent().find('.state-active').removeClass('state-active');
   jQuery(this).removeClass('state-collapsed').addClass('state-active');

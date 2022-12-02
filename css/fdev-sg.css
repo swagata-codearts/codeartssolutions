@@ -800,6 +800,74 @@ border-bottom: 1px solid #00b2ad;
     display: none;
 }
 /*Blog*/
+.places-service-carousel {
+    padding: 30px;
+}
+.places-service-content {
+    text-align: center;
+    box-shadow: 0px 0 15px rgba(0,0,0,0.2);
+    padding: 15px 15px 55px;
+    border-radius: 10px;
+    height: 980px;
+    background-color: var(--c-white-900);
+}
+.places-service-content .custom-paragraph p {
+    padding: 0 0px;
+}
+.places-service-content h3 {
+    font-family: var(--ff-secondary);
+    font-size: 26px;
+    line-height: 38px;
+    color: var(--c-black-700);
+    font-weight: 500;
+    margin-top: 40px;
+}
+.places-service-content .custom-paragraph {
+    margin-top: 25px;
+}
+.delhi-service.custom-pad {
+    padding: 120px 0;
+    background-color: #F6F5F4;
+}
+.digital-service.custom-pad {
+    padding: 120px 0;
+}
+.digital-service-content {
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    padding: 50px 0;
+    margin: 50px 0 0px 0;
+    position: relative;
+    z-index: 2;
+}
+.digital-service-content::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-100);
+    width: 100%;
+    height: 0;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+.digital-service-content:hover::after {
+    top: 0px;
+    bottom: auto;
+    height: 100%;
+}
+.digital-service-content h4 {
+    font-family: var(--ff-secondary);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--c-primary);
+    margin-top: 25px;
+}
+.digital-service.custom-pad .custom-heading {
+    text-align: center;
+}
+/*Delhi service*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -811,9 +879,6 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
-/*About-Us*/
-
-/*About-Us*/
 /*Plugin*/
 .ceo-img {text-align: right;}
 .ceo-circle-img::after {left: 30px;}
@@ -842,6 +907,10 @@ border-bottom: 1px solid #00b2ad;
 .latest-blog.custom-pad {padding: 100px 0;}
 .blog-start.custom-pad {padding: 100px 0;}
 /*Blog*/
+/*Delhi service*/
+.delhi-service.custom-pad {padding: 100px 0;}
+.digital-service.custom-pad {padding: 100px 0;}
+/*Delhi service*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -899,6 +968,10 @@ border-bottom: 1px solid #00b2ad;
 .blog-box {padding: 40px;}
 .latest-blog-box {padding: 15px;}
 /*Blog*/
+/*Delhi service*/
+.delhi-service.custom-pad {padding: 90px 0;}
+.digital-service.custom-pad {padding: 90px 0;}
+/*Delhi service*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -972,6 +1045,13 @@ border-bottom: 1px solid #00b2ad;
 .blog-categories ul li a {font-size: 18px;}
 .blog-news h5 {font-size: 15px;}
 /*Blog*/
+/*Delhi service*/
+.delhi-service.custom-pad {padding: 80px 0;}
+.digital-service.custom-pad {padding: 80px 0;}
+.places-service-carousel {padding: 10px;}
+.digital-service-content h4 {font-size: 20px;}
+.digital-service.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
+/*Delhi service*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1049,6 +1129,13 @@ border-bottom: 1px solid #00b2ad;
 .blog-categories ul li a {font-size: 18px;}
 .blog-news h5 {font-size: 15px;}
 /*Blog*/
+/*Delhi service*/
+.delhi-service.custom-pad {padding: 80px 0;}
+.digital-service.custom-pad {padding: 80px 0;}
+.places-service-carousel {padding: 10px;}
+.digital-service-content h4 {font-size: 20px;}
+.digital-service.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
+/*Delhi service*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -1158,6 +1245,14 @@ border-bottom: 1px solid #00b2ad;
 .blog-start.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
 .blog-box.second-blog-box {margin-top: 40px;margin-bottom: 40px;}
 /*Blog*/
+/*Delhi service*/
+/*Delhi service*/
+.delhi-service.custom-pad {padding: 60px 0;}
+.digital-service.custom-pad {padding: 60px 0;}
+.places-service-carousel {padding: 10px;}
+.digital-service-content h4 {font-size: 20px;}
+.digital-service.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
+/*Delhi service*/
 }
 
 @media (max-width: 767.98px){
@@ -1225,6 +1320,13 @@ border-bottom: 1px solid #00b2ad;
 .latest-blog.custom-pad {padding: 40px 0;}
 .blog-start.custom-pad {padding: 40px 0;}
 /*Blog*/
+/*Delhi service*/
+.places-service-content {height: 850px;}
+.delhi-service.custom-pad {padding: 50px 0;}
+.digital-service.custom-pad {padding: 50px 0;}
+.digital-service-content {margin: 30px 0 0px 0;}
+.digital-service.custom-pad .custom-heading {margin-bottom: 20px;}
+/*Delhi service*/
 }
 
 @media (max-width: 575.98px){
@@ -1291,6 +1393,12 @@ border-bottom: 1px solid #00b2ad;
 .blog-news h4 {font-size: 18px;padding: 15px 0 10px;}
 .blog-news h5 {font-size: 13px;}
 /*Blog*/
+/*Delhi service*/
+.places-service-content h3 {font-size: 22px;line-height: 28px;margin-top: 20px;}
+.places-service-carousel {padding: 0px;}
+.places-service-content {height: 800px;}
+.digital-service.custom-pad .custom-heading {margin-bottom: 10px;}
+/*Delhi service*/
 }
 
 @media only screen and (max-width: 480.98px) {	
