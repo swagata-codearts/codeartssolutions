@@ -793,6 +793,12 @@ border-bottom: 1px solid #00b2ad;
 .latest-blog.custom-pad .custom-heading {
     text-align: center;
 }
+.latest-blog.custom-pad .custom-heading .main-heading {
+    line-height: 0;
+}
+.latest-blog.custom-pad  .owl-dots {
+    display: none;
+}
 /*Blog*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
@@ -832,6 +838,10 @@ border-bottom: 1px solid #00b2ad;
 .approach-wrap {margin-top: 90px;}
 .approach-wrap.second-line {margin-top: 50px;}
 /*service*/
+/*Blog*/
+.latest-blog.custom-pad {padding: 100px 0;}
+.blog-start.custom-pad {padding: 100px 0;}
+/*Blog*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -881,6 +891,14 @@ border-bottom: 1px solid #00b2ad;
 .testimonial.custom-pad {padding: 100px 0;}
 .testimonial-box {height: 355px;}
 /*our reviews*/
+/*Blog*/
+.latest-blog.custom-pad {padding: 90px 0;}
+.blog-start.custom-pad {padding: 90px 0;}
+.blog-categories {padding: 40px;}
+.blog-news {padding: 40px;}
+.blog-box {padding: 40px;}
+.latest-blog-box {padding: 15px;}
+/*Blog*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -944,6 +962,16 @@ border-bottom: 1px solid #00b2ad;
 .testimonial.custom-pad {padding: 100px 0;}
 .testimonial-box {height: 315px;padding: 30px;}
 /*our reviews*/
+/*Blog*/
+.latest-blog.custom-pad {padding: 90px 0;}
+.blog-start.custom-pad {padding: 90px 0;}
+.blog-categories {padding: 30px;}
+.blog-news {padding: 30px;}
+.blog-box {padding: 30px;}
+.latest-blog-box {padding: 15px;}
+.blog-categories ul li a {font-size: 18px;}
+.blog-news h5 {font-size: 15px;}
+/*Blog*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1011,6 +1039,16 @@ border-bottom: 1px solid #00b2ad;
 .testimonial-box {height: 315px;padding: 30px;}
 .testimonial-box h4 {font-size: 22px;}
 /*our reviews*/
+/*Blog*/
+.latest-blog.custom-pad {padding: 80px 0;}
+.blog-start.custom-pad {padding: 80px 0;}
+.blog-categories {padding: 25px;}
+.blog-news {padding: 25px;}
+.blog-box {padding: 25px;}
+.latest-blog-box {padding: 15px;}
+.blog-categories ul li a {font-size: 18px;}
+.blog-news h5 {font-size: 15px;}
+/*Blog*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -1108,6 +1146,18 @@ border-bottom: 1px solid #00b2ad;
 .testimonial-box h4 {margin-top: 30px;}
 .testimonial .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
 /*our reviews*/
+/*Blog*/
+.latest-blog.custom-pad {padding: 60px 0;}
+.blog-start.custom-pad {padding: 60px 0;}
+.blog-categories {padding: 25px;}
+.blog-news {padding: 25px;}
+.blog-box {padding: 25px;}
+.latest-blog-box {padding: 15px;}
+.blog-categories ul li a {font-size: 18px;}
+.blog-news h5 {font-size: 15px;}
+.blog-start.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
+.blog-box.second-blog-box {margin-top: 40px;margin-bottom: 40px;}
+/*Blog*/
 }
 
 @media (max-width: 767.98px){
@@ -1164,6 +1214,17 @@ border-bottom: 1px solid #00b2ad;
 .testimonial-box h4 {margin-top: 30px;}
 .testimonial-box {margin-bottom: 20px;}
 /*our reviews*/
+/*Blog*/
+.blog-box {text-align: center;}
+.blog-box-content .custom-paragraph p {text-align: center;}
+.blog-box-content .custom-paragraph {margin-top: 25px;}
+.blog-box .blog-box-content h5 {font-size: 24px;}
+.blog-list li span {font-size: 14px;}
+.blog-categories ul {margin-top: 10px;}
+.blog-content-carousel {margin-top: 30px;}
+.latest-blog.custom-pad {padding: 40px 0;}
+.blog-start.custom-pad {padding: 40px 0;}
+/*Blog*/
 }
 
 @media (max-width: 575.98px){
@@ -1215,6 +1276,21 @@ border-bottom: 1px solid #00b2ad;
 .testimonial-box h4 {margin-top: 25px;font-size: 20px;}
 .client-review .custom-paragraph {margin-top: 20px;}
 /*Our reviews*/
+/*Blog*/
+.blog-box {padding: 25px 10px;}
+.blog-box .blog-box-content h5 {font-size: 20px;line-height: 28px;}
+.blog-box-content .blog-list {margin-top: 10px;}
+.blog-box-content .custom-paragraph {margin-top: 15px;}
+.blog-btn {margin-top: 22px;}
+.blog-box.second-blog-box {margin-top: 30px;margin-bottom: 30px;}
+.latest-blog-content {box-shadow: 0px 0 5px rgba(0,0,0,0.2);}
+.latest-blog-box {padding: 5px;}
+.latest-blog-content h4 {font-size: 22px;}
+.latest-blog-content .custom-paragraph {margin-top: 15px;}
+.latest-blog-content h4 {padding: 15px 0;}
+.blog-news h4 {font-size: 18px;padding: 15px 0 10px;}
+.blog-news h5 {font-size: 13px;}
+/*Blog*/
 }
 
 @media only screen and (max-width: 480.98px) {	

@@ -104,7 +104,10 @@ jQuery('#blog-carousel').owlCarousel({
         600:{
             items:1
         },
-        992:{
+        768:{
+            items:2
+        },
+        1200:{
             items:3
         }
     }
