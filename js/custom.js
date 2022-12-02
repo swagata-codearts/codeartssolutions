@@ -93,6 +93,23 @@ jQuery('#team-carousel').owlCarousel({
     }
   })
 
+jQuery('#blog-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        992:{
+            items:3
+        }
+    }
+  })
+
 jQuery('.js-accordion__item').on('click', function () {
   jQuery(this).parent().find('.state-active').removeClass('state-active');
   jQuery(this).removeClass('state-collapsed').addClass('state-active');
