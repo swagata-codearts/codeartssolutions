@@ -524,7 +524,7 @@ border-bottom: 1px solid #00b2ad;
     top: -15px;
     left: -15px;
     border-radius: 140px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .ceo-img:hover::after {
     height: 290px;
