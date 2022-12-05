@@ -534,6 +534,9 @@ border-bottom: 1px solid #00b2ad;
     border-radius: 150px;
     border: 12px solid var(--c-primary);
 }
+.faq-accordion.service-inner-faq.custom-pad .faq-content .accordion-button:not(.collapsed) {
+    background-color: var(--c-white-800) !important;
+}
 /*=====Plugin(Service inner)=====*/
 /*Contact Us*/
 .contact-details.custom-pad {
