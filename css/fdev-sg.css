@@ -318,6 +318,9 @@ border-bottom: 1px solid #00b2ad;
     color: var(--c-black-600);
     background-color: var(--c-white-900);
 }
+.faq-content  .accordion-button:not(.collapsed) {
+    background-color: var(--c-white-900) !important;
+}
 .faq-content .faq-btn {
     margin-top: 20px;
 }
@@ -508,6 +511,28 @@ border-bottom: 1px solid #00b2ad;
     height: 250px;
     width: 250px;
     border-radius: 130px;
+}
+.ceo-img {
+    position: relative;
+}
+.ceo-img::after {
+    position: absolute;
+    content: '';
+    border: 6px solid var(--c-primary);
+    height: 280px;
+    width: 280px;
+    top: -15px;
+    left: -15px;
+    border-radius: 140px;
+    transition: all 0.3s ease-in-out;
+}
+.ceo-img:hover::after {
+    height: 290px;
+    width: 290px;
+    top: -20px;
+    left: -20px;
+    border-radius: 150px;
+    border: 12px solid var(--c-primary);
 }
 /*=====Plugin(Service inner)=====*/
 /*Contact Us*/
