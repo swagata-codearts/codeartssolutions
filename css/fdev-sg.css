@@ -372,9 +372,10 @@ border-bottom: 1px solid #00b2ad;
     margin-top: 70px;
 }
 /*=====Our Service====*/
-/*=====Plugin====*/
+/*=====Plugin(Service inner)====*/
 .service-inner-intro.custom-pad {
     background-color: #f4f4f4;
+    padding: 120px 0;
 }
 .service-inner-intro.custom-pad .custom-heading {
     text-align: center;
@@ -387,6 +388,7 @@ border-bottom: 1px solid #00b2ad;
 }
 .service-inner-highlight.custom-pad {
     background-color: var(--c-cyan-200);
+    padding: 120px 0;
 }
 .service-inner-highlight-content {
     background-color: var(--c-white-900);
@@ -394,6 +396,7 @@ border-bottom: 1px solid #00b2ad;
     box-shadow: 0 0 25px rgba(0,0,0,0.1);
     position: relative;
     z-index: 2;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
 .service-inner-highlight-content:hover {
@@ -445,6 +448,7 @@ border-bottom: 1px solid #00b2ad;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    padding: 120px 0;
 }
 .service-inner-best.custom-pad::after {
     position: absolute;
@@ -489,6 +493,7 @@ border-bottom: 1px solid #00b2ad;
 }
 .service-inner-ceo.custom-pad {
     background-color: var(--c-cyan-200);
+    padding: 120px 0;
 }
 .ceo-circle-img {
     position: relative;
@@ -505,7 +510,7 @@ border-bottom: 1px solid #00b2ad;
     z-index: -1;
     border-radius: 10px;
   }
-/*=====Plugin=====*/
+/*=====Plugin(Service inner)=====*/
 /*Contact Us*/
 .contact-details.custom-pad {
     padding: 120px 0px;
