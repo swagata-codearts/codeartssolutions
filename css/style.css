@@ -961,6 +961,18 @@ line-height: 26px;
 font-weight: 400;
 margin-top: 12px;
 }
+.website.count-1 .count-number-and-unit.secondary-font {
+  font-family: var(--ff-tertiary);
+  font-size: 73px;
+  font-weight: 700;
+  color: var(--c-black-700);
+}
+.website.count-2 .count-number-and-unit.secondary-font {
+  font-family: var(--ff-tertiary);
+  font-size: 73px;
+  font-weight: 700;
+  color: var(--c-black-700);
+}
 .introduction .intro-right .count-2 {
 margin-top: 40px;
 }
@@ -1224,10 +1236,12 @@ font-size: 30px;
 .technology-carousel .owl-nav .owl-next {
 position: absolute;
 right: 0;
+top: 20px;
 }
 .technology-carousel .owl-nav .owl-prev {
 position: absolute;
 left: 0;
+top: 20px;
 }
 .technology-carousel .owl-dots .owl-dot.active {
 background-color: var(--c-cyan-400) !important;
@@ -1411,6 +1425,7 @@ padding: 0 0 0 5px;
 }
 .copyright-right {
 text-align: right;
+margin-top: 60px;
 }
 .copyright-left {
 margin-top: 60px;

@@ -19,6 +19,7 @@ jQuery('#project-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:true,
+  navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
   responsive:{
       0:{
           items:1
@@ -37,9 +38,11 @@ jQuery('#technology-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:true,
+  dots:false,
+  navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
   responsive:{
       0:{
-          items:1
+          items:2
       },  
       576:{
         items:3
@@ -63,6 +66,8 @@ jQuery('#brand-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:true,
+  dots:false,
+  navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
   responsive:{
       0:{
           items:1
@@ -97,6 +102,7 @@ jQuery('#blog-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
     responsive:{
         0:{
             items:1
@@ -205,3 +211,4 @@ jQuery(document).ready(function() {
         });
     });
     });
+
