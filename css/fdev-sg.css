@@ -479,7 +479,7 @@ border-bottom: 1px solid #00b2ad;
     text-align: center;
 }
 .ceo-content .custom-paragraph {
-    margin-top: 35px;
+    margin-top: 10px;
 }
 .ceo-name h5 {
     font-family: var(--ff-secondary);
@@ -496,7 +496,7 @@ border-bottom: 1px solid #00b2ad;
     padding: 30px;
     text-align: center;
     background-color: var(--c-white-800);
-    margin-top: 30px;
+    margin-top: 45px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .ceo-circle-img img {
@@ -1023,7 +1023,7 @@ border-bottom: 1px solid #00b2ad;
 .faq-content .accordion-button.collapsed {font-size: 28px;padding: 25px 0;}
 .faq-content .accordion-button {font-size: 28px;padding: 25px 0;}
 .faq-accordion.custom-pad .custom-paragraph p {padding: 0 100px 0 0px;font-size: 18px;line-height: 30px;}
-.faq-accordion.custom-pad {padding: 800px 0;}
+.faq-accordion.custom-pad {padding: 80px 0;}
 .service-approach.custom-pad {padding: 80px 0;}
 .service-approach.custom-pad .custom-paragraph p {font-size: 18px;line-height: 30px;padding: 0 90px 0 0;}
 .approach-wrap {margin-top: 90px;}
@@ -1043,10 +1043,10 @@ border-bottom: 1px solid #00b2ad;
 /*Plugin*/
 /*Contact Us*/
 .contact-details-text span {font-size: 26px;height: 70px;width: 70px;line-height: 76px;}
-.contact-list.speacial-text li {font-size: 13px;}
+.contact-list.speacial-text li {font-size: 15px;}
 .contact-details-box {height: 230px;}
-.contact-details-box {padding: 40px 10px;}
-.contact-list li {font-size: 14px;}
+.contact-details-box {padding: 40px 10px;margin: 15px 0;}
+.contact-list li {font-size: 15px;}
 .contact-details.custom-pad {padding: 100px 0px;}
 /*Contact Us*/
 /*our reviews*/
@@ -1122,10 +1122,10 @@ border-bottom: 1px solid #00b2ad;
 /*Plugin*/
 /*Contact Us*/
 .contact-details-text span {font-size: 26px;height: 70px;width: 70px;line-height: 76px;}
-.contact-list.speacial-text li {font-size: 13px;}
+.contact-list.speacial-text li {font-size: 15px;}
 .contact-details-box {height: 230px;}
-.contact-details-box {padding: 40px 10px;}
-.contact-list li {font-size: 14px;}
+.contact-details-box {padding: 40px 10px;margin: 15px 0;}
+.contact-list li {font-size: 15px;}
 .contact-details.custom-pad {padding: 80px 0px;}
 /*Contact Us*/
 /*our reviews*/
@@ -1169,10 +1169,8 @@ border-bottom: 1px solid #00b2ad;
 .team.carousel.custom-pad {display: block;}
 .team.custom-pad {display: none;}
 .team.carousel.custom-pad .owl-nav {position: relative;text-align: center;}
-.team.carousel.custom-pad .owl-next span {font-weight: 800;transition:all 0.3s ease-in-out;border-radius:50px;margin-left: 10px;background-color: var(--c-primary);height: 50px;width: 40px;display: inline-block;font-size: 35px;line-height: 47px;color: var(--c-white-900);}
-.team.carousel.custom-pad .owl-prev span {font-weight: 800;transition:all 0.3s ease-in-out;border-radius:50px;background-color: var(--c-primary);height: 50px;width: 40px;display: inline-block;font-size: 35px;line-height: 47px;color: var(--c-white-900);}
-.team.carousel.custom-pad .owl-prev span:hover {background-color: var(--c-cyan-400);color: var(--c-primary);}
-.team.carousel.custom-pad .owl-next span:hover {background-color: var(--c-cyan-400);color: var(--c-primary);}
+.team.carousel.custom-pad .owl-next {position: absolute;bottom: -50px;right: -50px;font-size: 24px;background-color: var(--c-primary);height: 50px;width: 40px;color: var(--c-white-900);line-height: 0;left: 0;margin: 0 auto;}
+.team.carousel.custom-pad .owl-prev {position: absolute;bottom: -50px;left: -50px;font-size: 24px;background-color: var(--c-primary);height: 50px;width: 40px;color: var(--c-white-900);line-height: 0;right: 0;margin: 0 auto;}
 .team.custom-pad .custom-heading {margin: 10px 0 50px;}
 .join-team.custom-pad {padding: 130px 0 70px;}
 .about-culture.custom-pad {padding: 70px 0;}
@@ -1202,13 +1200,17 @@ border-bottom: 1px solid #00b2ad;
 .faq-content .accordion-body {font-size: 14px;font-weight: 400;}
 .faq-content .faq-btn {margin-top: 15px;}
 .faq-accordion.custom-pad .custom-heading .main-heading {line-height: 50px;}
-.service-approach.custom-pad {padding: 60px 0;}
+.service-approach.custom-pad {padding: 60px 0 120px;}
 .service-approach.custom-pad .custom-paragraph p {font-size: 18px;line-height: 30px;padding: 0 90px 0 0;}
 .approach-wrap {margin-top: 50px;margin-bottom: -20px;}
 .approach-wrap.second-line {margin-top: 30px;margin-bottom: -50px;}
 .approach-content .custom-paragraph p {font-size: 14px !important;line-height: 28px !important;padding: 0 20px 0 0 !important;}
-.approach-content {height: 190px;}
+.approach-content {height: auto;}
 .service-approach.custom-pad .custom-paragraph p {padding: 0 0px 0 0 !important;}
+.approach-content h3 {font-size: 24px;}
+.approach-content::before {top: 14px;}
+.approach-content .custom-paragraph {margin-top: 25px !important;}
+.approach-content {margin-top: 80px;}
 /*service*/
 /*Plugin*/
 .service-inner-intro-content .custom-paragraph {margin-top: 25px;}
@@ -1295,9 +1297,11 @@ border-bottom: 1px solid #00b2ad;
 .service-approach.custom-pad .custom-heading {text-align: center;}
 .service-approach.custom-pad .custom-paragraph p {text-align: center;}
 .approach-content .custom-paragraph p {text-align: left !important;}
-.approach-content {height: 210px;}
 .approach-content .custom-paragraph {margin-top: 20px !important;}
-.service-approach.custom-pad {padding: 50px 0;}
+.service-approach.custom-pad {padding: 50px 0 100px;}
+.approach-content h3 {font-size: 20px;}
+.approach-content::before {top: 12px;}
+.approach-content {margin-top: 70px;}
 /*service*/
 /*Plugin*/
 .service-inner-intro.custom-pad {padding: 50px 0;}
@@ -1351,6 +1355,8 @@ border-bottom: 1px solid #00b2ad;
 .about-culture-content .custom-paragraph p {font-size: 16px;}
 .team.custom-pad .custom-heading {margin-bottom: 30px;}
 .team-members-wrap img {height: 420px;}
+.focus-grow-content .custom-heading .main-heading {font-size: 20px;line-height: 28px;}
+.focus-grow-content .custom-paragraph {margin-top: 15px;}
 /*About-Us*/    
 /*Career*/
 .opportunity-box h3 {font-size: 20px;}
@@ -1376,9 +1382,9 @@ border-bottom: 1px solid #00b2ad;
 .approach-content::before {width: 35px;height: 2px;}
 .approach-content h3 {font-size: 26px;}
 .approach-content .custom-paragraph p {font-size: 13px !important;line-height: 22px !important;}
-.approach-content {height: 250px;}
 .approach-wrap.second-line {margin-top: -10px;margin-bottom: -20px;}
-.service-approach.custom-pad {padding: 40px 0;}
+.service-approach.custom-pad {padding: 40px 0 80px;}
+.approach-content {margin-top: 50px;}
 /*Service*/
 /*Plugin*/
 .service-inner-intro.custom-pad .custom-heading .main-heading {line-height: 28px;}
