@@ -900,6 +900,141 @@ border-bottom: 1px solid #00b2ad;
     text-align: center;
 }
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {
+    padding: 120px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.all-work-section.custom-pad::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.all-work-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.all-work-content h4 {
+    font-family: var(--ff-secondary);
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--c-white-900);
+    text-transform: capitalize;
+}
+.all-work-content-btn {
+    margin-top: 30px;
+}
+.all-work-content-btn .custom-button:hover {
+    color: var(--c-white-900);
+}
+.all-work-content-btn .custom-button-alt {
+    color: var(--c-white-900);
+}
+.all-work-content-btn  .custom-button-alt::after {
+    background-color: var(--c-white-900);
+}
+.all-work-content-btn .custom-button-alt:hover {
+    color: var(--c-primary);
+}
+.all-work-content-btn  .custom-button-alt:hover::after {
+    background-color: var(--c-primary);
+}
+.project-box {
+    margin:25px 0;
+}
+.project-box .project-content img {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+.project-box .project-content {
+    position: relative;
+    z-index: 2;
+}
+.project-box .project-content::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.65);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.project-box .project-content::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+.project-box .project-content:hover::before {
+    height: 100%;
+    bottom: 0;
+}
+.project-name {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 3;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.project-box:hover .project-name {
+    transform: scale(1.1);
+}
+.project-box:hover .project-name h4 {
+    color: var(--c-cyan-500);
+}
+.project-name h4 {
+    font-family: var(--ff-secondary);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--c-white-900);
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+.project-name-btn .custom-button-alt {
+    color: var(--c-white-900);
+}
+.project-name-btn  .custom-button-alt::after {
+    background-color: var(--c-white-900);
+}
+.project-name-btn .custom-button-alt:hover {
+    color: var(--c-primary);
+}
+.project-name-btn .custom-button-alt:hover::after {
+    background-color: var(--c-primary);
+}
+.project-name-btn {
+    margin-top: 20px;
+}
+.portfolio.custom-pad {
+    padding: 120px 0px;
+}
+.portfolio.custom-pad .custom-heading.ms-md-0 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+/*Latest Work*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -994,6 +1129,11 @@ border-bottom: 1px solid #00b2ad;
 .delhi-service.custom-pad {padding: 90px 0;}
 .digital-service.custom-pad {padding: 90px 0;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 100px 0;}
+.all-work-content h4 {font-size: 40px;}
+.portfolio.custom-pad {padding: 100px 0px;}
+/*Latest Work*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -1070,6 +1210,11 @@ border-bottom: 1px solid #00b2ad;
 .digital-service-content h4 {font-size: 20px;}
 .digital-service.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 80px 0;}
+.all-work-content h4 {font-size: 38px;}
+.portfolio.custom-pad {padding: 80px 0px;}
+/*Latest Work*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1150,6 +1295,11 @@ border-bottom: 1px solid #00b2ad;
 .digital-service-content h4 {font-size: 20px;}
 .digital-service.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 80px 0;}
+.all-work-content h4 {font-size: 36px;}
+.portfolio.custom-pad {padding: 80px 0px;}
+/*Latest Work*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -1262,6 +1412,17 @@ border-bottom: 1px solid #00b2ad;
 .digital-service-content h4 {font-size: 20px;}
 .digital-service.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 60px 0;}
+.all-work-content h4 {font-size: 32px;}
+.portfolio.custom-pad {padding: 60px 0px;}
+.portfolio.custom-pad .px-4 {padding-right: 15px !important;padding-left: 15px !important;}
+.project-box .project-content img {height: 450px;}
+.project-box:hover .project-name {transform: scale(1);}
+.project-name {top: 200px;}
+.project-name h4 {font-size: 26px;}
+.project-box {margin: 15px 0;}
+/*Latest Work*/
 }
 
 @media (max-width: 767.98px){
@@ -1347,6 +1508,12 @@ border-bottom: 1px solid #00b2ad;
 .digital-service-content {margin: 30px 0 0px 0;}
 .digital-service.custom-pad .custom-heading {margin-bottom: 20px;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 50px 0;}
+.all-work-content h4 {font-size: 30px;}
+.portfolio.custom-pad {padding: 50px 0px;}
+.project-name {top: 190px;}
+/*Latest Work*/
 }
 
 @media (max-width: 575.98px){
@@ -1430,6 +1597,13 @@ border-bottom: 1px solid #00b2ad;
 .places-service-content {height: 800px;}
 .digital-service.custom-pad .custom-heading {margin-bottom: 10px;}
 /*Delhi service*/
+/*Latest Work*/
+.all-work-section.custom-pad {padding: 40px 0;}
+.all-work-content h4 {font-size: 22px;}
+.portfolio.custom-pad {padding: 40px 0px;}
+.project-name h4 {font-size: 20px;}
+.project-box {margin: 0px 0 15px;}
+/*Latest Work*/
 }
 
 @media only screen and (max-width: 480.98px) {	
