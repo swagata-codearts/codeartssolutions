@@ -1194,12 +1194,12 @@ border-bottom: 1px solid #00b2ad;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     padding: 40px 20px;
     margin-bottom: 40px;
-    height: 760px;
+    height: 700px;
     border-radius: 10px;
     border-bottom: 2px solid var(--c-primary);
 }
 .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {
-    padding: 0px 20px;line-height: 45px;
+    padding: 0px 20px;line-height: 38px;
 }
 .pricing-content.custom-pad .pricing-inner-btn {
     margin-top: 40px;
@@ -1484,6 +1484,10 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
+    .pricing-inner-carousel-content::after {width: 60px;height: 60px;}
+    .pricing-inner-carousel-content:hover::after {width: 70px;height: 70px;}
+    .pricing-inner-box h3::after {bottom: -10px;}
+    .pricing-content.custom-pad .pricing-inner-box {height: 600px;}
 /*Plugin*/
 
 /*Plugin*/
@@ -1516,6 +1520,17 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
+    .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {line-height: 28px;padding: 0px 0px;}
+    .pricing-content.custom-pad .pricing-inner {margin-top: 50px;}
+    .pricing-inner-carousel-content::after {width: 60px;height: 60px;}
+    .pricing-inner-carousel-content:hover::after {width: 70px;height: 70px;}
+    .pricing-inner-box h3::after {bottom: -10px;}
+    .pricing-inner-box h3 {font-size: 19px;}
+    .pricing-inner-related-service {padding: 30px 0;}
+    .pricing-inner-carousel-content h3 {font-size: 14px;}
+    .related-pricing-carousel .owl-carousel .owl-item img {width: 30%;}
+    .pricing-inner-carousel-content h3 {margin-top: 20px;}
+    .pricing-content.custom-pad .pricing-inner-box {height: 600px;}
 /*About-Us*/
 .focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
 /*About-Us*/
@@ -1594,6 +1609,20 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
+    .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {line-height: 25px;padding: 0px 0px;}
+    .pricing-content.custom-pad .pricing-inner {margin-top: 50px;}
+    .pricing-inner-carousel-content::after {width: 60px;height: 60px;}
+    .pricing-inner-carousel-content:hover::after {width: 70px;height: 70px;}
+    .pricing-inner-box h3::after {bottom: -10px;}
+    .pricing-inner-box h3 {font-size: 17px;}
+    .pricing-inner-related-service {padding: 30px 0;}
+    .pricing-inner-carousel-content h3 {font-size: 14px;}
+    .related-pricing-carousel .owl-carousel .owl-item img {width: 30%;}
+    .pricing-inner-carousel-content h3 {margin-top: 20px;}
+    .pricing-content.custom-pad .pricing-inner-box {height: 600px;}
+    .pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {width: 170px;height: 50px;}
+    .pricing-content.custom-pad .pricing-inner-btn {margin-top: 30px;}
+
 /*About-Us*/
 .focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
 .counter-content h5 {font-size: 26px;}
@@ -1695,6 +1724,22 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+    .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {line-height: 25px;padding: 0px 0px;}
+    .pricing-content.custom-pad .pricing-inner {margin-top: 50px;}
+    .pricing-inner-carousel-content::after {width: 60px;height: 60px;}
+    .pricing-inner-carousel-content:hover::after {width: 70px;height: 70px;}
+    .pricing-inner-box h3::after {bottom: -10px;}
+    .pricing-inner-box h3 {font-size: 16px;}
+    .pricing-inner-related-service {padding: 30px 0;}
+    .pricing-inner-carousel-content h3 {font-size: 14px;}
+    .related-pricing-carousel .owl-carousel .owl-item img {width: 30%;}
+    .pricing-inner-carousel-content h3 {margin-top: 20px;}
+    .pricing-content.custom-pad .pricing-inner-box {height: 600px;}
+    .pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {width: 170px;height: 50px;}
+    .pricing-content.custom-pad .pricing-inner-btn {margin-top: 30px;}
+    .pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph p {padding: 0 180px 0 0;}
+    .pricing-inner .modal-dialog {max-width: 70%;}
+
 /*About-Us*/
 .focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
 .counter-content h5 {font-size: 26px;}
@@ -1799,7 +1844,22 @@ border-bottom: 1px solid #00b2ad;
 /*Error 404*/
 }
 
-@media only screen and (max-width: 991.98px) {    
+@media only screen and (max-width: 991.98px) {  
+    .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {line-height: 25px;padding: 0px 0px;}
+    .pricing-content.custom-pad .pricing-inner {margin-top: 50px;}
+    .pricing-inner-carousel-content::after {width: 60px;height: 60px;}
+    .pricing-inner-carousel-content:hover::after {width: 70px;height: 70px;}
+    .pricing-inner-box h3::after {bottom: -10px;}
+    .pricing-inner-box h3 {font-size: 16px;}
+    .pricing-inner-related-service {padding: 30px 0;}
+    .pricing-inner-carousel-content h3 {font-size: 14px;}
+    .related-pricing-carousel .owl-carousel .owl-item img {width: 30%;}
+    .pricing-inner-carousel-content h3 {margin-top: 20px;}
+    .pricing-content.custom-pad .pricing-inner-box {height: auto;}
+    .pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {width: 170px;height: 50px;}
+    .pricing-content.custom-pad .pricing-inner-btn {margin-top: 30px;}
+    .pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph p {padding: 0 180px 0 0;}
+    .pricing-inner .modal-dialog {max-width: 70%;}
 /*About-Us*/
 .focus-grow-content .custom-heading .main-heading {font-size: 30px;line-height: 38px;}
 .counter-content h5 {font-size: 26px;}
@@ -1943,6 +2003,10 @@ border-bottom: 1px solid #00b2ad;
 }
 
 @media (max-width: 767.98px){
+    .pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph p {padding: 0 0px 0 0;}
+    .pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph {margin-top: 5px;}
+    .related-pricing-carousel .owl-carousel .owl-item img {width: 20%;}
+    .pricing-content.custom-pad .pricing-inner-box {margin-bottom: 30px;}
 /*About-Us*/
 .focus-grow-content .custom-heading .main-heading {text-align: center;}
 .counter-content {margin-bottom: 15px;}
@@ -2039,10 +2103,15 @@ border-bottom: 1px solid #00b2ad;
 .error {height: 50vh;}
 .error-content h2 {font-size: 70px;}
 .error-wrap {top: 17%;}
-/**Error 404/
+/**Error 404**/
 }
 
 @media (max-width: 575.98px){
+    .pricing-content.custom-pad .custom-heading.ms-md-0 {text-align: center;}
+    .pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph p {text-align: center;}
+    .pricing-content.custom-pad .pricing-inner-box {padding: 30px 10px;}
+    .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {line-height: 22px;}
+    .pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {width: 150px;height: 46px;font-size: 14px;}
 /*About-Us*/
 .counter-content h6 {font-size: 14px;}
 .about-culture-content .custom-paragraph p {font-size: 16px;}
