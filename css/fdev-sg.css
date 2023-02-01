@@ -1196,12 +1196,13 @@ border-bottom: 1px solid #00b2ad;
     margin-bottom: 40px;
     height: 760px;
     border-radius: 10px;
+    border-bottom: 2px solid var(--c-primary);
 }
 .pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {
-    padding: 0px 40px;line-height: 45px;
+    padding: 0px 20px;line-height: 45px;
 }
 .pricing-content.custom-pad .pricing-inner-btn {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {
     background-color: var(--c-primary);
@@ -1230,9 +1231,21 @@ border-bottom: 1px solid #00b2ad;
     color: var(--c-primary);
     font-weight: 500;
     font-size: 25px;
+    position: relative;
 }
+.pricing-inner-box h3::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-500);
+    width: 30%;
+    height: 2px;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 .pricing-inner-box .custom-paragraph {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .pricing-inner-box .modal-content {
     padding: 50px 20px 20px;
@@ -1270,10 +1283,49 @@ border-bottom: 1px solid #00b2ad;
 .pricing-inner-modal-button .custom-button {
     width: 100%;
 }
-.pricing-inner-box .pricing-inner-img img {
+.related-pricing-carousel .owl-carousel .owl-item img {
+    display: inline-block;
     width: 20%;
-    object-fit: cover;
+}
+.pricing-inner-carousel-content h3 {
+    font-family: var(--ff-tertiary);
+    font-size: 30px;
+    margin-top: 30px;
+    color: var(--c-black-600);
+    transition: all 0.3s ease-in-out;
+}
+.pricing-inner-carousel-content h3:hover {
+    color: var(--c-gray-800);
+}
+.pricing-inner-carousel-content {
+    position: relative;
+}
+.pricing-inner-carousel-content::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-500);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    right: -60px;
+    margin: 0 auto;
+    z-index: -1;
+    opacity: 0.1;
+    transition: all 0.3s ease-in-out;
+}
+.pricing-inner-carousel-content:hover::after {
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
   }
+.pricing-inner-related-service .custom-heading.ms-md-0 {
+    text-align: center;
+}
+.pricing-inner-related-service {
+    padding: 120px 0;
+}
 /*Pricing-page*/
 
 /*Inner-page-end*/
