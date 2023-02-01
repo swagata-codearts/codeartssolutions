@@ -1327,7 +1327,30 @@ border-bottom: 1px solid #00b2ad;
     padding: 120px 0;
 }
 /*Pricing-page*/
+/*Blog inner*/
+.blog-inner .blog-box .blog-box-content h5 {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+}
+.blog-inner .blog-box .blog-box-content h5::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-cyan-500);
+    width: 50%;
+    height: 2px;
+    bottom: -28px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.blog-inner .blog-box-content .blog-list {
+    margin-top: 50px;
+    text-align: center;
+}
 
+/*Blog inner*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
