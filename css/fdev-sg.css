@@ -1243,12 +1243,16 @@ border-bottom: 1px solid #00b2ad;
     left: 0;
     right: 0;
     margin: 0 auto;
-  }
+    transition: all 0.2s ease-in-out;
+}
+.pricing-inner-box h3:hover::after {
+    width: 45%;
+}
 .pricing-inner-box .custom-paragraph {
     margin-top: 30px;
 }
 .pricing-inner-box .modal-content {
-    padding: 50px 20px 20px;
+    padding: 50px 20px 0px;
 }
 .pricing-inner-box .modal-content .btn-close {
     position: absolute;
@@ -1257,6 +1261,9 @@ border-bottom: 1px solid #00b2ad;
     background-color: var(--c-cyan-500);
     padding: 10px;
     opacity: 1;
+}
+.pricing-inner-box .modal-content .form-control {
+    padding: 10px 10px;
 }
 .pricing-inner-box .modal-content .form-check {
     margin-top: 10px;
@@ -1289,7 +1296,7 @@ border-bottom: 1px solid #00b2ad;
 }
 .pricing-inner-carousel-content h3 {
     font-family: var(--ff-tertiary);
-    font-size: 30px;
+    font-size: 18px;
     margin-top: 30px;
     color: var(--c-black-600);
     transition: all 0.3s ease-in-out;
@@ -1299,13 +1306,14 @@ border-bottom: 1px solid #00b2ad;
 }
 .pricing-inner-carousel-content {
     position: relative;
+    height: 150px;
 }
 .pricing-inner-carousel-content::after {
     position: absolute;
     content: '';
     background-color: var(--c-cyan-500);
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     top: 0;
     left: 0;
@@ -1316,22 +1324,31 @@ border-bottom: 1px solid #00b2ad;
     transition: all 0.3s ease-in-out;
 }
 .pricing-inner-carousel-content:hover::after {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border-radius: 100px;
-  }
-.pricing-inner-related-service .custom-heading.ms-md-0 {
-    text-align: center;
 }
 .pricing-inner-related-service {
-    padding: 120px 0;
+    padding: 40px 0;
+}
+.pricing-inner .modal-dialog {
+    max-width: 50%;
+}
+.related-pricing-carousel h4 {
+    font-family: var(--ff-tertiary);
+    font-size: 25px;
+    border-bottom: 2px solid var(--c-primary);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.related-pricing-carousel .technology-carousel {
+    margin-top: 60px;
 }
 /*Pricing-page*/
 /*Blog inner*/
 .blog-inner .blog-box .blog-box-content h5 {
     font-size: 32px;
     line-height: 42px;
-    text-align: center;
     position: relative;
 }
 .blog-inner .blog-box .blog-box-content h5::after {
@@ -1342,21 +1359,23 @@ border-bottom: 1px solid #00b2ad;
     height: 2px;
     bottom: -28px;
     left: 0;
-    right: 0;
-    margin: 0 auto;
 }
 .blog-inner .blog-box-content .blog-list {
     margin-top: 50px;
-    text-align: center;
 }
-.blog-inner .blog-box-content .custom-paragraph p {
-    text-align: center;
+.blog-box-main-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0px;
 }
 .blog-inner-extra .blog-client .custom-paragraph {
     margin-top: 0px;
     position: relative;
     z-index: 2;
 }
+.blog-box-main-img {
+    margin-bottom: 30px;
+  }
 .blog-inner-extra .blog-client .custom-paragraph p{
     padding: 0 0px;
 }
@@ -1387,9 +1406,6 @@ border-bottom: 1px solid #00b2ad;
 .blog-inner-extra .blog-inner-comment form .blog-inner-btn {
     margin-top: 30px;
     text-align: right;
-}
-.blog-inner-comment .custom-heading .main-heading {
-    text-align: center;
 }
 .blog-inner-extra {
     margin-top: 70px;
