@@ -1349,6 +1349,52 @@ border-bottom: 1px solid #00b2ad;
     margin-top: 50px;
     text-align: center;
 }
+.blog-inner .blog-box-content .custom-paragraph p {
+    text-align: center;
+}
+.blog-inner-extra .blog-client .custom-paragraph {
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+}
+.blog-inner-extra .blog-client .custom-paragraph p{
+    padding: 0 0px;
+}
+.blog-inner-extra .blog-client {
+    background-color: var(--c-cyan-200);
+    padding: 70px 20px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.blog-inner-extra .blog-client span {
+    color: var(--c-cyan-400);
+    font-size: 80px;
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: 30px;
+    opacity: 0.7;
+}
+.blog-inner-comment {
+    margin-top: 40px;
+}
+.blog-inner-extra .blog-inner-comment form {
+    margin-top: 20px;
+}
+.blog-inner-extra .blog-inner-comment form .form-control {
+    padding: 15px 15px;
+}
+.blog-inner-extra .blog-inner-comment form .blog-inner-btn {
+    margin-top: 30px;
+    text-align: right;
+}
+.blog-inner-comment .custom-heading .main-heading {
+    text-align: center;
+}
+.blog-inner-extra {
+    margin-top: 70px;
+}
+
 
 /*Blog inner*/
 /*Inner-page-end*/
