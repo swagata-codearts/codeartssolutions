@@ -1522,6 +1522,10 @@ border-bottom: 1px solid #00b2ad;
     background-color: #F6F5F4;
     padding: 120px 0;
 }
+.show-project .custom-heading.ms-md-0 {
+    text-align: center;
+    margin-bottom: 40px;
+}
 /*Project listing*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
