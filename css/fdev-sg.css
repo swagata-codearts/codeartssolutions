@@ -1394,8 +1394,77 @@ border-bottom: 1px solid #00b2ad;
 .blog-inner-extra {
     margin-top: 70px;
 }
-
-
+.other-blogs-content-img {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.other-blogs-content-img::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+.other-blogs-content-img:hover::after {
+    display: block;
+}
+.other-blogs-content-img::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.other-blogs-content .other-blogs-content-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.other-blogs {
+    background-color: var(--c-white-900);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+.other-blogs-content-img .other-blogs-btn {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition: all 0.3s ease-in-out;
+    z-index: 99;
+}
+.other-blogs-content-img .other-blogs-btn .custom-button:hover {
+   background-color: var(--c-cyan-500);
+   border: 1px solid var(--c-cyan-500);
+}
+.other-blogs-content-img .other-blogs-btn .custom-button:hover {
+    color: var(--c-white-900);
+    border: 1px solid var(--c-cyan-500);
+    background-color: transparent;
+}
+.other-blogs-content-img:hover .other-blogs-btn {
+    display: block;
+}
+.other-blogs-content.other-blogs-img-2 {
+    padding: 20px 0;
+}
+.other-blogs h4 {
+    font-family: var(--ff-secondary);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--c-black-700);
+    padding: 10px 0 25px 0;
+}
 /*Blog inner*/
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
