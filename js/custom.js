@@ -140,6 +140,28 @@ jQuery('#blog-carousel').owlCarousel({
     }
   })
 
+  jQuery('#pricing-inner-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        768:{
+            items:2
+        },
+        999:{
+            items:3
+        }
+    }
+  })
+
 jQuery('.js-accordion__item').on('click', function () {
   jQuery(this).parent().find('.state-active').removeClass('state-active');
   jQuery(this).removeClass('state-collapsed').addClass('state-active');
