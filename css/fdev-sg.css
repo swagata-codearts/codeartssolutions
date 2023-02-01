@@ -1361,7 +1361,7 @@ border-bottom: 1px solid #00b2ad;
     padding: 0 0px;
 }
 .blog-inner-extra .blog-client {
-    background-color: var(--c-cyan-200);
+    background-color: var(--c-cyan-100);
     padding: 70px 20px 40px;
     border-radius: 10px;
     position: relative;
