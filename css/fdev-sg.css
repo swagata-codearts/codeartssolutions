@@ -1174,8 +1174,104 @@ border-bottom: 1px solid #00b2ad;
     box-shadow: 0px 0 25px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
-
 /*Error 404*/
+/*Pricing-page*/
+.pricing-content.custom-pad {
+    background-color: #f4f4f4;
+}
+.pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph p {
+    padding: 0 350px 0 0;text-align: left;
+}
+.pricing-content.custom-pad .custom-heading.ms-md-0 .custom-paragraph {
+    margin-top: 15px;
+}
+.pricing-content.custom-pad .pricing-inner {
+    margin-top: 80px;
+}
+.pricing-content.custom-pad .pricing-inner-box {
+    text-align: center;
+    background-color: var(--c-white-900);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    height: 760px;
+    border-radius: 10px;
+}
+.pricing-content.custom-pad .pricing-inner-box .custom-paragraph p {
+    padding: 0px 40px;line-height: 45px;
+}
+.pricing-content.custom-pad .pricing-inner-btn {
+    margin-top: 60px;
+}
+.pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary {
+    background-color: var(--c-primary);
+    color: var(--c-white-900);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 71px;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 70px;
+    text-transform: capitalize;
+    border: 1px solid var(--c-primary);
+    padding: 0 0;
+}
+.pricing-content.custom-pad .pricing-inner-btn .btn.btn-primary:hover {
+    color: var(--c-black-900);
+    background-color: transparent;
+    border: 1px solid var(--c-primary);
+}
+.pricing-inner-box h3 {
+    font-family: var(--ff-tertiary);
+    margin-top: 30px;
+    color: var(--c-primary);
+    font-weight: 500;
+    font-size: 25px;
+}
+.pricing-inner-box .custom-paragraph {
+    margin-top: 20px;
+}
+.pricing-inner-box .modal-content {
+    padding: 50px 20px 20px;
+}
+.pricing-inner-box .modal-content .btn-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: var(--c-cyan-500);
+    padding: 10px;
+    opacity: 1;
+}
+.pricing-inner-box .modal-content .form-check {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.pricing-inner-box .modal-content .form-check .form-check-input {
+    float: none;
+    padding: 8px;
+    margin-right: 10px;
+}
+.pricing-inner-box .modal-content .form-check .form-check-input:checked {
+    background-color: var(--c-cyan-500);
+    border-color: var(--c-cyan-500);
+  }
+.pricing-inner-box .modal-content .form-select {
+    margin-top: 20px;
+    color: var(--c-gray-900);
+}
+.pricing-inner-modal-button {
+    margin-top: 30px;
+}
+.pricing-inner-modal-button .custom-button {
+    width: 100%;
+}
+/*Pricing-page*/
+
 /*Inner-page-end*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px){
